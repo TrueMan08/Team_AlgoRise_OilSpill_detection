@@ -2,6 +2,9 @@
 
 **Satellite oil-spill detection + AIS vessel attribution** · SIH 2026 · Problem Statement SIH26143 (NTRO) · Team AlgoRise
 
+> [!IMPORTANT]
+> **If a deployed service stops responding:** the backend and ML service run on Modal's free tier, whose monthly compute credits can run out. If requests hang or fail even after the cold-start wait (~40 s), the credit limit has most likely been reached — the code is unaffected, and every component can still be run locally (see the setup instructions below) or redeployed once credits reset.
+
 ## 🔗 Live Deployments
 
 | Service | Status | URL |
