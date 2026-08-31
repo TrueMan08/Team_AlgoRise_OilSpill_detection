@@ -1,0 +1,278 @@
+<title>OilTrace Detection API</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F5F7F6; --card:#FFFFFF; --ink:#182430; --muted:#5A6B76;
+    --amber:#B45A09; --amber-soft:#F3E4D2; --teal:#1E5A5C; --teal-soft:#E1ECEA;
+    --red:#A33A2E; --red-soft:#F6E5E1; --line:#D8DFDC; --code:#EDF1EF;
+    --get:#1E5A5C; --post:#B45A09;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0F161C; --card:#16202A; --ink:#E5EAEC; --muted:#8FA0AB;
+      --amber:#E0913B; --amber-soft:#3A2A16; --teal:#6FB3B0; --teal-soft:#15302F;
+      --red:#D97E6F; --red-soft:#3A1F1A; --line:#2A3742; --code:#1B2630;
+      --get:#6FB3B0; --post:#E0913B;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0F161C; --card:#16202A; --ink:#E5EAEC; --muted:#8FA0AB;
+    --amber:#E0913B; --amber-soft:#3A2A16; --teal:#6FB3B0; --teal-soft:#15302F;
+    --red:#D97E6F; --red-soft:#3A1F1A; --line:#2A3742; --code:#1B2630;
+    --get:#6FB3B0; --post:#E0913B;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper); color:var(--ink);
+    font:400 15.5px/1.55 "Public Sans",system-ui,sans-serif;
+    margin:0; padding:28px 16px 64px}
+  .wrap{max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:18px}
+  header{padding:4px 4px 0}
+  .eyebrow{font:500 11px/1 "IBM Plex Mono",monospace; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--teal)}
+  h1{font:700 30px/1.1 "Saira",sans-serif; margin:6px 0 6px; text-wrap:balance}
+  header p{color:var(--muted); margin:0; max-width:62ch}
+  .base{background:var(--card); border:1px solid var(--line); border-radius:6px;
+    padding:14px 16px; font-family:"IBM Plex Mono",monospace; font-size:14.5px;
+    overflow-x:auto; white-space:nowrap}
+  .base b{color:var(--amber)}
+  section{background:var(--card); border:1px solid var(--line); border-radius:6px;
+    padding:18px 20px}
+  h2{font:600 18px/1.2 "Saira",sans-serif; margin:0 0 8px}
+  h3{font:600 14px/1.3 "Saira",sans-serif; margin:16px 0 6px}
+  .method{display:inline-block; font:600 11.5px/1 "IBM Plex Mono",monospace;
+    padding:4px 8px; border-radius:3px; margin-right:8px; letter-spacing:.05em;
+    color:#fff}
+  .m-get{background:var(--get)} .m-post{background:var(--post)}
+  .path{font-family:"IBM Plex Mono",monospace; font-weight:500; font-size:16px}
+  .who{display:inline-block; font:500 10.5px/1 "IBM Plex Mono",monospace;
+    letter-spacing:.1em; text-transform:uppercase; padding:4px 8px;
+    border-radius:3px; margin-left:8px; vertical-align:2px;
+    background:var(--teal-soft); color:var(--teal)}
+  pre{background:var(--code); border:1px solid var(--line); border-radius:5px;
+    padding:12px 14px; overflow-x:auto; font:400 13px/1.5 "IBM Plex Mono",monospace;
+    margin:8px 0}
+  code{font-family:"IBM Plex Mono",monospace; font-size:.92em;
+    background:var(--code); padding:1px 5px; border-radius:3px}
+  pre code{background:none; padding:0}
+  table{width:100%; border-collapse:collapse; font-size:13.5px; margin:8px 0}
+  th{font:500 10.5px/1.3 "IBM Plex Mono",monospace; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--muted); text-align:left;
+    padding:6px 10px 6px 0; border-bottom:1px solid var(--line)}
+  td{padding:7px 10px 7px 0; border-bottom:1px solid var(--line); vertical-align:top}
+  td code{white-space:nowrap}
+  .tablebox{overflow-x:auto}
+  .note{border-left:3px solid var(--amber); background:var(--amber-soft);
+    padding:10px 14px; border-radius:0 5px 5px 0; margin:10px 0; font-size:14px}
+  .warn{border-left:3px solid var(--red); background:var(--red-soft);
+    padding:10px 14px; border-radius:0 5px 5px 0; margin:10px 0; font-size:14px}
+  .muted{color:var(--muted); font-size:13.5px}
+  ul{margin:6px 0 0; padding-left:20px} li{margin:5px 0}
+  footer{color:var(--muted); font-size:12.5px; text-align:center; padding-top:6px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">OilTrace · SIH26143 · AlgoRise · Satyam’s module</div>
+    <h1>Detection Service API</h1>
+    <p>Sentinel-1 VV+VH GeoTIFF in → oil-slick detections as GeoJSON out.
+    For Ved (hindcast seeding) and Parth (backend orchestration).
+    No authentication. All coordinates WGS84.</p>
+  </header>
+
+  <div class="base">BASE = <b>https://vscimatic999--oiltrace-detection-web.modal.run</b></div>
+
+  <section>
+    <h2>Before you integrate — three things to know</h2>
+    <ul>
+      <li><b>Cold start:</b> the service sleeps when idle (free hosting). The
+      first request after ~5 quiet minutes takes an extra <b>20–40 s</b> while
+      the container wakes; requests after that are normal speed.
+      <b>Set client timeouts to ≥120 s</b>, and fire one warm-up call
+      (<code>GET /health</code>) a minute before any live demo.</li>
+      <li><b>Live inference takes ~20–60 s</b> per 2048² scene (CPU). Parth:
+      treat <code>POST /detect</code> as a long call or an async job — never a
+      UI-blocking request. The cached demo endpoint is instant.</li>
+      <li><b>GeoJSON axis order is [longitude, latitude]</b> (RFC 7946) in all
+      polygon coordinates. The <code>centroid</code> property is a
+      <code>{lat, lon}</code> object — named keys, no ambiguity.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="method m-get">GET</span><span class="path">/health</span>
+      <span class="who">Parth · liveness</span></h2>
+    <p>Liveness probe and warm-up target. Returns immediately once the
+    container is up.</p>
+<pre><code>{"status": "ok", "model_loaded": true, "device": "cpu"}</code></pre>
+  </section>
+
+  <section>
+    <h2><span class="method m-get">GET</span><span class="path">/</span>
+      <span class="who">info</span></h2>
+    <p>Service and model metadata: experiment name, checkpoint epoch, full
+    validation metrics, default threshold, endpoint list. Useful for logging
+    which model version produced a result.</p>
+  </section>
+
+  <section>
+    <h2><span class="method m-get">GET</span><span class="path">/detect/demo</span>
+      <span class="who">Ved · start here</span></h2>
+    <p><b>Instant</b> (pre-computed, no inference): the detection result for
+    the bundled demo scene — a real 267 km² slick in the Eastern
+    Mediterranean. Identical schema to a live <code>POST /detect</code>
+    response, so Ved can build and test the hindcast integration against this
+    before any live call.</p>
+<pre><code>curl {BASE}/detect/demo</code></pre>
+  </section>
+
+  <section>
+    <h2><span class="method m-get">GET</span><span class="path">/demo/scene</span>
+      <span class="who">test fixture</span></h2>
+    <p>Downloads the demo GeoTIFF itself (24 MB, 2-band VV+VH, georeferenced) —
+    use it to round-trip test <code>POST /detect</code> end to end.</p>
+  </section>
+
+  <section>
+    <h2><span class="method m-post">POST</span><span class="path">/detect</span>
+      <span class="who">the main endpoint</span></h2>
+    <p>Runs the full pipeline on an uploaded scene: tiled U-Net inference →
+    stitched probability map → threshold → minimum-area and confidence
+    filters → polygons → WGS84 geometry.</p>
+
+    <h3>Request</h3>
+    <div class="tablebox"><table>
+      <tr><th>Part</th><th>Requirement</th></tr>
+      <tr><td><code>file</code> (multipart form field)</td>
+          <td>GeoTIFF, exactly <b>2 bands</b> (band 1 = VV, band 2 = VH),
+          Sigma0 in dB, <b>georeferenced</b> (CRS + affine transform present).
+          Max <b>80 MB</b>. Any scene size works; 2048×2048 is typical.</td></tr>
+      <tr><td><code>threshold</code> (query, optional)</td>
+          <td>Probability cutoff, 0.05–0.95. <b>Leave it out</b> — the default
+          0.325 was selected on validation. Only override for experiments.</td></tr>
+    </table></div>
+
+<pre><code># curl
+curl -m 300 -F "file=@scene.tif" {BASE}/detect -o result.geojson
+
+# Python
+import requests
+with open("scene.tif", "rb") as f:
+    r = requests.post(f"{BASE}/detect", files={"file": f}, timeout=300)
+detections = r.json()</code></pre>
+
+    <h3>Response — GeoJSON FeatureCollection</h3>
+<pre><code>{
+  "type": "FeatureCollection",
+  "properties": {
+    "scene_id": "scene",              // from the uploaded filename
+    "model": { "name": "OilTrace-U-Net", "experiment": "E5_focal",
+               "checkpoint_epoch": 5, "validation": { ... } },
+    "threshold": 0.325,
+    "inference_seconds": 18.0,
+    "generated": "2026-08-30T09:51:04Z"   // processing time, UTC
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "slick_000",             // largest slick first
+        "scene_id": "scene",
+        "confidence": 0.768,           // 0.60–1.0 (see below)
+        "area_km2": 266.928,           // UTM-projected, not degrees
+        "centroid": { "lat": 35.63533, "lon": 34.8704 },
+        "centroid_inside_scene": true
+      },
+      "geometry": { "type": "Polygon",  // or MultiPolygon
+                    "coordinates": [[[lon, lat], ...]] }
+    }
+  ]
+}</code></pre>
+
+    <h3>Field guide (what Ved consumes)</h3>
+    <div class="tablebox"><table>
+      <tr><th>Field</th><th>Meaning &amp; use</th></tr>
+      <tr><td><code>features[]</code></td><td>One Feature per detected slick,
+        sorted largest-first. <b>Empty array = no oil detected</b> — a valid,
+        common result on clean water.</td></tr>
+      <tr><td><code>geometry</code></td><td>The slick outline in WGS84,
+        <code>[lon, lat]</code> order. <code>Polygon</code> or
+        <code>MultiPolygon</code>. Use for particle seeding across the slick
+        area and for map display.</td></tr>
+      <tr><td><code>centroid</code></td><td>Slick centre — the primary
+        backward-drift seed point. Validation: median ~85 m from truth on
+        matched slicks.</td></tr>
+      <tr><td><code>area_km2</code></td><td>Computed in the slick’s UTM zone
+        (metres), never in degrees. Scales particle count / spill volume
+        assumptions.</td></tr>
+      <tr><td><code>confidence</code></td><td>Mean model probability over the
+        slick’s pixels, range 0.60–1.0 (detections under 0.60 are filtered
+        out server-side). <b>An uncalibrated model score, not a probability
+        of oil</b> — display as “detection confidence”. ≥0.75 is typically a
+        solid detection; 0.60–0.70 deserves an “uncertain” tag in the UI.</td></tr>
+      <tr><td><code>centroid_inside_scene</code></td><td>Sanity flag; should
+        always be <code>true</code>.</td></tr>
+    </table></div>
+
+    <div class="warn"><b>No observation timestamp in the output.</b> The
+    dataset’s TIFFs carry no acquisition time, so the service cannot provide
+    one — <code>generated</code> is processing time, not sensing time. Ved:
+    take the scene’s observation time from scene metadata alongside the
+    upload; Parth: carry <code>observation_time</code> as a separate field in
+    the orchestration layer. For the cached demo scenario, agree one fixed
+    timestamp as part of the demo bundle.</div>
+
+    <h3>Errors</h3>
+    <div class="tablebox"><table>
+      <tr><th>Status</th><th>Cause</th><th>Body <code>detail</code></th></tr>
+      <tr><td><code>413</code></td><td>Upload &gt; 80 MB</td><td>"upload exceeds 80 MB"</td></tr>
+      <tr><td><code>422</code></td><td>Not a readable GeoTIFF</td><td>"not a readable GeoTIFF: …"</td></tr>
+      <tr><td><code>422</code></td><td>Wrong band count</td><td>"expected 2 bands (VV,VH), got N"</td></tr>
+      <tr><td><code>422</code></td><td>No CRS / transform</td><td>"scene is not georeferenced"</td></tr>
+      <tr><td><code>504 / timeout</code></td><td>Cold start + slow upload exceeded client timeout</td><td>— retry once with ≥300 s timeout</td></tr>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Fixed processing parameters (don’t re-tune downstream)</h2>
+    <div class="tablebox"><table>
+      <tr><th>Parameter</th><th>Value</th><th>Meaning</th></tr>
+      <tr><td>Probability threshold</td><td><code>0.325</code></td><td>pixel cutoff, validation-selected</td></tr>
+      <tr><td>Minimum slick size</td><td><code>250 px</code> ≈ 0.025 km²</td><td>components below this are dropped</td></tr>
+      <tr><td>Minimum confidence</td><td><code>0.60</code></td><td>low-confidence components are dropped</td></tr>
+      <tr><td>Tiling</td><td>512² tiles, 128 px overlap</td><td>probabilities averaged in overlaps</td></tr>
+    </table></div>
+    <p class="muted">All three were selected on held-out validation only; the
+    Part III test set remains sealed. If the model updates, this page and the
+    <code>model</code> block in every response change together — trust the
+    response’s own <code>model.experiment</code> as the source of truth.</p>
+  </section>
+
+  <section>
+    <h2>Integration checklist</h2>
+    <h3>Ved (hindcast)</h3>
+    <ul>
+      <li>Build against <code>GET /detect/demo</code> first — stable, instant, real data.</li>
+      <li>Seed backward drift from <code>centroid</code>; optionally scatter
+      particles across <code>geometry</code> weighted by area.</li>
+      <li>Handle <code>features: []</code> (no detection) and
+      <code>MultiPolygon</code> geometry.</li>
+      <li>Attach the scene observation time yourself (see warning above).</li>
+    </ul>
+    <h3>Parth (backend)</h3>
+    <ul>
+      <li>Proxy <code>/detect</code> as an async job; poll-or-callback to the
+      frontend. Client timeout ≥300 s, one retry on timeout.</li>
+      <li>Warm the service with <code>GET /health</code> on your app start and
+      before demos.</li>
+      <li>The response is already RFC 7946 GeoJSON — validate with your
+      Pydantic contracts as-is; <code>properties.model</code> gives you
+      model-version provenance for logging.</li>
+      <li>For the judged demo, cache <code>/detect/demo</code>’s response in
+      Supabase per the cached-bundle plan — the live call is the encore.</li>
+    </ul>
+  </section>
+
+  <footer>OilTrace detection API v0.1.0 · model E5-focal · hosted on Modal
+  (free tier, scales to zero) · SAR data credit: Trujillo-Acatitla et al.,
+  Zenodo, CC-BY 4.0 · 30 Aug 2026</footer>
+</div>
