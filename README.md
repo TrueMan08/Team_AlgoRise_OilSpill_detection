@@ -2,6 +2,16 @@
 
 **Satellite oil-spill detection + AIS vessel attribution** · SIH 2026 · Problem Statement SIH26143 (NTRO) · Team AlgoRise
 
+## 🔗 Live deployments
+
+| Service | Status | URL |
+|---|---|---|
+| **Backend API** (hindcast · vessels · attribution · forward · counterfactual) | 🟢 Live on Modal | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 — [interactive docs](https://vscimatic999--oiltrace-backend-web.modal.run/docs) · [health](https://vscimatic999--oiltrace-backend-web.modal.run/api/v1/health) |
+| **ML detection service** (Sentinel-1 U-Net) | 🟢 Live on Modal | https://vscimatic999--oiltrace-detection-web.modal.run — [health](https://vscimatic999--oiltrace-detection-web.modal.run/health) · [demo detection](https://vscimatic999--oiltrace-detection-web.modal.run/detect/demo) |
+| **demo-frontend** (investigation dashboard) | 🟡 Demo — runs locally for now | see [`demo-frontend/`](demo-frontend/) below |
+
+> Free-tier cold start: the first request after ~5 idle minutes takes 20–40 s extra — hit the health links above ~1 min before demoing.
+
 OilTrace answers one question end to end: *a slick was spotted on satellite radar — which vessel most plausibly released it?* A SAR scene goes through ML detection, ocean-physics backtracking reconstructs where the oil came from, AIS records surface the vessels that were there, an evidence engine ranks them, and a forward "counterfactual" simulation tests the top suspect's release against the observed slick.
 
 ```
@@ -28,7 +38,7 @@ demo-frontend — interactive investigation dashboard
 ## `backend/` — analysis API (deployed ✅)
 
 FastAPI service that owns all the physics and reasoning. **Live on Modal:**
-`https://vscimatic999--oiltrace-backend-web.modal.run/api/v1` (interactive docs at `/docs`; warm it with `GET /health/ml` before demos — free-tier cold start is ~20–40 s).
+**https://vscimatic999--oiltrace-backend-web.modal.run/api/v1** ([interactive docs](https://vscimatic999--oiltrace-backend-web.modal.run/docs); warm it with `GET /health/ml` before demos — free-tier cold start is ~20–40 s).
 
 | Endpoint | What it does |
 |---|---|
@@ -46,7 +56,7 @@ Ships with the North Sea demo forcing data (`data/currents.nc`, `wind.nc`; windo
 ## `ML-service/` — SAR detection (deployed ✅)
 
 U-Net oil-spill segmentation on Sentinel-1 imagery. **Live on Modal:**
-`https://vscimatic999--oiltrace-detection-web.modal.run`
+**https://vscimatic999--oiltrace-detection-web.modal.run**
 
 - `service/` — the deployable API (FastAPI + Dockerfile): upload a 2-band (VV+VH) georeferenced GeoTIFF ≤ 80 MB to `POST /detect`, get GeoJSON slick polygons with area + confidence; `GET /detect/demo` returns a precomputed real detection (266.9 km² Mediterranean slick) instantly.
 - `ml/` — training & evaluation code: model, data loaders, metrics, threshold/TTA sweeps.
