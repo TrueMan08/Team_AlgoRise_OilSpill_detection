@@ -1,0 +1,1370 @@
+{"key": "part2/No oil/00005", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00000", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00006", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00002", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00003", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00004", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00007", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00008", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00010", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00012", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00013", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00014", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00015", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00016", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00018", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00019", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00020", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00021", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00022", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00024", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00025", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00029", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00080", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00081", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00082", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00086", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00087", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00088", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00089", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00090", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00232", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00233", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00234", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00235", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00236", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00237", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00238", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00091", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00092", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00093", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00094", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00095", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00096", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00099", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00100", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00101", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00103", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00104", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00106", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00107", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00108", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00109", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00110", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00111", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00112", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00113", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00115", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00116", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00117", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00118", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00119", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00120", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00122", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00123", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00124", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00125", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00126", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00127", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00128", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00129", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00130", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00132", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00134", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00136", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00137", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00139", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00140", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00141", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00142", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00143", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00144", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00145", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00031", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00032", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00033", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00034", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00035", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00036", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00037", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00038", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00039", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00040", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00043", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00046", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00047", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00049", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00052", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00055", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00057", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00058", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00146", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00147", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00148", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00149", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00150", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00151", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00152", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00155", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00156", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00159", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00161", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00162", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00163", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00164", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00059", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00060", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00061", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00062", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00063", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00064", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00065", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00066", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00068", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00070", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00071", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00073", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00074", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00076", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00077", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00078", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00079", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00258", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00259", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00260", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00261", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00262", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00263", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00264", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00265", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00266", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00268", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00269", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00270", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00271", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00272", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00273", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00239", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00240", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00241", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00242", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00274", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00275", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00276", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00277", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00278", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00279", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00280", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00281", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00282", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00284", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00285", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00286", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00287", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00288", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00289", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00290", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00293", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00294", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00295", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00296", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00297", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00300", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00301", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00303", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00304", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00305", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00307", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00165", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00167", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00168", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00169", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00171", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00173", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00174", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00175", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00176", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00177", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00178", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00180", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00181", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00182", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00184", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00185", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00186", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00188", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00189", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00190", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00191", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00192", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00193", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00194", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00195", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00196", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00198", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00199", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00201", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00202", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00204", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00205", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00206", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00207", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00208", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00210", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00211", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00213", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00214", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00309", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00310", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00311", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00312", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00314", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00315", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00317", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00319", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00320", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00322", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00215", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00216", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00217", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00218", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00219", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00221", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00222", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00223", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00224", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00225", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00226", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00227", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00228", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00230", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00323", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00325", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00326", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00327", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00328", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00333", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00334", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00335", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00336", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00337", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00245", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00246", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00247", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00248", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00249", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00250", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00251", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00252", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00253", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00255", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00338", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00340", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00341", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00343", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00344", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00346", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00347", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00348", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00349", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00350", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00352", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00353", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00354", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00355", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00356", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00358", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00359", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00360", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00362", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00363", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00365", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00366", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00367", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00368", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00370", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00371", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00372", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00373", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00376", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00377", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00378", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00380", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00381", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00382", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00383", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00384", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00389", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00390", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00391", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00392", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00393", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00395", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00396", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00397", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00398", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00399", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00402", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00403", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00405", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00406", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00407", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00408", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00410", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00411", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00412", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00413", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00417", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00418", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00419", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00420", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00421", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00422", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00423", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00424", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00425", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00426", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00427", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00428", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00430", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00431", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00432", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00433", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00435", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00436", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00437", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00438", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00439", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00440", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00441", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00444", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00445", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00447", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00448", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00450", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00451", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00453", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00454", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00456", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00457", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00458", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00459", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00461", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00462", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00463", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00465", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00466", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00467", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00468", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00469", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00470", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00471", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00472", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00476", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00477", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00478", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00479", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00480", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00481", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00483", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00484", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00485", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00486", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00487", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00488", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00489", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00491", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00493", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00494", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00495", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00496", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00497", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00499", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00500", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00501", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00502", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00503", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00504", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00506", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00507", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00508", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00509", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00510", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00511", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00512", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00513", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00514", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00515", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00516", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00517", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00518", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00519", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00521", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00523", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00524", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00525", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00526", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00527", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00528", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00529", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00530", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00532", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00533", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00534", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00535", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00536", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00537", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00538", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00539", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00540", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00541", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00542", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00543", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00544", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00547", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00548", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00549", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00550", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00551", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00552", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00553", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00554", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00555", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00556", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00557", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00560", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00562", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00563", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00564", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00565", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00567", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00568", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00569", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00571", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00573", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00574", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00575", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00576", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00577", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00578", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00579", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00581", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00582", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00583", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00584", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00585", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00589", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00590", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00593", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00594", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00596", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00597", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00598", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00599", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00600", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00601", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00602", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00603", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00604", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00605", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00609", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00610", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00611", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00612", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00614", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00615", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00616", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00617", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00618", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00619", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00621", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00623", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00624", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00625", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00626", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00627", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00628", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00629", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00631", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00632", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00633", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00635", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00636", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00637", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00638", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00639", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00640", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00641", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00642", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00644", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00645", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00647", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00649", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00650", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00652", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00653", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00654", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00655", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00656", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00657", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00660", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00661", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00663", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00664", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00666", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00667", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00668", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00669", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00670", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00671", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00672", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00673", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00675", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00676", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00679", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00680", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00681", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00682", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00684", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00072", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/Lookalike/00090", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00000", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00001", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00002", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00003", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00004", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00005", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00006", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00007", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00008", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00011", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00012", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00014", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00017", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00019", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00020", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00021", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00022", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00024", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00025", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00026", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00290", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00059", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00060", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00062", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00063", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00231", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00232", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00065", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00066", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00067", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00068", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00070", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00071", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00073", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00074", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00075", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00076", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00077", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00078", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00079", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00080", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00081", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00082", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00083", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00084", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00085", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00086", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00087", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00088", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00089", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00091", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00092", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00093", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00094", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00095", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00096", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00097", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00098", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00099", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00100", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00101", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00102", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00103", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00105", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00106", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00108", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00109", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00110", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00233", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00235", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00236", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00238", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00239", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00111", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00112", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00113", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00114", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00115", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00122", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00123", "split": "train", "patches": 4, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg"], "note": "reconciled after 29 Aug crash; partial sampling kept to avoid duplicates"}
+{"key": "part2/No oil/00027", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00085", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00097", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00045", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00048", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00267", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00231", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00257", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00339", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00345", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00375", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00379", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00388", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00409", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00415", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00443", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00482", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00570", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00586", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00588", "split": "train", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/Lookalike/00015", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00237", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00124", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00125", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00126", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00127", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00128", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00129", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00130", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00131", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00133", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00134", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00291", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00292", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00027", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00028", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00030", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00031", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00033", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00034", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00035", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00036", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00037", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00038", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00039", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00041", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00042", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00043", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00046", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00047", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00135", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00136", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00137", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00138", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00139", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00140", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00141", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00142", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00143", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00144", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00145", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00146", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00147", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00293", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00294", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00295", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00296", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00297", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00298", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00299", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00300", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00301", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00302", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00303", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00304", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00305", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00306", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00149", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00153", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00154", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00155", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00156", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00157", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00158", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00159", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00160", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00308", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00309", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00310", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00311", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00312", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00049", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00051", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00054", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00056", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00057", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00058", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00315", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00240", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00241", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00243", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00244", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00245", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00246", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00248", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00249", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00250", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00251", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00252", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00253", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00254", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00256", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00257", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00258", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00259", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00260", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00261", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00262", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00333", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00334", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00335", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00336", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00337", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00338", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00339", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00340", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00342", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00343", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00345", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00263", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00265", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00267", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00270", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00271", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00273", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00274", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00275", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00277", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00278", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00279", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00280", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00434", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00436", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00437", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00439", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00441", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00444", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00445", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00446", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00447", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00448", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00449", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00450", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00451", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00454", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00346", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00348", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00349", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00350", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00352", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00353", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00354", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00356", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00357", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00358", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00359", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00361", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00362", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00363", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00364", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00365", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00368", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00369", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00370", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00371", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00372", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00373", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00374", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00376", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00378", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00379", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00161", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00162", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00163", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00164", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00165", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00380", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00167", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00168", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00169", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00170", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00171", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00172", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00173", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00174", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00176", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00177", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00178", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00179", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00180", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00181", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00182", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00183", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00184", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00185", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00187", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00188", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00189", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00381", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00382", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00384", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00385", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00386", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00387", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00388", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00316", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00317", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00318", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00319", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00320", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00321", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00322", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00323", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00324", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00325", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00192", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00193", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00194", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00195", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00196", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00200", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00201", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00202", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00203", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00204", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00205", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00206", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00207", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00208", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00209", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00457", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00327", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00328", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00329", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00330", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00331", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00458", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00459", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00460", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00389", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00462", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00463", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00464", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00465", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00466", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00467", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00390", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00468", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00469", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00471", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00472", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00210", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00211", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00212", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00213", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00214", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00215", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00216", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00218", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00219", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00220", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00221", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00223", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00224", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00225", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00226", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00227", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00228", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00229", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00230", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00473", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00474", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00475", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00476", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00477", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00479", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00480", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00481", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00483", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00484", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00486", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00487", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00489", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00490", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00491", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00391", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00392", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00394", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00395", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00398", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00399", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00400", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00401", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00402", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00403", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00405", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00406", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00407", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00408", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00411", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00412", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00413", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00414", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00415", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00416", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00417", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00418", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00419", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00420", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00493", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00494", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00496", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00497", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00498", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00499", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00500", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00501", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00502", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00503", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00504", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00505", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00506", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00507", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00509", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00510", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00511", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00512", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00514", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00515", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00517", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00518", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00519", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00521", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00522", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00523", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00422", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00423", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00424", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00425", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00283", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00284", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00285", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00287", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00289", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00426", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00427", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00428", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00429", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00430", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00432", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00433", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00524", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00525", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00526", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00527", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00528", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00529", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00530", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00531", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00532", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00533", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00534", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00535", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00537", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00541", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00543", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00544", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00545", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00546", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00547", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00548", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00549", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00550", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00553", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00554", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00555", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00556", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00557", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00558", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00559", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00560", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00561", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00562", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00563", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00564", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00565", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00567", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00568", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00569", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00570", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00572", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00573", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00574", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00575", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00578", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00579", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00580", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00582", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00583", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00584", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00585", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00586", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00587", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00588", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00589", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00590", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00591", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00592", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00594", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00595", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00597", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00598", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00599", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00600", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00601", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00602", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00604", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00607", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00608", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00609", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00611", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00613", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00614", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00615", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00616", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00617", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00618", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00619", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00621", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00622", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00623", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00624", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00625", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00626", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00627", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00629", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00630", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00631", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00633", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00634", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00636", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00637", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00638", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00639", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00641", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00642", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00643", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00644", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00645", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00646", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00647", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00649", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00650", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00651", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00652", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00653", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00654", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00655", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00656", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00657", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00659", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00661", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00663", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00664", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00666", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00668", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00670", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00671", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00672", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/No oil/00001", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00017", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00009", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00011", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00023", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00026", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00028", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00030", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00083", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00084", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00098", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00102", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00114", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00121", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00131", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00133", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00135", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00138", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00041", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00042", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00044", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00050", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00051", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00053", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00054", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00056", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00153", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00154", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00157", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00158", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00160", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00067", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00069", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00075", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00243", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00244", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00283", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00291", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00292", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00298", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00299", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00302", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00306", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00308", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00166", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00170", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00172", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00179", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00183", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00187", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00197", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00200", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00203", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00209", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00212", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00313", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00316", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00318", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00321", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00220", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00229", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00324", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00329", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00330", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00331", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00332", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00254", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00256", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00342", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00351", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00357", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00361", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00364", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00369", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00374", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00385", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00386", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00387", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00394", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00400", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00401", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00404", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00414", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00416", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00429", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00434", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00442", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00446", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00449", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00452", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00455", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00460", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00464", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00473", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00474", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00475", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00490", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00492", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00498", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00505", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00520", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00522", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00531", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00545", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00546", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00558", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00559", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00561", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00566", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00572", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00580", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00587", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00591", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00592", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00595", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00606", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00607", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00608", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00613", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00620", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00622", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00630", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00634", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00643", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00646", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00648", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00651", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00658", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00659", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00662", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00665", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00674", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00677", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00678", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00683", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/No oil/00105", "split": "val", "patches": 6, "kinds": ["neg", "neg", "neg", "neg", "neg", "neg"]}
+{"key": "part2/Lookalike/00009", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00010", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00013", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00016", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00018", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00023", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00061", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00064", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00069", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00072", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00104", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00107", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00234", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00116", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00117", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00118", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00119", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00120", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00121", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00132", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00029", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00032", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00040", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00044", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00045", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00148", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00307", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00150", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00151", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00152", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00313", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00314", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00048", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00050", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00052", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00053", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00055", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00242", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00247", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00255", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00332", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00341", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00344", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00264", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00266", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00268", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00269", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00272", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00276", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00281", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00282", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00435", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00438", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00440", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00442", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00443", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00452", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00455", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00456", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00347", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00351", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00355", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00360", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00366", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00367", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00375", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00377", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00166", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00175", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00186", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00383", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00326", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00190", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00191", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00197", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00198", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00199", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00461", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00470", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00217", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00222", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00478", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00482", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00485", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00488", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00492", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00393", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00396", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00397", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00404", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00409", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00410", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00495", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00508", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00513", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00516", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00520", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00421", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00286", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00288", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00431", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00536", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00538", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00539", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00540", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00542", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00551", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00552", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00566", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00571", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00576", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00577", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00581", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00593", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00596", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00603", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00605", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00606", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00610", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00612", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00620", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00628", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00632", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00635", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00640", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00648", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00658", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00660", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00662", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00665", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00667", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00669", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00673", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00674", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00680", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00675", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00676", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00677", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00678", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00679", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00682", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00683", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00684", "split": "train", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00681", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}
+{"key": "part2/Lookalike/00453", "split": "val", "patches": 8, "kinds": ["hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg", "hardneg"]}

@@ -1,0 +1,1200 @@
+{"key": "part1/Oil/00000", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00002", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00003", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00004", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00009", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00010", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00008", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00204", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00011", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00013", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00015", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00018", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00206", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00210", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00211", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00212", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00214", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00215", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00216", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00219", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00220", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00224", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00227", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00233", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00236", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00237", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00238", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00240", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00241", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00249", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00250", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00254", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00255", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00256", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00257", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00258", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00259", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00260", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00261", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00266", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00267", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00268", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00269", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00273", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00275", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00276", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00277", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00278", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00280", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00282", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00283", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00285", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00287", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00289", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00290", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00045", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00046", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00047", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00048", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00051", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00053", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos"]}
+{"key": "part1/Oil/00054", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00056", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00057", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos"]}
+{"key": "part1/Oil/00059", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00065", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00067", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00069", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00296", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00297", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00299", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00300", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00075", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00076", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00079", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00080", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00082", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00084", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00085", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00086", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00087", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00088", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00089", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00091", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00092", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00093", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00095", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00430", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00096", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00098", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00102", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00103", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00104", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00432", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00433", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00113", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00114", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00115", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00116", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00117", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00118", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00435", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00437", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00303", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00308", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00309", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00318", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00319", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00320", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00321", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00323", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00324", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00327", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00329", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00330", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00331", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00332", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00333", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00337", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00339", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00341", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00342", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00344", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00346", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00347", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00440", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00476", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00477", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00478", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00479", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00481", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00348", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00398", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00349", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00350", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00351", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00352", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00353", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00354", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00357", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00361", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00363", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00365", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00369", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00370", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00376", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00378", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00382", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00385", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00386", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos"]}
+{"key": "part1/Oil/00388", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00389", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00391", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00392", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00393", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00395", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00396", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00400", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00402", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00403", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00404", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00405", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00484", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00485", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00487", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00488", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00489", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00490", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00491", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00492", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00493", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00496", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00498", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00504", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00505", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00506", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00507", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00509", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00511", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00512", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00513", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00514", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00515", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00516", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00517", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00519", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00119", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00121", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00123", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00126", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00132", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00133", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00134", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00140", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00145", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00148", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00151", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00444", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00445", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00447", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00448", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00450", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00453", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00455", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00459", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00460", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00461", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00462", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00463", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00464", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00465", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00467", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00468", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00469", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00152", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00153", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00154", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00156", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00157", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00158", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00160", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00162", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00164", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00165", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00167", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00168", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00172", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00173", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00174", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00472", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00473", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00474", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00522", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00946", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00867", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00869", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00871", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00872", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00876", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00878", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00880", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00176", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00180", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00183", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00186", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00881", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00882", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00883", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00190", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00191", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00192", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00193", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00194", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00195", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00196", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00198", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00199", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00201", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00890", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00891", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00892", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00894", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00896", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00897", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00898", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00899", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00901", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00902", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00905", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00909", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00912", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00994", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00997", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00998", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00999", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01001", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01002", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01003", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01008", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01012", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01013", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01014", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01016", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01018", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01019", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01020", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01021", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01022", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01109", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01023", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01024", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00528", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00530", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00531", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00532", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00533", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00536", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00539", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00540", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00541", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00542", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00545", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00548", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00549", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00550", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00555", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00556", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00557", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00558", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00559", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00560", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00562", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00567", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00568", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00569", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00571", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00572", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00577", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01026", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01028", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01031", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01032", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01035", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01037", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01039", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01040", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01042", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01045", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01047", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01048", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01058", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01061", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01062", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01064", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01065", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01066", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01067", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01068", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01069", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01071", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01073", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01074", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01077", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01078", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01079", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01081", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01083", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01084", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01086", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01087", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01088", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01090", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01093", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01096", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01098", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01101", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01103", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01104", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01108", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01111", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01113", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01114", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01116", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01118", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01120", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/01121", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01124", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01126", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01129", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01134", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01135", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00914", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00917", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00918", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00919", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00920", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00926", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00929", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00582", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00583", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00584", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00586", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00591", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00593", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00594", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00595", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00597", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00599", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00603", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00605", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00606", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00607", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00609", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00610", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00611", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00613", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00615", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00616", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00617", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00618", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00619", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00621", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00624", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00628", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00629", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00630", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00633", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00634", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00635", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00642", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00643", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00646", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00647", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00648", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00652", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00653", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00655", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00657", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00658", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00659", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00660", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00662", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00667", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00668", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00670", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00933", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00939", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00940", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00941", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00942", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00944", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00674", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00675", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00676", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00679", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00680", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00681", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00686", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00688", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00689", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00691", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00692", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00695", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00696", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00697", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00698", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00699", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00700", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00701", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00703", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00704", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00706", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00708", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00709", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00712", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00713", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00714", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00715", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00716", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00717", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00720", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00722", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00723", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00724", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00725", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00727", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00728", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00729", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00730", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00752", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00782", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00811", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00947", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00950", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00951", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00971", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00356", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00014", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00231", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00232", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00246", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00248", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00058", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00294", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00317", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00328", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00399", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00497", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00131", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00142", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00885", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00189", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00564", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01027", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01030", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01063", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01075", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01076", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01100", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00612", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00622", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00626", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00627", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00632", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00654", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00693", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00694", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00711", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00005", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00012", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00016", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00019", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00213", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00217", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00228", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00235", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00245", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00251", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00252", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00263", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00270", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00279", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00286", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00288", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00050", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00061", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00077", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00090", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00094", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00100", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00101", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00112", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00436", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00304", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00334", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00335", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00336", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00340", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00475", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00355", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00371", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00374", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00377", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00394", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00401", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00494", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00499", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00500", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00135", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00143", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00149", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00150", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00442", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00161", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00471", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00870", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00879", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00178", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00184", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00884", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00197", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00200", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00202", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00888", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00893", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00904", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00995", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01015", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01017", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00524", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00525", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00526", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00527", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00534", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00535", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00538", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00551", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00552", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00553", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00554", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00006", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00007", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00203", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00017", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00207", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00208", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00223", "split": "val", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00234", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00244", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00247", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00253", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00264", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00265", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00274", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00281", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00284", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00293", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00052", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos"]}
+{"key": "part1/Oil/00064", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00295", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00302", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00073", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00097", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00108", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00431", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00111", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00434", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00305", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00306", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00307", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00322", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00325", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00326", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00480", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00358", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00362", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00364", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00368", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00373", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00375", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00379", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00384", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00387", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00486", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00502", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00521", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00130", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00146", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00441", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00446", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00449", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00451", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00452", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00454", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00466", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00169", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00175", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00470", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00875", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00877", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00188", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00177", "split": "val", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00181", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00185", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00886", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00895", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00910", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00911", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00913", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01005", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01010", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00523", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00537", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00546", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00563", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00570", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00574", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00579", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01025", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01033", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01041", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01043", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01051", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01052", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01054", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01055", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01080", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01095", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01102", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01107", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01130", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00915", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00922", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00924", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00927", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00930", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00585", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00596", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00601", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00608", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00631", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00636", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00644", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00650", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00651", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00710", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00937", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00938", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00684", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00705", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00718", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00726", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00838", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00945", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00062", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00099", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00366", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00372", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00171", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01123", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00001", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00218", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00291", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00055", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00078", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00345", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00495", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00501", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00508", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00518", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00520", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00127", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00443", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00155", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00874", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00889", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00903", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00906", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01000", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01007", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00565", "split": "val", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00580", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01036", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01050", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01059", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01115", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01125", "split": "val", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00931", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00935", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00677", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00039", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00428", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00418", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00419", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00840", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00850", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00856", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00858", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00424", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00778", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00744", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00753", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00766", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00790", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00793", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00806", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00807", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00820", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00834", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00835", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00953", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00955", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00973", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00978", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00979", "split": "val", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00417", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00852", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00987", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00749", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00025", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00038", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00407", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00991", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00993", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00425", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00743", "split": "val", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00794", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00561", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00566", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00573", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00575", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01044", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01046", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01053", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01057", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01072", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01082", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01085", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01097", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01099", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01119", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01122", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01137", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00916", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00921", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00923", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00925", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00932", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00592", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00598", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00600", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00604", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00614", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00620", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00625", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00641", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00645", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00649", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00656", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00661", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00663", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00664", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00665", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00666", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00934", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00936", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00943", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00678", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00687", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00707", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00985", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00040", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00041", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00042", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00043", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00020", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00427", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00429", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00021", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00023", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00024", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00026", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00028", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00029", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00030", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00031", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00032", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00036", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00406", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00408", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00409", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00411", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00412", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00416", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00841", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00844", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00845", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00847", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00848", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00851", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00854", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00855", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00857", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00859", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00863", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00865", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00986", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00989", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00990", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00992", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00421", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/00422", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00426", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00731", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00732", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00734", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00735", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00736", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00737", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00738", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00739", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00740", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00742", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00745", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00750", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00751", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00754", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00755", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00756", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00758", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00760", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00764", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00768", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00769", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00770", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00771", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00772", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00777", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00779", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00781", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00783", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00784", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00785", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00788", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00791", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00792", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00795", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00796", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00800", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00801", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00802", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00803", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00804", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00808", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00810", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00815", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00816", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00817", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00818", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00821", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00822", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00824", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00825", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00826", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00827", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00829", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00830", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00833", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00836", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00837", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00957", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00958", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00959", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00960", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00961", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00963", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00964", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00967", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00969", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00975", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00977", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00980", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00981", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00983", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00037", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00861", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00423", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/00789", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00809", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00823", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00022", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00027", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00410", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00413", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00414", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00415", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00842", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00843", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00849", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00853", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00860", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00862", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00864", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00748", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00757", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00759", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00765", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00767", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00776", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00797", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00780", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00786", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00787", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00805", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00798", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00799", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00812", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00813", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00828", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00831", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00952", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00956", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00962", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00965", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00966", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00970", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00972", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00976", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00984", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01339", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01300", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01301", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01302", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01306", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01307", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01308", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01310", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01311", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01313", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01316", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00887", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00907", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01009", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01029", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01049", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01070", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01259", "split": "train", "patches": 5, "kinds": ["pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01117", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01138", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01139", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01141", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01142", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01143", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01144", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01146", "split": "train", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01147", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01151", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01152", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01155", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01156", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01165", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01167", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01168", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01171", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01172", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01174", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01175", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01177", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01178", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01181", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01182", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01188", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01190", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01191", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01192", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01193", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01195", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01196", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01197", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01199", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01203", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01204", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01205", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01207", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01208", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01209", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01210", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01214", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01215", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01216", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01217", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01218", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01219", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01220", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01225", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01227", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01228", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01230", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01234", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01238", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01240", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01248", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01251", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01252", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01254", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01256", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01257", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01258", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01261", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01262", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01263", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01265", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01267", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01270", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01271", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00928", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00948", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01158", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01170", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01179", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01232", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01237", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01249", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01253", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01303", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01312", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01149", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01150", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01154", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01163", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01176", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01180", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01183", "split": "train", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01189", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01213", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01221", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01224", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01229", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01231", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01242", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01246", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01264", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01268", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01269", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01272", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01295", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01296", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01319", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01320", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01321", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01323", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01325", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01326", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01330", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01331", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01332", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01333", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01334", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01335", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01336", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01337", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00988", "split": "train", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01274", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01275", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01276", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01277", "split": "train", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01278", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01279", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01280", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01283", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01286", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01287", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01290", "split": "train", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00968", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00846", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01285", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01289", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01324", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00866", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01282", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01288", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00832", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00839", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00954", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00982", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01297", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01299", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01305", "split": "val", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01309", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01314", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01091", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01140", "split": "val", "patches": 16, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01145", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01153", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01157", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01159", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01160", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg"]}
+{"key": "part1/Oil/01169", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01185", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01200", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01201", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01202", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01211", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01212", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01222", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01223", "split": "val", "patches": 14, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01226", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01233", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01235", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01239", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01243", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01244", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01247", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01266", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01273", "split": "val", "patches": 15, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01164", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01194", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01245", "split": "val", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01255", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01298", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01162", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01166", "split": "val", "patches": 13, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg"]}
+{"key": "part1/Oil/01173", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01184", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01236", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01260", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01328", "split": "val", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01329", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01284", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01338", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01281", "split": "val", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00439", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00503", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00457", "split": "train", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00458", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01011", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00543", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00544", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01034", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01038", "split": "train", "patches": 11, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00639", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00640", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00682", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00719", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00949", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00637", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00438", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00456", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00996", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01004", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01060", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00638", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00685", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00974", "split": "train", "patches": 9, "kinds": ["pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00761", "split": "train", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01315", "split": "train", "patches": 10, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/01322", "split": "train", "patches": 6, "kinds": ["pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00074", "split": "val", "patches": 12, "kinds": ["pos", "pos", "pos", "pos", "pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00873", "split": "val", "patches": 8, "kinds": ["pos", "pos", "pos", "pos", "neg", "neg", "neg", "neg"]}
+{"key": "part1/Oil/00900", "split": "val", "patches": 7, "kinds": ["pos", "pos", "pos", "neg", "neg", "neg", "neg"]}

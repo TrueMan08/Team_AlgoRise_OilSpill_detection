@@ -1,0 +1,38 @@
+{
+ "experiment": "E0_partial",
+ "config": {
+  "experiment": "E0_partial",
+  "norm": "N1",
+  "patch": 512,
+  "batch": 6,
+  "accum": 4,
+  "lr": 0.001,
+  "epochs": 40,
+  "patience": 6,
+  "seed": 26143
+ },
+ "git_hash": "32200ba65535956b53583fdca2cf10faa6c0d0b2",
+ "device": "cuda",
+ "started": "2026-08-29T14:16:06",
+ "train_patches": 13070,
+ "val_patches": 2423,
+ "train_shards": [
+  "part1_train_000.npz",
+  "part1_train_001.npz",
+  "part1_train_002.npz",
+  "part1_train_003.npz",
+  "part1_train_004.npz",
+  "part2_train_000.npz",
+  "part2_train_001.npz",
+  "part2_train_002.npz"
+ ],
+ "val_shards": [
+  "part1_val_000.npz",
+  "part1_val_001.npz",
+  "part2_val_000.npz"
+ ],
+ "model": "UNet(base=32)",
+ "loss": "BCE+Dice(1.0)",
+ "note": "val threshold 0.5 is PROVISIONAL; final threshold from the post-training val sweep (spec \u00a707)",
+ "params_millions": 7.76
+}

@@ -1,0 +1,199 @@
+<title>OilTrace Judge Card</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --paper:#F5F7F6; --card:#FFFFFF; --ink:#182430; --muted:#5A6B76;
+    --amber:#B45A09; --amber-soft:#F3E4D2; --teal:#1E5A5C; --teal-soft:#E1ECEA;
+    --red:#A33A2E; --red-soft:#F6E5E1; --line:#D8DFDC; --code:#EEF1EF;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0F161C; --card:#16202A; --ink:#E5EAEC; --muted:#8FA0AB;
+      --amber:#E0913B; --amber-soft:#3A2A16; --teal:#6FB3B0; --teal-soft:#15302F;
+      --red:#D97E6F; --red-soft:#3A1F1A; --line:#2A3742; --code:#1D2933;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0F161C; --card:#16202A; --ink:#E5EAEC; --muted:#8FA0AB;
+    --amber:#E0913B; --amber-soft:#3A2A16; --teal:#6FB3B0; --teal-soft:#15302F;
+    --red:#D97E6F; --red-soft:#3A1F1A; --line:#2A3742; --code:#1D2933;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--paper); color:var(--ink);
+    font:400 16px/1.55 "Public Sans",system-ui,sans-serif;
+    margin:0; padding:28px 16px 64px}
+  .wrap{max-width:700px; margin:0 auto; display:flex; flex-direction:column; gap:18px}
+  header{padding:4px 4px 0}
+  .eyebrow{font:500 11px/1 "IBM Plex Mono",monospace; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--teal)}
+  h1{font:700 30px/1.1 "Saira",sans-serif; margin:6px 0 4px; text-wrap:balance}
+  header p{color:var(--muted); margin:0; max-width:56ch}
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:10px}
+  @media (max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:var(--card); border:1px solid var(--line); border-radius:6px;
+    padding:12px 14px}
+  .stat b{display:block; font:600 24px/1.1 "Saira",sans-serif; color:var(--amber);
+    font-variant-numeric:tabular-nums}
+  .stat span{font:400 12px/1.35 "Public Sans",sans-serif; color:var(--muted)}
+  section{background:var(--card); border:1px solid var(--line); border-radius:6px;
+    padding:18px 20px}
+  .tag{display:inline-block; font:500 10.5px/1 "IBM Plex Mono",monospace;
+    letter-spacing:.12em; text-transform:uppercase; padding:4px 8px;
+    border-radius:3px; margin-bottom:10px}
+  .tag.any{background:var(--teal-soft); color:var(--teal)}
+  .tag.tech{background:var(--amber-soft); color:var(--amber)}
+  .tag.danger{background:var(--red-soft); color:var(--red)}
+  h2{font:600 18px/1.2 "Saira",sans-serif; margin:0 0 10px; text-wrap:balance}
+  .say{border-left:3px solid var(--amber); padding:2px 0 2px 14px; margin:12px 0;
+    font-size:16.5px; line-height:1.6}
+  .say em{font-style:italic}
+  .note{color:var(--muted); font-size:13.5px; margin:10px 0 0}
+  .num{font-family:"IBM Plex Mono",monospace; font-size:.94em; color:var(--amber);
+    font-weight:500; white-space:nowrap}
+  ul{margin:8px 0 0; padding-left:20px}
+  li{margin:6px 0}
+  .never li{color:var(--red)}
+  .never li s{color:inherit}
+  .never li i{color:var(--muted); font-style:normal; font-size:13.5px}
+  table{width:100%; border-collapse:collapse; font-size:14px; margin-top:8px}
+  th{font:500 11px/1.3 "IBM Plex Mono",monospace; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--muted); text-align:left;
+    padding:6px 10px 6px 0; border-bottom:1px solid var(--line)}
+  td{padding:7px 10px 7px 0; border-bottom:1px solid var(--line);
+    vertical-align:top}
+  td.v{font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+    color:var(--amber); font-weight:500; white-space:nowrap}
+  .tablebox{overflow-x:auto}
+  footer{color:var(--muted); font-size:12.5px; text-align:center; padding-top:6px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">OilTrace · SIH26143 · SAR + ML module · model E5-focal</div>
+    <h1>“How much better is your ML model?”</h1>
+    <p>The question is really <em>better than what, measured how</em>. Answer in
+    layers — stop at whichever layer satisfies the judge.</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><b>6×</b><span>better than the best classical threshold (Dice 0.35 vs 0.06)</span></div>
+    <div class="stat"><b>2 in 3</b><span>significant slicks (≥10 ha) detected, traps included in validation</span></div>
+    <div class="stat"><b>1 in 2</b><span>drawn detections are real (obj. precision 0.47 — was 1 in 22 raw)</span></div>
+    <div class="stat"><b>85 m</b><span>median centre error — precise enough to drive hindcasting</span></div>
+    <div class="stat"><b>−0.4%</b><span>area error on the demo slick (266.9 vs 267.9 km²)</span></div>
+    <div class="stat"><b>10 s</b><span>full scene on CPU · test set still <b style="font-size:13px">SEALED</b></span></div>
+  </div>
+
+  <section>
+    <span class="tag any">Layer 1 · any judge · 30 seconds</span>
+    <h2>The lead answer</h2>
+    <div class="say">“Our module turns a raw Sentinel-1 radar scene into
+    court-ready slick geometry — polygon, centre, area, confidence — in
+    <span class="num">10 seconds on a CPU</span>. On validation that
+    deliberately includes look-alike traps, it finds
+    <span class="num">two-thirds</span> of environmentally significant slicks
+    with <span class="num">~85 m</span> centre accuracy — and when it draws a
+    slick, it’s right nearly <span class="num">1 time in 2</span>, versus
+    <span class="num">1 in 22</span> for the best classical method. On our
+    demo scene it measured a 268 km² slick to within half a percent.”</div>
+    <p class="note">Stop here unless they push. Every number already carries its baseline.</p>
+  </section>
+
+  <section>
+    <span class="tag any">Layer 2 · intuition</span>
+    <h2>Why the classical method loses</h2>
+    <div class="say">“Oil looks dark in radar, so the obvious approach is
+    <em>flag everything dark</em> — we actually built and measured it: it
+    scores <span class="num">Dice 0.06</span>, because the ocean is full of
+    dark things that aren’t oil — calm wind, algae, rain cells. Our network
+    learned the <em>difference</em> from 2,500 real scenes, including
+    <span class="num">685</span> deliberate trap scenes. This problem isn’t
+    finding dark spots — it’s rejecting the fakes.”</div>
+  </section>
+
+  <section>
+    <span class="tag tech">Layer 3 · how we improved it · your best material</span>
+    <h2>Diagnosis, not guesswork</h2>
+    <div class="say">“Object-level error analysis showed our false positives
+    were <em>confidently</em> wrong — look-alike regions predicted as oil at
+    80% confidence, which ordinary cross-entropy barely penalizes once
+    averaged over millions of pixels. So we switched to <b>Focal loss</b>,
+    which amplifies the gradient on exactly those pixels — and object
+    precision jumped <span class="num">66%</span> in one fine-tune
+    (<span class="num">0.28 → 0.47</span>) while slick recall stayed within
+    three points. The diagnosis, the failed alternatives, and the winning run
+    are all in our git history.”</div>
+  </section>
+
+  <section>
+    <span class="tag tech">Layer 4 · ML-literate judge</span>
+    <h2>Why our numbers are conservative</h2>
+    <div class="say">“Three deliberate choices. <b>Scene-level splits</b> — no
+    leakage. <b>Look-alike hard negatives inside validation</b> — scored the
+    way most papers score, oil-only, our model reaches
+    <span class="num">~0.75</span>; we report the harder
+    <span class="num">0.35</span> because it predicts deployed behaviour.
+    <b>A sealed test set</b> — evaluated exactly once, after the design
+    freezes. Every operating parameter was selected on validation only.”</div>
+    <div class="tablebox"><table>
+      <tr><th>Metric</th><th>Value</th><th>Basis</th></tr>
+      <tr><td>Pixel Dice (trapped validation)</td><td class="v">0.35</td><td>vs 0.06 classical baseline</td></tr>
+      <tr><td>Object precision (drawn slicks that are real)</td><td class="v">0.47</td><td>was 0.28 before Focal; 0.045 raw</td></tr>
+      <tr><td>Object recall, slicks ≥10 ha</td><td class="v">67%</td><td>max-IoU matching</td></tr>
+      <tr><td>Median centroid error</td><td class="v">85 m</td><td>≈ 8 px at 10 m resolution</td></tr>
+      <tr><td>Literature plain U-Net</td><td class="v">0.4–0.55 IoU</td><td>oil-only evaluation — easier exam</td></tr>
+    </table></div>
+  </section>
+
+  <section>
+    <span class="tag tech">Counter-attack · “papers report 90%+”</span>
+    <h2>Turn it into a win</h2>
+    <div class="say">“Yes — on oil-only evaluation with per-dataset tuning; we
+    reproduce that regime at <span class="num">~0.75</span> when the traps
+    are removed. We report the trapped number because a coastguard system’s
+    failure mode isn’t missing obvious oil — it’s crying wolf on algae
+    blooms. We measured the model where it will actually be judged.”</div>
+  </section>
+
+  <section>
+    <span class="tag tech">The trade · if recall vs precision comes up</span>
+    <h2>Own it explicitly</h2>
+    <div class="say">“We chose to double alarm trustworthiness at a
+    three-point recall cost — for an investigation tool, a false accusation
+    is costlier than a delayed detection.”</div>
+  </section>
+
+  <section>
+    <span class="tag danger">The limitation · volunteer it first</span>
+    <h2>Don’t wait to be caught</h2>
+    <div class="say">“One error class remains: a minority of very dark,
+    structured look-alikes still fool the model with high confidence. In our
+    10-scene demo panel, <span class="num">9</span> scenes are clean or
+    correct; one look-alike scene retains false positives — we show that scene
+    ourselves, and our roadmap targets it with curriculum training.”</div>
+  </section>
+
+  <section class="never">
+    <span class="tag danger">Never say</span>
+    <h2>Lines that lose the room</h2>
+    <ul>
+      <li><s>“Our model is 95% accurate.”</s> <i>— pixel accuracy on 96%-background imagery is meaningless.</i></li>
+      <li><s>“Better than paper X’s number.”</s> <i>— different datasets and regimes are never head-to-head comparable.</i></li>
+      <li><s>“0.35 Dice” with no baseline.</s> <i>— it always travels with 0.06 and the reason (traps included).</i></li>
+      <li><s>“91% chance it’s oil.”</s> <i>— scores are uncalibrated; say “detection confidence”.</i></li>
+    </ul>
+  </section>
+
+  <section>
+    <span class="tag any">The closer</span>
+    <h2>Evidence, not claims</h2>
+    <div class="say">“Everything is reproducible — versioned splits,
+    per-experiment manifests, failed experiments in the git log next to the
+    successful ones. And the number that matters most doesn’t exist yet: the
+    test set is sealed, evaluated exactly once when the design freezes.
+    That’s what makes our final number one you can trust.”</div>
+  </section>
+
+  <footer>AlgoRise · model E5-focal · measured on scene-level held-out validation, 30 Aug 2026 ·
+  test set sealed until final evaluation</footer>
+</div>

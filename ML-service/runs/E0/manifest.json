@@ -1,0 +1,45 @@
+{
+ "experiment": "E0",
+ "config": {
+  "experiment": "E0",
+  "norm": "N1",
+  "patch": 512,
+  "batch": 6,
+  "accum": 4,
+  "lr": 0.001,
+  "epochs": 40,
+  "patience": 6,
+  "seed": 26143,
+  "norm_layer": "batch",
+  "pos_weight": 10.0
+ },
+ "git_hash": "8e77dcf7376e4e660e89390867e723b555681c39",
+ "device": "cuda",
+ "started": "2026-08-30T00:21:34",
+ "train_patches": 16926,
+ "val_patches": 4335,
+ "train_shards": [
+  "part1_train_000.npz",
+  "part1_train_001.npz",
+  "part1_train_002.npz",
+  "part1_train_003.npz",
+  "part1_train_004.npz",
+  "part2_train_000.npz",
+  "part2_train_001.npz",
+  "part2_train_002.npz",
+  "part2_train_003.npz",
+  "part2_train_004.npz",
+  "part2_train_005.npz"
+ ],
+ "val_shards": [
+  "part1_val_000.npz",
+  "part1_val_001.npz",
+  "part2_val_000.npz",
+  "part2_val_001.npz",
+  "part2_val_002.npz"
+ ],
+ "model": "UNet(base=32, norm=batch)",
+ "loss": "BCE(pos_weight=10.0)+Dice(1.0)",
+ "note": "val threshold 0.5 is PROVISIONAL; final threshold from the post-training val sweep (spec \u00a707)",
+ "params_millions": 7.76
+}

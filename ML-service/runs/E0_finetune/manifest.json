@@ -1,0 +1,60 @@
+{
+ "experiment": "E0_finetune",
+ "config": {
+  "experiment": "E0_finetune",
+  "norm": "N1",
+  "patch": 512,
+  "batch": 6,
+  "accum": 4,
+  "lr": 0.0001,
+  "epochs": 40,
+  "patience": 6,
+  "seed": 26143,
+  "norm_layer": "batch",
+  "pos_weight": 0.0,
+  "init_from": "runs/E0_partial/best.pth",
+  "balance": 1.0
+ },
+ "git_hash": "a41509a30df64ec6ea5417bde4efa172455b2552",
+ "device": "cuda",
+ "started": "2026-08-30T01:26:19",
+ "train_patches": 16926,
+ "val_patches": 4335,
+ "train_shards": [
+  "part1_train_000.npz",
+  "part1_train_001.npz",
+  "part1_train_002.npz",
+  "part1_train_003.npz",
+  "part1_train_004.npz",
+  "part2_train_000.npz",
+  "part2_train_001.npz",
+  "part2_train_002.npz",
+  "part2_train_003.npz",
+  "part2_train_004.npz",
+  "part2_train_005.npz"
+ ],
+ "val_shards": [
+  "part1_val_000.npz",
+  "part1_val_001.npz",
+  "part2_val_000.npz",
+  "part2_val_001.npz",
+  "part2_val_002.npz"
+ ],
+ "model": "UNet(base=32, norm=batch)",
+ "loss": "BCE(pos_weight=None)+Dice(1.0)",
+ "note": "val threshold 0.5 is PROVISIONAL; final threshold from the post-training val sweep (spec \u00a707)",
+ "init_from": {
+  "path": "runs/E0_partial/best.pth",
+  "epoch": 4,
+  "val": {
+   "dice": 0.7454544916668363,
+   "iou": 0.5942028302004566,
+   "precision": 0.7927266560591084,
+   "recall": 0.7035029479038389,
+   "tp": 21418760,
+   "fp": 5600339,
+   "fn": 9027111
+  }
+ },
+ "params_millions": 7.76
+}

@@ -1,0 +1,61 @@
+{
+ "experiment": "E6_focal_iter",
+ "config": {
+  "experiment": "E6_focal_iter",
+  "norm": "N1",
+  "patch": 512,
+  "batch": 6,
+  "accum": 4,
+  "lr": 5e-05,
+  "epochs": 30,
+  "patience": 8,
+  "seed": 31337,
+  "norm_layer": "batch",
+  "pos_weight": 0.0,
+  "init_from": "runs/E5_focal/best.pth",
+  "balance": 1.0,
+  "loss": "focal"
+ },
+ "git_hash": "e7a66ee0f2939391fe29b81a7917fdedb44a5d09",
+ "device": "cuda",
+ "started": "2026-08-30T21:17:41",
+ "train_patches": 16926,
+ "val_patches": 4335,
+ "train_shards": [
+  "part1_train_000.npz",
+  "part1_train_001.npz",
+  "part1_train_002.npz",
+  "part1_train_003.npz",
+  "part1_train_004.npz",
+  "part2_train_000.npz",
+  "part2_train_001.npz",
+  "part2_train_002.npz",
+  "part2_train_003.npz",
+  "part2_train_004.npz",
+  "part2_train_005.npz"
+ ],
+ "val_shards": [
+  "part1_val_000.npz",
+  "part1_val_001.npz",
+  "part2_val_000.npz",
+  "part2_val_001.npz",
+  "part2_val_002.npz"
+ ],
+ "model": "UNet(base=32, norm=batch)",
+ "loss": "Focal(g=2)+Dice",
+ "note": "val threshold 0.5 is PROVISIONAL; final threshold from the post-training val sweep (spec \u00a707)",
+ "init_from": {
+  "path": "runs/E5_focal/best.pth",
+  "epoch": 5,
+  "val": {
+   "dice": 0.3500758640453097,
+   "iou": 0.21217694584651098,
+   "precision": 0.2414079761933851,
+   "recall": 0.6366660359297982,
+   "tp": 19383852,
+   "fp": 60911142,
+   "fn": 11062019
+  }
+ },
+ "params_millions": 7.76
+}
