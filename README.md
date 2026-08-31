@@ -2,92 +2,249 @@
 
 **Satellite oil-spill detection + AIS vessel attribution** · SIH 2026 · Problem Statement SIH26143 (NTRO) · Team AlgoRise
 
-## 🔗 Live deployments
+## 🔗 Live Deployments
 
 | Service | Status | URL |
 |---|---|---|
-| **Backend API** (hindcast · vessels · attribution · forward · counterfactual) | 🟢 Live on Modal | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 — [interactive docs](https://vscimatic999--oiltrace-backend-web.modal.run/docs) · [health](https://vscimatic999--oiltrace-backend-web.modal.run/api/v1/health) |
-| **ML detection service** (Sentinel-1 U-Net) | 🟢 Live on Modal | https://vscimatic999--oiltrace-detection-web.modal.run — [health](https://vscimatic999--oiltrace-detection-web.modal.run/health) · [demo detection](https://vscimatic999--oiltrace-detection-web.modal.run/detect/demo) |
-| **demo-frontend** (investigation dashboard) | 🟡 Demo — runs locally for now | see [`demo-frontend/`](demo-frontend/) below |
+| Backend API | 🟢 Live on Modal | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 |
+| Backend Swagger | 🟢 Live | https://vscimatic999--oiltrace-backend-web.modal.run/docs |
+| ML Detection | 🟢 Live on Modal | https://vscimatic999--oiltrace-detection-web.modal.run |
+| Frontend | 🟡 Local demo | `demo-frontend/` |
 
-> Free-tier cold start: the first request after ~5 idle minutes takes 20–40 s extra — hit the health links above ~1 min before demoing.
+> Free-tier services may have a cold start. Run `GET /health/ml` before a demo.
 
-OilTrace answers one question end to end: *a slick was spotted on satellite radar — which vessel most plausibly released it?* A SAR scene goes through ML detection, ocean-physics backtracking reconstructs where the oil came from, AIS records surface the vessels that were there, an evidence engine ranks them, and a forward "counterfactual" simulation tests the top suspect's release against the observed slick.
+## What OilTrace Does
 
+OilTrace follows a slick from satellite detection to probable vessel attribution:
+
+```text
+Sentinel-1 SAR
+     ↓
+ML Detection (U-Net)
+     ↓
+Detected Slick Polygon
+     ↓
+OpenDrift Hindcast
+     ↓
+Probable Source Region + Release Window
+     ↓
+AIS Vessels
+     ↓
+Attribution / Evidence Ranking
+     ↓
+Forward Simulation
+     ↓
+Counterfactual Comparison
 ```
-Sentinel-1 SAR scene
-   │  ML-service (U-Net)                    ── deployed on Modal
-   ▼
-Detected slick polygon (GeoJSON)
-   │  backend /hindcast (OpenDrift)         ── deployed on Modal
-   ▼
-Probable source region + release window
-   │  backend /vessels → /attribute
-   ▼
-Ranked candidate vessels (evidence scores)
-   │  backend /forward → /counterfactual
-   ▼
-Physical-consistency verdict (Jaccard overlap, trajectory intersection)
-   │
-   ▼
-demo-frontend — interactive investigation dashboard
-```
 
----
+The system combines remote-sensing evidence, ocean physics and AIS vessel movement to identify vessels that are spatially and temporally compatible with an oil spill.
 
-## `backend/` — analysis API (deployed ✅)
+## Backend API
 
-FastAPI service that owns all the physics and reasoning. **Live on Modal:**
-**https://vscimatic999--oiltrace-backend-web.modal.run/api/v1** ([interactive docs](https://vscimatic999--oiltrace-backend-web.modal.run/docs); warm it with `GET /health/ml` before demos — free-tier cold start is ~20–40 s).
-
-| Endpoint | What it does |
+| Endpoint | Purpose |
 |---|---|
-| `GET /health` · `/ping` · `/health/ml` | Liveness + ML-service reachability (also warms it) |
-| `POST /detect` | Proxies a Sentinel-1 GeoTIFF to the ML service, returns slicks ready for hindcast |
-| `POST /hindcast` | Real OpenDrift **backward** simulation from the observed slick → probable source region (95 % probability mass) + release window + backward trajectory |
-| `GET /vessels` | Synthetic AIS query by bbox + time window (SIH-permitted synthetic data, always labeled) |
-| `POST /attribute` | Evidence engine: spatial / temporal / trajectory compatibility + AIS reliability → ranked candidates with a pre-built `forward_request` for the top suspect |
-| `POST /forward` | OpenDrift **forward** simulation from the estimated release → predicted footprint |
-| `POST /counterfactual` | Compares predicted footprint vs observed slick: Jaccard overlap, trajectory intersection, centroid distance, evidence strength |
-| `GET /replay/{id}` | Cached frame-by-frame replay of the canonical demo incident |
+| `GET /health` | Backend health |
+| `GET /health/ml` | ML service health + warm-up |
+| `POST /hindcast` | OpenDrift backward simulation |
+| `GET /vessels` | AIS vessel query |
+| `POST /attribute` | Rank candidate vessels |
+| `POST /forward` | Forward oil-drift simulation |
+| `POST /counterfactual` | Compare predicted and observed slick |
+| `GET /replay/{id}` | Demo replay |
 
-Ships with the North Sea demo forcing data (`data/currents.nc`, `wind.nc`; window 4–6 °E, 59–61 °N, 20–22 Aug 2025), 174 passing tests, and `docs/SHOWCASE.md` — a live-verified curl sequence for the full chain (tanker ranked #1 at 98.1/100).
+Interactive API documentation:
 
-## `ML-service/` — SAR detection (deployed ✅)
+https://vscimatic999--oiltrace-backend-web.modal.run/docs
 
-U-Net oil-spill segmentation on Sentinel-1 imagery. **Live on Modal:**
-**https://vscimatic999--oiltrace-detection-web.modal.run**
+## 🧪 Test the Complete Backend Flow
 
-- `service/` — the deployable API (FastAPI + Dockerfile): upload a 2-band (VV+VH) georeferenced GeoTIFF ≤ 80 MB to `POST /detect`, get GeoJSON slick polygons with area + confidence; `GET /detect/demo` returns a precomputed real detection (266.9 km² Mediterranean slick) instantly.
-- `ml/` — training & evaluation code: model, data loaders, metrics, threshold/TTA sweeps.
-- `manifests/` — dataset manifests for the Zenodo oil-spill dataset (450 pixel-verified scenes).
-- `runs/` — experiment records (configs + metric histories). Weight binaries are excluded; the deployed **E5_focal** checkpoint is baked into the Modal image.
+The canonical live scenario is **`incident-norway-001`**.
 
-## `demo-frontend/` — investigation dashboard (demo, not deployed yet)
+### 1. Health
 
-React + Leaflet dashboard that drives the whole pipeline through the backend APIs — currently the **demo build**: run locally, ships with the deterministic Norway scenario (real SAR imagery, synthetic AIS, live backend computation for every analytical value).
+```bash
+B="https://vscimatic999--oiltrace-backend-web.modal.run/api/v1"
 
-- Six-stage guided workflow: Detection → Hindcast → Vessels → Attribution → Forward Simulation → Counterfactual
-- OpenDrift-style drift particle animation (backtrack reconstruction + released-oil cloud) with smooth timeline playback on the backend's own timestamps
-- Honest-language guardrails throughout: scores are compatibility evidence, never "probability of guilt"; synthetic AIS is always labeled
+curl -s "$B/health"
+curl -s "$B/health/ml"
+```
+
+### 2. Hindcast
+
+The canonical slick is at `60.044°N, 4.482°E`, observed at `2025-08-20T12:00:00Z`.
+
+```bash
+curl -s -X POST "$B/hindcast" \
+  -H "Content-Type: application/json" \
+  --data '{
+    "slick": {
+      "id": "slick-norway-001",
+      "timestamp_utc": "2025-08-20T12:00:00Z",
+      "centroid": {
+        "lat": 60.044,
+        "lon": 4.482
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [4.43, 60.00],
+          [4.53, 60.00],
+          [4.53, 60.09],
+          [4.43, 60.09],
+          [4.43, 60.00]
+        ]]
+      },
+      "area_km2": 20.0,
+      "confidence": 0.8,
+      "sensor": "Sentinel-1 SAR"
+    },
+    "duration_hours": 3
+  }'
+```
+
+Verified result: source around **60.0651°N, 4.4735°E**, with a release window of **09:00–12:00 UTC**.
+
+### 3. Vessels
+
+```bash
+curl -s \
+  "$B/vessels?bbox=4.0,59.0,6.0,61.0&start=2025-08-19T12:00:00Z&end=2025-08-20T14:00:00Z"
+```
+
+The canonical scenario returns three synthetic AIS vessels:
+
+```text
+678901234
+789012345
+890123456
+```
+
+### 4. Attribution
+
+`/attribute` uses the `source_region` returned by `/hindcast` and the complete vessel objects returned by `/vessels`.
+
+Request shape:
+
+```json
+{
+  "incident_id": "incident-norway-001",
+  "source_region": "<source_region from /hindcast>",
+  "vessels": "<response from /vessels>",
+  "uncertainty_radius_km": 10.0
+}
+```
+
+Verified ranking:
+
+```text
+#1  678901234  — 98.125
+#2  789012345  — 60.579
+```
+
+The top candidate contains a ready-to-use `forward_request`.
+
+### 5. Forward
+
+Send the `forward_request` from the top `/attribute` candidate to:
+
+```text
+POST /forward
+```
+
+This performs the forward OpenDrift simulation from the reconstructed release conditions.
+
+### 6. Counterfactual
+
+Use the forward result with:
+
+```text
+POST /counterfactual
+```
+
+This compares the simulated result with the observed slick using physical-consistency metrics such as trajectory intersection, centroid distance and footprint overlap.
+
+The exact request schema is available in Swagger.
+
+### 7. Replay
+
+```bash
+curl -s "$B/replay/incident-norway-001"
+```
+
+The canonical replay contains **37 frames** and the same three Norway vessels.
+
+## 🌊 OpenDrift
+
+The backend uses OpenDrift/OpenOil for oil trajectory modelling.
+
+For the canonical Norway scenario, the bundled environmental forcing covers approximately:
+
+```text
+59–61°N
+4–6°E
+20–22 August 2025
+```
+
+The hindcast starts from the observed slick and integrates particles backward through the environmental forcing to estimate where and when the oil could have originated.
+
+The forward stage then tests the opposite direction: starting from the reconstructed release conditions and simulating where the oil would travel.
+
+## 🛰️ ML Detection
+
+The ML service uses a U-Net model for Sentinel-1 SAR oil-spill segmentation.
+
+Demo detection:
+
+```bash
+curl -s "https://vscimatic999--oiltrace-detection-web.modal.run/detect/demo"
+```
+
+For uploaded georeferenced Sentinel-1 imagery:
+
+```text
+POST /detect
+```
+
+The service returns GeoJSON slick polygons with area and confidence.
+
+## 🖥️ Run the Frontend
 
 ```bash
 cd demo-frontend
 npm install
-cp .env.example .env   # VITE_BACKEND_BASE_URL → Modal backend URL, or http://127.0.0.1:8000
-npm run dev            # http://localhost:5173 → "Launch Norway Demo Scenario"
+cp .env.example .env
+npm run dev
 ```
 
----
+Set:
 
-## Try the deployed chain in 60 seconds
-
-```bash
-B=https://vscimatic999--oiltrace-backend-web.modal.run/api/v1
-curl $B/health                       # wake the backend
-curl "$B/replay/incident-norway-001" # 37-frame canonical incident replay
+```text
+VITE_BACKEND_BASE_URL=https://vscimatic999--oiltrace-backend-web.modal.run/api/v1
 ```
 
-Full request bodies for hindcast → vessels → attribute → forward → counterfactual are in `backend/docs/SHOWCASE.md` (every step live-verified, all endpoints returning 200).
+Workflow:
 
-**Honesty notice:** all AIS data is synthetic (SIH-permitted). Model outputs are spatial, temporal and physical-consistency **evidence** — never proof of vessel responsibility.
+**Detection → Hindcast → Vessels → Attribution → Forward → Counterfactual**
+
+## ⚠️ Notes
+
+- AIS data in the demonstration is **synthetic** and SIH-permitted.
+- Attribution scores are **evidence/compatibility scores**, not probabilities of guilt.
+- A vessel ranked first is a **candidate/suspect**, not a proven culprit.
+- The canonical physics demo uses Norway because the deployed environmental forcing covers that region and time.
+- The ML demo detection is a separate real Mediterranean scene; running physics on it would require Mediterranean forcing data.
+
+## 📁 Repository Structure
+
+```text
+├── ML-service/       # Sentinel-1 U-Net detection
+├── backend/          # FastAPI + OpenDrift + AIS attribution
+├── demo-frontend/    # React + Leaflet investigation dashboard
+└── README.md
+```
+
+Detailed live-demo requests are available in:
+
+```text
+backend/docs/SHOWCASE.md
+```
