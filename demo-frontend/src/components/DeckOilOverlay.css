@@ -1,0 +1,27 @@
+/* =========================================================
+   OILTRACE — OIL PARTICLE CANVAS
+
+   Leaflet marker panes sit above this canvas. This is important:
+   oil may travel underneath a vessel during replay, but the vessel
+   marker must remain visible and clickable.
+========================================================= */
+
+.oiltrace-oil-canvas {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 500 !important;
+  display: block !important;
+  pointer-events: none !important;
+  overflow: hidden;
+  contain: strict;
+  isolation: isolate;
+}
+
+/* The canvas is deliberately screen-space. Map zoom animation is disabled
+   so Leaflet never temporarily transforms the map panes without the canvas. */
+.oiltrace-oil-canvas {
+  transform: none !important;
+  backface-visibility: visible;
+}

@@ -1,0 +1,1272 @@
+/* =====================================================
+   OILTRACE — REPLAY PANEL
+   DARK GIS / OPERATIONS THEME
+===================================================== */
+
+.oiltrace-replay-panel {
+  position: fixed;
+
+  top: 18px;
+  right: 18px;
+  bottom: 18px;
+
+  width: 440px;
+  max-width: calc(100vw - 36px);
+
+  z-index: 3000;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  background: #111827;
+
+  color: #e5edf7;
+
+  border: 1px solid #263449;
+
+  border-radius: 12px;
+
+  box-shadow:
+    0 22px 50px rgba(0, 0, 0, 0.42),
+    0 6px 18px rgba(0, 0, 0, 0.25);
+
+  animation:
+    replay-panel-in
+    260ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  scrollbar-width: thin;
+  scrollbar-color: #34445c transparent;
+}
+
+@keyframes replay-panel-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+.oiltrace-replay-panel::-webkit-scrollbar {
+  width: 5px;
+}
+
+.oiltrace-replay-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.oiltrace-replay-panel::-webkit-scrollbar-thumb {
+  background: #34445c;
+  border-radius: 10px;
+}
+
+.oiltrace-replay-panel::-webkit-scrollbar-thumb:hover {
+  background: #466080;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.replay-panel-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 15px;
+
+  padding: 20px;
+
+  background: #151e2d;
+
+  border-bottom: 1px solid #263449;
+
+  flex-shrink: 0;
+}
+
+.replay-kicker {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #6f9fe0;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+}
+
+.replay-panel-header h2 {
+  margin: 0;
+
+  color: #f4f7fb;
+
+  font-size: 21px;
+
+  line-height: 1.2;
+
+  font-weight: 750;
+}
+
+.replay-panel-header p {
+  max-width: 275px;
+
+  margin: 7px 0 0;
+
+  color: #8e9db2;
+
+  font-size: 10px;
+
+  line-height: 1.5;
+}
+
+
+/* =====================================================
+   CLOSE BUTTON
+===================================================== */
+
+.replay-close {
+  width: 32px;
+  height: 32px;
+
+  flex: 0 0 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #34445a;
+
+  border-radius: 7px;
+
+  background: #192435;
+
+  color: #91a0b5;
+
+  font-size: 20px;
+
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.replay-close:hover {
+  background: #223149;
+
+  border-color: #4b6790;
+
+  color: #ffffff;
+}
+
+
+/* =====================================================
+   TIME CARD
+===================================================== */
+
+.replay-time-card {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 12px;
+
+  margin: 16px;
+
+  padding: 15px;
+
+  background: #182235;
+
+  border: 1px solid #2b3b53;
+
+  border-radius: 9px;
+
+  color: #ffffff;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.025);
+}
+
+.replay-current-time {
+  min-width: 0;
+}
+
+.replay-time-label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #73859d;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.2px;
+}
+
+.replay-time-card strong {
+  display: block;
+
+  color: #f8fafc;
+
+  font-size: 27px;
+
+  line-height: 1;
+
+  font-weight: 750;
+
+  letter-spacing: -0.5px;
+
+  font-variant-numeric: tabular-nums;
+}
+
+
+/* =====================================================
+   PLAYING STATUS
+===================================================== */
+
+.replay-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  padding: 6px 9px;
+
+  flex-shrink: 0;
+
+  border: 1px solid #30415a;
+
+  border-radius: 6px;
+
+  background: #202c40;
+
+  color: #9eacc0;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+.replay-status-dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #64748b;
+}
+
+.replay-status-dot.playing {
+  background: #3b82f6;
+
+  box-shadow:
+    0 0 0 4px rgba(59, 130, 246, 0.12);
+
+  animation: replay-pulse 1.3s infinite;
+}
+
+@keyframes replay-pulse {
+  50% {
+    opacity: 0.45;
+  }
+}
+
+
+/* =====================================================
+   TIMELINE
+===================================================== */
+
+.replay-timeline-section {
+  padding: 0 16px 16px;
+}
+
+.replay-timeline-labels {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+
+  color: #718198;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  font-variant-numeric: tabular-nums;
+}
+
+.replay-slider {
+  display: block;
+
+  width: 100%;
+  height: 5px;
+
+  margin: 0;
+
+  appearance: none;
+  -webkit-appearance: none;
+
+  outline: none;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      to right,
+      #3478d5 0%,
+      #3478d5 var(--replay-progress),
+      #29374b var(--replay-progress),
+      #29374b 100%
+    );
+
+  cursor: pointer;
+}
+
+.replay-slider::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 15px;
+  height: 15px;
+
+  border-radius: 50%;
+
+  background: #f8fafc;
+
+  border: 3px solid #3b82f6;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.4);
+
+  cursor: grab;
+}
+
+.replay-slider::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
+
+.replay-slider::-moz-range-thumb {
+  width: 11px;
+  height: 11px;
+
+  border-radius: 50%;
+
+  background: #f8fafc;
+
+  border: 3px solid #3b82f6;
+
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.4);
+
+  cursor: grab;
+}
+
+.replay-timeline-markers {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-top: 8px;
+
+  color: #63748b;
+
+  font-size: 7px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.6px;
+}
+
+
+/* =====================================================
+   CONTROLS
+===================================================== */
+
+.replay-controls {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 12px 16px;
+
+  background: #151e2d;
+
+  border-top: 1px solid #263449;
+
+  border-bottom: 1px solid #263449;
+}
+
+.replay-reset-button {
+  width: 38px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #34445a;
+
+  border-radius: 7px;
+
+  background: #1a2638;
+
+  color: #9aa9bc;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease;
+}
+
+.replay-reset-button:hover {
+  background: #223149;
+
+  border-color: #49658c;
+
+  color: #ffffff;
+}
+
+.replay-play-button {
+  width: 46px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+
+  border-radius: 7px;
+
+  background: #2563eb;
+
+  color: #ffffff;
+
+  font-size: 14px;
+
+  font-weight: 800;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 12px rgba(37, 99, 235, 0.28);
+
+  transition:
+    background-color 150ms ease,
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.replay-play-button:hover {
+  background: #3478e5;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 6px 15px rgba(37, 99, 235, 0.36);
+}
+
+.replay-reset-text {
+  margin-left: auto;
+
+  padding: 5px;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #718198;
+
+  font-size: 9px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.replay-reset-text:hover {
+  color: #5b9bea;
+}
+
+
+/* =====================================================
+   SPEED
+===================================================== */
+
+.replay-speed-section {
+  padding: 16px;
+}
+
+.replay-speed-heading {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 9px;
+}
+
+.replay-speed-title {
+  color: #a9b6c8;
+
+  font-size: 11px;
+
+  font-weight: 750;
+}
+
+.replay-speed-value {
+  color: #5b9bea;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+  font-variant-numeric: tabular-nums;
+}
+
+.replay-speed-buttons {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 6px;
+}
+
+.speed-button {
+  min-height: 38px;
+
+  padding: 7px 4px;
+
+  border: 1px solid #304057;
+
+  border-radius: 7px;
+
+  background: #182235;
+
+  color: #8392a7;
+
+  font-size: 10px;
+
+  font-weight: 750;
+
+  cursor: pointer;
+
+  transition:
+    background-color 150ms ease,
+    border-color 150ms ease,
+    color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.speed-button:hover {
+  background: #202e43;
+
+  border-color: #456084;
+
+  color: #cbd5e1;
+}
+
+.speed-button.active {
+  background: #2563eb;
+
+  border-color: #3b82f6;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+
+/* =====================================================
+   VESSEL TRACK SUMMARY
+===================================================== */
+
+.replay-vessel-summary {
+  margin: 0 16px 16px;
+
+  padding: 13px;
+
+  background: #151e2d;
+
+  border: 1px solid #2b3b53;
+
+  border-radius: 9px;
+}
+
+.replay-summary-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding-bottom: 9px;
+
+  margin-bottom: 5px;
+
+  border-bottom: 1px solid #2b394e;
+
+  color: #8291a7;
+
+  font-size: 8px;
+
+  font-weight: 800;
+
+  letter-spacing: 1px;
+}
+
+.replay-summary-header strong {
+  color: #5b9bea;
+
+  font-size: 10px;
+}
+
+.replay-vessel-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  min-height: 30px;
+}
+
+.replay-vessel-num {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  border-radius: 4px;
+  background: #eff6ff;
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  color: #1d4ed8;
+  font-size: 9px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.replay-vessel-dot {
+  display: none !important;
+}
+
+.replay-vessel-name {
+  flex: 1;
+
+  min-width: 0;
+
+  overflow: hidden;
+
+  color: #c4cfdd;
+
+  font-size: 10px;
+
+  font-weight: 600;
+
+  white-space: nowrap;
+
+  text-overflow: ellipsis;
+}
+
+.replay-vessel-rank {
+  color: #738198;
+
+  font-size: 9px;
+
+  font-weight: 700;
+}
+
+.replay-empty {
+  padding: 9px 0;
+
+  color: #718198;
+
+  font-size: 10px;
+}
+
+.replay-more-vessels {
+  margin-top: 7px;
+
+  padding-top: 7px;
+
+  border-top: 1px solid #2b394e;
+
+  color: #60738d;
+
+  font-size: 9px;
+}
+
+
+/* =====================================================
+   CURRENT POSITION
+===================================================== */
+
+.replay-current-state {
+  margin: 0 16px 16px;
+
+  padding: 13px;
+
+  background: #182235;
+
+  border: 1px solid #2b3b53;
+
+  border-radius: 9px;
+
+  box-sizing: border-box;
+}
+
+.replay-state-row {
+  display: flex;
+
+  align-items: baseline;
+
+  justify-content: space-between;
+
+  gap: 15px;
+
+  width: 100%;
+
+  margin-bottom: 9px;
+}
+
+.replay-state-row span {
+  flex: 1;
+
+  min-width: 0;
+
+  color: #8c9bb0;
+
+  font-size: 9px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.9px;
+
+  white-space: nowrap;
+}
+
+.replay-state-row strong {
+  flex: 0 0 auto;
+
+  color: #f1f5f9;
+
+  font-size: 18px;
+
+  line-height: 1;
+
+  font-weight: 750;
+
+  font-variant-numeric: tabular-nums;
+
+  white-space: nowrap;
+}
+
+.replay-state-bar {
+  width: 100%;
+
+  height: 4px;
+
+  overflow: hidden;
+
+  background: #2b394e;
+
+  border-radius: 10px;
+}
+
+.replay-state-progress {
+  height: 100%;
+
+  background: #3478d5;
+
+  border-radius: inherit;
+
+  transition: width 100ms linear;
+}
+
+
+/* =====================================================
+   ANALYSIS NOTE
+===================================================== */
+
+.replay-analysis-note {
+  display: flex;
+
+  gap: 9px;
+
+  margin: 0 16px 20px;
+
+  padding: 12px;
+
+  background: #151e2d;
+
+  border: 1px solid #2b3b53;
+
+  border-radius: 9px;
+
+  box-sizing: border-box;
+}
+
+.replay-note-icon {
+  width: 18px;
+  height: 18px;
+
+  flex: 0 0 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #5b7190;
+
+  border-radius: 50%;
+
+  color: #8da1bc;
+
+  font-size: 9px;
+
+  font-weight: 800;
+}
+
+.replay-analysis-note p {
+  flex: 1;
+
+  min-width: 0;
+
+  margin: 0;
+
+  color: #7f90a7;
+
+  font-size: 9px;
+
+  line-height: 1.55;
+}
+
+
+/* =====================================================
+   FOCUS
+===================================================== */
+
+.replay-close:focus-visible,
+.replay-reset-button:focus-visible,
+.replay-play-button:focus-visible,
+.replay-reset-text:focus-visible,
+.speed-button:focus-visible,
+.replay-slider:focus-visible {
+  outline: 2px solid #4f8fe8;
+
+  outline-offset: 2px;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 700px) {
+
+  .oiltrace-replay-panel {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    width: calc(100vw - 20px);
+    max-width: none;
+  }
+
+}
+
+@media (max-width: 430px) {
+
+  .replay-panel-header {
+    padding: 17px;
+  }
+
+  .replay-panel-header h2 {
+    font-size: 19px;
+  }
+
+  .replay-time-card {
+    margin: 13px;
+
+    padding: 14px;
+  }
+
+  .replay-time-card strong {
+    font-size: 24px;
+  }
+
+  .replay-timeline-section {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .replay-controls {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .replay-speed-section {
+    padding: 13px;
+  }
+
+  .replay-vessel-summary,
+  .replay-current-state,
+  .replay-analysis-note {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+
+  .replay-state-row strong {
+    font-size: 16px;
+  }
+
+}
+
+
+/* =====================================================
+   REDUCED MOTION
+===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .oiltrace-replay-panel,
+  .replay-play-button,
+  .replay-slider,
+  .replay-state-progress {
+    animation: none;
+    transition: none;
+  }
+
+  .replay-status-dot.playing {
+    animation: none;
+  }
+
+}
+/* =====================================================
+   LIGHT THEME
+===================================================== */
+
+.app-light .oiltrace-replay-panel {
+  background: #f8fafc;
+
+  color: #172033;
+
+  border-color: #dbe2ea;
+
+  box-shadow:
+    0 22px 50px
+    rgba(15, 23, 42, 0.16),
+    0 6px 18px
+    rgba(15, 23, 42, 0.08);
+
+  scrollbar-color:
+    #cbd5e1
+    transparent;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.app-light .replay-panel-header {
+  background: #ffffff;
+
+  border-bottom-color: #e2e8f0;
+}
+
+.app-light .replay-kicker {
+  color: #4f82b5;
+}
+
+.app-light .replay-panel-header h2 {
+  color: #172033;
+}
+
+.app-light .replay-panel-header p {
+  color: #64748b;
+}
+
+
+/* =====================================================
+   CLOSE
+===================================================== */
+
+.app-light .replay-close {
+  background: #ffffff;
+
+  border-color: #d8dee8;
+
+  color: #64748b;
+}
+
+.app-light .replay-close:hover {
+  background: #f1f5f9;
+
+  border-color: #cbd5e1;
+
+  color: #172033;
+}
+
+
+/* =====================================================
+   TIME CARD
+===================================================== */
+
+.app-light .replay-time-card {
+  background: #ffffff;
+
+  border-color: #dbe3eb;
+
+  color: #172033;
+
+  box-shadow:
+    0 2px 6px
+    rgba(15, 23, 42, 0.04);
+}
+
+.app-light .replay-time-label {
+  color: #64748b;
+}
+
+.app-light .replay-time-card strong {
+  color: #172033;
+}
+
+
+/* =====================================================
+   STATUS
+===================================================== */
+
+.app-light .replay-status {
+  background: #f1f5f9;
+
+  border-color: #dbe2ea;
+
+  color: #64748b;
+}
+
+.app-light .replay-status-dot {
+  background: #94a3b8;
+}
+
+
+/* =====================================================
+   TIMELINE
+===================================================== */
+
+.app-light .replay-timeline-labels {
+  color: #64748b;
+}
+
+.app-light .replay-slider {
+  background:
+    linear-gradient(
+      to right,
+      #3478d5 0%,
+      #3478d5 var(--replay-progress),
+      #dbe3eb var(--replay-progress),
+      #dbe3eb 100%
+    );
+}
+
+.app-light .replay-timeline-markers {
+  color: #94a3b8;
+}
+
+
+/* =====================================================
+   CONTROLS
+===================================================== */
+
+.app-light .replay-controls {
+  background: #ffffff;
+
+  border-top-color: #e2e8f0;
+
+  border-bottom-color: #e2e8f0;
+}
+
+.app-light .replay-reset-button {
+  background: #ffffff;
+
+  border-color: #d8dee8;
+
+  color: #64748b;
+}
+
+.app-light .replay-reset-button:hover {
+  background: #f1f5f9;
+
+  border-color: #cbd5e1;
+
+  color: #172033;
+}
+
+.app-light .replay-reset-text {
+  color: #64748b;
+}
+
+.app-light .replay-reset-text:hover {
+  color: #2563eb;
+}
+
+
+/* =====================================================
+   SPEED
+===================================================== */
+
+.app-light .replay-speed-title {
+  color: #334155;
+}
+
+.app-light .replay-speed-value {
+  color: #2563eb;
+}
+
+.app-light .speed-button {
+  background: #ffffff;
+
+  border-color: #dbe2ea;
+
+  color: #64748b;
+}
+
+.app-light .speed-button:hover {
+  background: #f1f5f9;
+
+  border-color: #cbd5e1;
+
+  color: #334155;
+}
+
+
+/* =====================================================
+   VESSEL SUMMARY
+===================================================== */
+
+.app-light .replay-vessel-summary {
+  background: #ffffff;
+
+  border-color: #dbe3eb;
+}
+
+.app-light .replay-summary-header {
+  border-bottom-color: #e2e8f0;
+
+  color: #64748b;
+}
+
+.app-light .replay-summary-header strong {
+  color: #2563eb;
+}
+
+.app-light .replay-vessel-name {
+  color: #334155;
+}
+
+.app-light .replay-vessel-rank {
+  color: #94a3b8;
+}
+
+.app-light .replay-more-vessels {
+  border-top-color: #e2e8f0;
+
+  color: #94a3b8;
+}
+
+
+/* =====================================================
+   CURRENT STATE
+===================================================== */
+
+.app-light .replay-current-state {
+  background: #ffffff;
+
+  border-color: #dbe3eb;
+}
+
+.app-light .replay-state-row span {
+  color: #64748b;
+}
+
+.app-light .replay-state-row strong {
+  color: #172033;
+}
+
+.app-light .replay-state-bar {
+  background: #e2e8f0;
+}
+
+
+/* =====================================================
+   ANALYSIS NOTE
+===================================================== */
+
+.app-light .replay-analysis-note {
+  background: #eef5ff;
+
+  border-color: #d6e7ff;
+}
+
+.app-light .replay-note-icon {
+  border-color: #94a3b8;
+
+  color: #64748b;
+}
+
+.app-light .replay-analysis-note p {
+  color: #64748b;
+}
+
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+.app-light .oiltrace-replay-panel::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+.app-light .oiltrace-replay-panel::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,50 +1,49 @@
-# OilTrace — Frontend (Team AlgoRise · SIH 2026 · SIH26143)
+# React + Vite
 
-React + Leaflet investigation dashboard for the OilTrace marine spill
-intelligence system. Consumes the OilTrace FastAPI backend; contains **no**
-analytical logic of its own — every score, region, trajectory and verdict is
-rendered from backend responses.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Run
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+### Stability patch
+The map camera and oil particle layer are isolated from vessel-selection UI state. Selecting a vessel must not animate, refit, resize, recreate, or transform the oil field.
+
+## Backend integration (OilTrace)
+
+Local development talks to a backend on your machine. Production talks to Modal.
+
+| Mode | Command | API |
+|---|---|---|
+| Development | `npm run dev` | `http://localhost:8000/api/v1` (Vite proxies `/api` → localhost:8000) |
+| Production build | `npm run build` | `https://vscimatic999--oiltrace-backend-web.modal.run/api/v1` |
+
+Start the FastAPI app from the **backend** repo (not this frontend repo):
 
 ```bash
-npm install
-cp .env.example .env        # set VITE_BACKEND_BASE_URL (default: http://127.0.0.1:8000)
-npm run dev                 # http://localhost:5173
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-## The investigation workflow (all API-driven)
+Config lives in `.env.development` / `.env.production` (`VITE_API_BASE_URL`).
+Axios does **not** fail over to Modal during `npm run dev`, so local work does not
+consume Modal credits. Override with `.env.local` if needed (see `.env.example`).
 
-1. **Detection** — observed slick (Norway demo scenario ships with real
-   Sentinel-1 SAR imagery, labeled as demo data)
-2. **Hindcast** — `POST /api/v1/hindcast` (investigator-selectable lookback) →
-   probable source region + backward trajectory
-3. **Vessels** — `GET /api/v1/vessels` (bbox from source region, window ±12 h)
-4. **Attribution** — `POST /api/v1/attribute` → ranked candidates + evidence
-5. **Forward simulation** — `POST /api/v1/forward` using the candidate's
-   prebuilt `forward_request`
-6. **Counterfactual** — `POST /api/v1/counterfactual` → geometric consistency
-   evidence + investigation summary
+"Run hindcast" executes hindcast → AIS → attribution → forward → counterfactual
+against whichever host the env points at. The map shows coordinates returned by
+that API.
 
-Timeline animation uses the backend's exact `trajectory_timestamps_utc` —
-the frontend never generates its own timestamps.
+The ML detection demo on Modal is **off** in local development (`VITE_USE_MODAL_ML=false`).
+Set it to `true` only if you explicitly want the Modal ML scene.
 
-## Language rules (enforced in UI copy)
-
-Probable source region · attribution/compatibility score · estimated release ·
-predicted footprint · geometric consistency evidence. Never: "culprit",
-"confirmed source", "probability the vessel caused the spill". Behavioural
-anomaly detection is labeled **not currently enabled** (deferred from MVP).
-
-## Norway demo scenario
-
-Deterministic end-to-end scenario (synthetic AIS, clearly labeled). The demo
-slick is placed to be physically self-consistent with the bundled forcing
-data: a forward OpenDrift run from the demo tanker's track lands its footprint
-where the slick is observed — so the counterfactual stage shows genuine,
-backend-computed geometric agreement. Default demo lookback: 2 h.
-
-## Credits
-
-SAR imagery: Trujillo-Acatitla et al., Zenodo (CC-BY 4.0) · Basemap: Esri
-Ocean (Esri, GEBCO, NOAA, Garmin) · Map engine: Leaflet.
+The canonical SIH demo is Eastern Mediterranean / Cyprus (`incident-mediterranean-001`).
+Source region, AIS ranking, forward drift, and replay come from the backend API.

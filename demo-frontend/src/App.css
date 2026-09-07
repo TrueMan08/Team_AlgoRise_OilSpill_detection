@@ -1,0 +1,4115 @@
+/* =========================================================
+   OILTRACE — APPLICATION / GIS EXPERIENCE
+   Works with the updated App.jsx
+========================================================= */
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  --app-bg: #e9eef4;
+  --surface: #ffffff;
+  --surface-soft: #f6f8fb;
+  --surface-muted: #edf2f7;
+
+  --border: #d3dce7;
+  --border-soft: #e4e9ef;
+
+  --text: #172235;
+  --text-secondary: #40516a;
+  --text-muted: #6b7b91;
+  --text-faint: #9aa8b9;
+
+  --primary: #1769d3;
+  --primary-dark: #0f4fa7;
+  --primary-soft: #eaf3ff;
+
+  --success: #15966b;
+  --warning: #d89009;
+  --danger: #df3c42;
+
+  --spill: #ef4444;
+  --source: #1769d3;
+  --candidate: #2563eb;
+  --trajectory-muted: #94a3b8;
+
+  --toolbar-bg: rgba(255, 255, 255, 0.94);
+  --toolbar-hover: #edf4fc;
+
+  --sidebar-bg: #ffffff;
+  --sidebar-hover: #edf3f9;
+  --sidebar-text: #34455d;
+  --sidebar-muted: #708096;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--app-bg);
+  color: var(--text);
+  font-family:
+    "IBM Plex Sans",
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+.app.app-dark {
+  --app-bg: #0b1422;
+  --surface: #131f30;
+  --surface-soft: #19283a;
+  --surface-muted: #223247;
+
+  --border: #314257;
+  --border-soft: #27384c;
+
+  --text: #f3f7fb;
+  --text-secondary: #c7d2df;
+  --text-muted: #91a1b5;
+  --text-faint: #617289;
+
+  --primary: #4d9cff;
+  --primary-dark: #2f7fe1;
+  --primary-soft: #162f50;
+
+  --success: #35c895;
+  --warning: #ea580c;
+  --danger: #f05b61;
+
+  --toolbar-bg: rgba(19, 31, 48, 0.96);
+  --toolbar-hover: #223247;
+
+  --sidebar-bg: #121e2d;
+  --sidebar-hover: #223247;
+  --sidebar-text: #dbe5f0;
+  --sidebar-muted: #8fa0b5;
+}
+
+/* =========================================================
+   MAP
+========================================================= */
+
+.map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #dce5ed;
+  font-family: inherit;
+  overflow: hidden;
+}
+
+.app-dark .leaflet-container {
+  background: #0b1422;
+}
+
+.leaflet-tile {
+  max-width: none !important;
+  max-height: none !important;
+}
+
+.leaflet-tile-pane {
+  pointer-events: none;
+}
+
+.leaflet-control-container {
+  z-index: 900;
+}
+
+/* Oil particle canvas:
+   above tiles, below Leaflet interaction layers */
+.oiltrace-oil-canvas {
+  position: absolute !important;
+  inset: 0;
+  z-index: 450;
+  display: block;
+  pointer-events: none !important;
+}
+
+/* Keep geographic Leaflet overlays interactive */
+.leaflet-overlay-pane {
+  z-index: 400;
+}
+
+.leaflet-marker-pane {
+  z-index: 650;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 700;
+}
+
+/* =========================================================
+   MAP POLYGON / SOURCE REGION
+========================================================= */
+
+path.leaflet-interactive {
+  /* Leaflet owns these SVG paths. Avoid CSS transitions here: a vessel
+     selection can change one trajectory's stroke width, and animating all
+     interactive SVG paths at the same time makes the spill geometry appear
+     to shimmer/jitter. */
+  transition: none !important;
+}
+
+.leaflet-overlay-pane path {
+  vector-effect: non-scaling-stroke;
+}
+
+/* Spill boundary should remain visually dominant */
+.leaflet-overlay-pane path[fill-opacity="0.16"] {
+  filter: drop-shadow(
+    0 2px 3px rgba(15, 23, 42, 0.12)
+  );
+}
+
+/* =========================================================
+   POPUPS
+========================================================= */
+
+.leaflet-popup {
+  z-index: 6000 !important;
+}
+
+.leaflet-popup-content-wrapper {
+  min-width: 180px;
+  border: 1px solid #d7e0ea;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow:
+    0 14px 35px rgba(15, 23, 42, 0.17),
+    0 3px 8px rgba(15, 23, 42, 0.08);
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  color: #46566c;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.leaflet-popup-content strong {
+  color: #172235;
+  font-weight: 800;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+.leaflet-popup-close-button {
+  color: #64748b !important;
+}
+
+.app-dark .leaflet-popup-content-wrapper {
+  background: #142235;
+  border-color: #33465d;
+}
+
+.app-dark .leaflet-popup-content {
+  color: #b9c7d7;
+}
+
+.app-dark .leaflet-popup-content strong {
+  color: #ffffff;
+}
+
+.app-dark .leaflet-popup-tip {
+  background: #142235;
+}
+
+/* =========================================================
+   TOOLBAR
+========================================================= */
+
+.oiltrace-map-toolbar {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 2000;
+
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+  padding: 6px;
+
+  background: var(--toolbar-bg);
+  border: 1px solid rgba(193, 205, 219, 0.95);
+  border-radius: 12px;
+
+  box-shadow:
+    0 16px 38px rgba(15, 23, 42, 0.14),
+    0 3px 9px rgba(15, 23, 42, 0.07);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.map-tool-button {
+  position: relative;
+
+  width: 43px;
+  height: 43px;
+  flex: 0 0 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 8px;
+
+  background: transparent;
+  color: #53657b;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background 140ms ease,
+    color 140ms ease,
+    transform 120ms ease;
+}
+
+.map-tool-button:hover {
+  background: var(--toolbar-hover);
+  color: var(--primary);
+}
+
+.map-tool-button:active {
+  transform: scale(0.91);
+}
+
+.map-tool-button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: -2px;
+}
+
+.map-tool-button svg {
+  width: 19px;
+  height: 19px;
+
+  display: block;
+
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.zoom-button {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.map-tool-button.backtrack-tool-button {
+  width: auto !important;
+  flex: 0 0 auto !important;
+  height: 36px !important;
+  padding: 0 14px !important;
+  white-space: nowrap !important;
+  font-size: 0.82rem !important;
+  letter-spacing: 0.03em;
+}
+
+.theme-tool-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.map-tool-divider {
+  width: 1px;
+  height: 25px;
+  flex: 0 0 1px;
+
+  margin: 0 3px;
+
+  background: #d8e0e9;
+}
+
+.app-dark .map-tool-button {
+  color: #bdcad8;
+}
+
+.app-dark .map-tool-button:hover {
+  background: #223247;
+  color: #ffffff;
+}
+
+.app-dark .map-tool-divider {
+  background: #3b4b5d;
+}
+
+/* =========================================================
+   CONTEXT PANELS
+========================================================= */
+
+.oiltrace-context-panel,
+.oiltrace-replay-panel,
+.oiltrace-vessel-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 2500;
+
+  width: 410px;
+
+  overflow-y: auto;
+  overscroll-behavior: contain;
+
+  background: rgba(247, 249, 252, 0.98);
+
+  border-left: 1px solid #d1dbe6;
+  border-top-left-radius: 16px;
+
+  box-shadow:
+    -20px 0 50px rgba(15, 23, 42, 0.16);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  animation:
+    context-panel-enter
+    280ms
+    cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes context-panel-enter {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.app-dark .oiltrace-context-panel,
+.app-dark .oiltrace-replay-panel,
+.app-dark .oiltrace-vessel-panel {
+  background: rgba(14, 24, 38, 0.98);
+  border-color: #314257;
+
+  box-shadow:
+    -20px 0 50px rgba(0, 0, 0, 0.38);
+}
+
+.context-panel-header {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 24px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #dfe5ec;
+}
+
+.app-dark .context-panel-header {
+  background: #131f30;
+  border-color: #314257;
+}
+
+.context-kicker {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: #77879b;
+
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.context-panel-header h2 {
+  margin: 0;
+
+  color: #172235;
+
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.app-dark .context-panel-header h2 {
+  color: #f5f8fb;
+}
+
+.context-close-button {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #d4dde7;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #6b7b91;
+
+  font-size: 21px;
+
+  cursor: pointer;
+
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease;
+}
+
+.context-close-button:hover {
+  background: #edf3f9;
+  border-color: #b9c7d6;
+  color: #172235;
+}
+
+.app-dark .context-close-button {
+  background: #19283a;
+  border-color: #3b4d63;
+  color: #c5d0dc;
+}
+
+/* =========================================================
+   INCIDENT
+========================================================= */
+
+.incident-status-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 11px 24px;
+
+  background: #f5f7fa;
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.incident-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #607086;
+
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.incident-status::before {
+  content: "";
+
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: var(--warning);
+
+  box-shadow:
+    0 0 0 4px rgba(216, 144, 9, 0.11);
+}
+
+.incident-severity {
+  padding: 5px 9px;
+
+  border: 1px solid #f4c2c7;
+  border-radius: 5px;
+
+  background: #fff3f4;
+  color: #c52f39;
+
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.context-section {
+  flex-shrink: 0;
+
+  padding: 19px 24px;
+
+  border-bottom: 1px solid #e1e7ee;
+}
+
+.context-section-label {
+  display: block;
+
+  margin-bottom: 10px;
+
+  color: #8492a4;
+
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.context-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.incident-title {
+  margin: 0;
+
+  color: #26344a;
+
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 750;
+}
+
+.incident-time {
+  margin: 6px 0 0;
+
+  color: #8491a1;
+
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.incident-coord-chip {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #f6f8fb;
+  color: #374151;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.incident-export-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 32px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #1a1d23;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.incident-metrics {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.incident-metric {
+  min-width: 0;
+  min-height: 84px;
+  padding: 12px 10px;
+  background: #ffffff;
+  border: 1px solid #eceff3;
+  border-radius: 18px;
+}
+
+.incident-metric strong {
+  display: block;
+
+  overflow: visible;
+
+  color: #26344a;
+
+  font-size: 13px;
+  line-height: 1.25;
+  font-weight: 800;
+
+  white-space: normal;
+  word-break: break-word;
+}
+
+.incident-metric span {
+  display: block;
+
+  margin-top: 4px;
+
+  color: #68788e;
+
+  font-size: 8px;
+
+  white-space: nowrap;
+}
+
+.incident-metric small {
+  display: block;
+
+  margin-top: 10px;
+
+  color: #a0adbc;
+
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 0.8px;
+}
+
+.candidate-count {
+  min-width: 26px;
+  height: 26px;
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #eceff3;
+  border-radius: 999px;
+
+  background: #f6f8fb;
+  color: #49657e;
+
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.incident-candidate-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 13px;
+
+  background: #ffffff;
+  border: 1px solid #dce4ed;
+  border-radius: 10px;
+}
+
+.candidate-summary-label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #91a0b0;
+
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+
+.incident-candidate-summary strong {
+  display: block;
+  max-width: none;
+  overflow: visible;
+  color: #2d3c51;
+  font-size: 13px;
+  font-weight: 750;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.candidate-confidence {
+  text-align: right;
+}
+
+.candidate-confidence strong {
+  color: var(--primary);
+
+  font-size: 19px;
+  font-weight: 850;
+}
+
+.candidate-confidence span {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #8998a9;
+
+  font-size: 7px;
+}
+
+.inspect-candidate-button {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 8px;
+  padding: 10px 12px;
+
+  border: 1px solid #cbd8e5;
+  border-radius: 8px;
+
+  background: #f8fafc;
+  color: #48647e;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease,
+    transform 120ms ease;
+}
+
+.inspect-candidate-button:hover {
+  background: #edf5fc;
+  border-color: #aac1d8;
+  color: #205c93;
+}
+
+.inspect-candidate-button:active {
+  transform: scale(0.985);
+}
+
+/* =========================================================
+   TIMELINE
+========================================================= */
+
+.incident-timeline-item {
+  position: relative;
+
+  display: flex;
+
+  gap: 12px;
+
+  min-height: 45px;
+}
+
+.timeline-marker {
+  position: relative;
+
+  width: 12px;
+  flex: 0 0 12px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-marker::before {
+  content: "";
+
+  position: absolute;
+
+  top: 8px;
+  bottom: -8px;
+
+  width: 1px;
+
+  background: #ccd7e2;
+}
+
+.timeline-final .timeline-marker::before {
+  display: none;
+}
+
+.timeline-marker span {
+  position: relative;
+
+  width: 7px;
+  height: 7px;
+
+  margin-top: 5px;
+
+  border: 2px solid #688099;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  z-index: 2;
+}
+
+.timeline-content {
+  display: flex;
+  align-items: baseline;
+
+  gap: 9px;
+
+  min-width: 0;
+}
+
+.incident-timeline-item strong {
+  width: 40px;
+  flex-shrink: 0;
+
+  color: #34465d;
+
+  font-size: 9px;
+  font-weight: 850;
+}
+
+.incident-timeline-item span {
+  color: #7c8a9b;
+
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+/* =========================================================
+   LEGEND — EXACT MAP VISUAL LANGUAGE
+========================================================= */
+
+.legend-context-panel {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  background: #f8fafc;
+  color: #26364a;
+}
+
+.legend-panel-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 22px 24px 18px;
+}
+
+.legend-panel-subtitle {
+  margin: 4px 0 0;
+  color: #7a8899;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.legend-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 0 18px;
+}
+
+.legend-group {
+  padding: 18px 0 0;
+}
+
+.legend-group-title {
+  padding: 0 24px 8px;
+  color: #758398;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.legend-items {
+  padding: 0 24px;
+}
+
+.legend-item {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border-bottom: 1px solid #e8edf2;
+  color: #40516a;
+  font-size: 10px;
+  font-weight: 650;
+}
+
+.legend-item:last-child {
+  border-bottom: 0;
+}
+
+/* "What the map is showing" — larger type so it survives a projector. */
+.legend-items-lg .legend-item {
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 1.35;
+  color: #334155;
+  min-height: 44px;
+}
+
+.legend-items-lg .legend-item strong {
+  font-weight: 750;
+  color: #0f172a;
+}
+
+.legend-swatch {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.legend-dot {
+  flex: 0 0 auto;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* Oil particles: exact simulation colors from oilSimulation/DeckOilOverlay. */
+.legend-particle {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.03);
+}
+
+.legend-particle-initial { background: #10b981; }
+.legend-particle-active { background: #2563eb; }
+.legend-particle-stranded { background: #ef4444; }
+
+/* Particle history is a very thin, low-opacity blue line. */
+.legend-drift-trail {
+  width: 30px;
+  height: 2px;
+  flex: 0 0 30px;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.35);
+}
+
+/* Oil centerline: dark slate, dashed, 3px — matches the map Polyline. */
+.legend-oil-centerline {
+  width: 30px;
+  height: 0;
+  flex: 0 0 30px;
+  border-top: 3px dashed #1e293b;
+}
+
+/* Backtrack: cyan, dashed, 3.5px — matches the map Polyline. */
+.legend-backtrack-path {
+  width: 30px;
+  height: 0;
+  flex: 0 0 30px;
+  border-top: 3px dashed #06b6d4;
+}
+
+/* Spill polygon: transparent red fill + red outline. */
+.legend-spill-boundary {
+  width: 30px;
+  height: 18px;
+  flex: 0 0 30px;
+  border: 2px solid #ef4444;
+  background: rgba(239, 68, 68, 0.08);
+}
+
+/* Spill centroid: red outer point with white centre, matching CircleMarker pair. */
+.legend-spill-centroid {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  border: 2px solid #b91c1c;
+  border-radius: 50%;
+  background: #ef4444;
+}
+
+.legend-spill-centroid::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+/* Source region: blue dashed circle. */
+.legend-source-region {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  border: 2px dashed #2563eb;
+  border-radius: 50%;
+  background: rgba(37, 99, 235, 0.04);
+}
+
+/* Vessel sample mirrors the actual Leaflet marker: white body + probability ring. */
+.legend-vessel {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #64758a;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #334155;
+  font-size: 13px;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.16);
+}
+
+.legend-vessel::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border: 1px solid rgba(100, 116, 139, 0.18);
+  border-radius: 50%;
+}
+
+.legend-vessel > span {
+  position: relative;
+  z-index: 1;
+}
+
+.legend-top-vessel {
+  border-color: #f97316;
+  color: #334155;
+}
+
+.legend-top-vessel::before {
+  border-color: rgba(234, 88, 12, 0.35);
+  box-shadow: 0 0 0 2px rgba(234, 88, 12, 0.08);
+}
+
+.legend-line {
+  width: 30px;
+  height: 0;
+  flex: 0 0 30px;
+  border-radius: 999px;
+}
+
+.legend-selected {
+  border-top: 5px solid #2563eb;
+}
+
+.legend-candidate {
+  border-top: 4px solid #2563eb;
+}
+
+.legend-muted-trajectory {
+  border-top: 3px solid #94a3b8;
+}
+
+/* Attribution dots match the probability colors used by vessel markers. */
+.legend-probability-dot {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 10px;
+  border-radius: 50%;
+}
+
+.probability-high-dot { background: #dc2626; }
+.probability-medium-dot { background: #f97316; }
+.probability-low-dot { background: #16a34a; }
+
+.legend-note {
+  margin: 20px 24px 6px;
+  padding: 13px 14px;
+  border: 1px solid #dbe3eb;
+  border-radius: 10px;
+  background: #edf2f7;
+  color: #708096;
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+.legend-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #52657b;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.legend-note p { margin: 0 0 7px; }
+.legend-note p:last-child { margin-bottom: 0; }
+
+.app-dark .legend-context-panel {
+  background: #0e1826;
+  color: #dbe5f0;
+}
+
+.app-dark .legend-panel-subtitle,
+.app-dark .legend-group-title { color: #91a0b3; }
+.app-dark .legend-item {
+  color: #c5d0dd;
+  border-color: #26384d;
+}
+
+.app-dark .legend-vessel {
+  background: #172334;
+  color: #e2e8f0;
+  border-color: #53657a;
+}
+
+.app-dark .legend-spill-boundary { background: rgba(239, 68, 68, 0.10); }
+.app-dark .legend-note {
+  background: #172334;
+  border-color: #2c4057;
+  color: #9cacbf;
+}
+.app-dark .legend-note strong { color: #c9d5e2; }
+
+/* =========================================================
+   VESSEL MARKERS
+========================================================= */
+
+.oiltrace-vessel-icon-wrapper {
+  background: transparent !important;
+  border: 0 !important;
+
+  overflow: visible !important;
+
+  pointer-events: auto !important;
+}
+
+.oiltrace-vessel-marker {
+  position: relative;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: transparent;
+
+  cursor: pointer;
+  pointer-events: auto;
+
+  transform: scale(1);
+  transform-origin: center center;
+
+  transition:
+    transform 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    filter 160ms ease;
+}
+
+.oiltrace-vessel-marker:hover {
+  transform: scale(1.08);
+  filter:
+    drop-shadow(
+      0 4px 7px rgba(15, 23, 42, 0.20)
+    );
+}
+
+.vessel-probability-label {
+  position: absolute;
+
+  left: 50%;
+  top: 1px;
+
+  transform: translateX(-50%);
+
+  z-index: 10;
+
+  min-width: 30px;
+
+  padding: 3px 5px;
+
+  border-radius: 5px;
+
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 900;
+
+  text-align: center;
+  white-space: nowrap;
+
+  pointer-events: none;
+
+  box-shadow:
+    0 2px 6px rgba(15, 23, 42, 0.16);
+}
+
+.probability-high .vessel-probability-label {
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  background: #fff5f5;
+}
+
+.probability-medium .vessel-probability-label {
+  color: #c2410c;
+  border: 1px solid #fdba74;
+  background: #fff7ed;
+}
+
+.probability-low .vessel-probability-label {
+  color: #147a45;
+  border: 1px solid #8bd3aa;
+  background: #f0fff6;
+}
+
+.vessel-probability-ring {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 44px;
+  height: 44px;
+
+  transform: translate(-50%, -50%);
+
+  border: 1px solid rgba(100, 116, 139, 0.18);
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+.vessel-marker-body {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 34px;
+  height: 34px;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1.5px solid #64758a;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 3px 9px rgba(15, 23, 42, 0.25);
+
+  z-index: 3;
+
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    border-color 160ms ease;
+}
+
+.probability-high .vessel-marker-body {
+  border-color: #dc2626;
+}
+
+.probability-medium .vessel-marker-body {
+  border-color: #f97316;
+}
+
+.probability-low .vessel-marker-body {
+  border-color: #16a34a;
+}
+
+.vessel-marker-symbol {
+  position: relative;
+
+  z-index: 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #334155;
+
+  font-size: 18px;
+  line-height: 1;
+
+  opacity: 0.85;
+
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Selected vessel */
+.oiltrace-vessel-marker.is-selected {
+  z-index: 1000;
+}
+
+.oiltrace-vessel-marker.is-selected .vessel-marker-body {
+  width: 37px;
+  height: 37px;
+
+  border-width: 2px;
+
+  background: #eef6ff;
+
+  box-shadow:
+    0 0 0 4px rgba(37, 99, 235, 0.12),
+    0 5px 14px rgba(15, 23, 42, 0.28);
+}
+
+.oiltrace-vessel-marker.is-selected .vessel-probability-label {
+  opacity: 0;
+}
+
+.oiltrace-vessel-marker.is-selected .vessel-marker-symbol {
+  color: #1769d3;
+
+  font-size: 19px;
+  opacity: 1;
+}
+
+.oiltrace-vessel-marker.is-selected .vessel-probability-ring {
+  width: 48px;
+  height: 48px;
+
+  border-color: rgba(37, 99, 235, 0.30);
+}
+
+/* Top candidate */
+.oiltrace-vessel-marker.is-top-candidate .vessel-marker-body {
+  border-color: #ea580c;
+  background: #ffffff;
+  animation:
+    oiltrace-anchor-pulse
+    1.9s
+    ease-in-out
+    infinite;
+}
+
+.oiltrace-vessel-marker.is-top-candidate .vessel-probability-ring {
+  border-color: rgba(234, 88, 12, 0.35);
+}
+
+@keyframes oiltrace-anchor-pulse {
+  0% {
+    box-shadow:
+      0 3px 9px rgba(15, 23, 42, 0.25);
+  }
+
+  50% {
+    box-shadow:
+      0 0 0 5px rgba(234, 88, 12, 0.11),
+      0 5px 15px rgba(15, 23, 42, 0.28);
+  }
+
+  100% {
+    box-shadow:
+      0 3px 9px rgba(15, 23, 42, 0.25);
+  }
+}
+
+/* Replay marker */
+.oiltrace-vessel-marker.is-replay {
+  width: 44px;
+  height: 44px;
+}
+
+.oiltrace-vessel-marker.is-replay .vessel-marker-body {
+  width: 27px;
+  height: 27px;
+}
+
+.oiltrace-vessel-marker.is-replay .vessel-probability-ring {
+  width: 35px;
+  height: 35px;
+}
+
+.oiltrace-vessel-marker.is-replay .vessel-marker-symbol {
+  font-size: 14px;
+}
+
+.oiltrace-vessel-marker.is-replay .vessel-probability-label {
+  top: -2px;
+  min-width: 27px;
+  padding: 2px 4px;
+  font-size: 7px;
+}
+
+/* =========================================================
+   VESSEL TOOLTIP
+========================================================= */
+
+.leaflet-tooltip.oiltrace-vessel-tooltip {
+  z-index: 5000 !important;
+
+  padding: 0 !important;
+
+  border: 1px solid #d5dee8;
+  border-radius: 10px;
+
+  background: #ffffff;
+  color: #172235;
+
+  box-shadow:
+    0 12px 28px rgba(15, 23, 42, 0.18),
+    0 3px 8px rgba(15, 23, 42, 0.08);
+
+  font-family: inherit;
+
+  overflow: hidden;
+
+  pointer-events: none;
+
+  opacity: 1 !important;
+}
+
+.leaflet-tooltip.oiltrace-vessel-tooltip::before {
+  border-top-color: #ffffff;
+}
+
+.vessel-tooltip-content {
+  min-width: 220px;
+  padding: 12px 13px;
+}
+
+.vessel-tooltip-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding-bottom: 9px;
+  margin-bottom: 7px;
+
+  border-bottom: 1px solid #e5eaf0;
+}
+
+.vessel-tooltip-header strong {
+  max-width: 150px;
+
+  overflow: hidden;
+
+  color: #172235;
+
+  font-size: 12px;
+  font-weight: 850;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.vessel-tooltip-probability {
+  flex-shrink: 0;
+
+  min-width: 38px;
+
+  padding: 4px 6px;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  font-size: 9px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+.vessel-tooltip-probability.probability-high {
+  color: #c62828;
+  background: #fff1f1;
+  border: 1px solid #efb1b1;
+}
+
+.vessel-tooltip-probability.probability-medium {
+  color: #936300;
+  background: #fff8e6;
+  border: 1px solid #f0ca79;
+}
+
+.vessel-tooltip-probability.probability-low {
+  color: #147a45;
+  background: #effcf5;
+  border: 1px solid #9bd8b5;
+}
+
+.vessel-tooltip-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 18px;
+
+  min-height: 25px;
+
+  border-bottom: 1px solid #eef1f4;
+}
+
+.vessel-tooltip-row:last-child {
+  border-bottom: 0;
+}
+
+.vessel-tooltip-row span {
+  color: #7b8a9c;
+
+  font-size: 8px;
+  font-weight: 650;
+}
+
+.vessel-tooltip-row strong {
+  color: #33445a;
+
+  font-size: 9px;
+  font-weight: 800;
+
+  text-align: right;
+}
+
+/* =========================================================
+   REPLAY
+========================================================= */
+
+.oiltrace-replay-panel {
+  color: #172235;
+}
+
+.replay-panel-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding: 24px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #dfe5ec;
+}
+
+.replay-kicker {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #738399;
+
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 1.7px;
+}
+
+.replay-panel-header h2 {
+  margin: 0;
+
+  color: #172235;
+
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.replay-panel-header p {
+  margin: 8px 0 0;
+
+  max-width: 270px;
+
+  color: #718096;
+
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+.replay-close {
+  width: 36px;
+  height: 36px;
+
+  border: 1px solid #d4dde7;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #64748b;
+
+  font-size: 21px;
+
+  cursor: pointer;
+}
+
+.replay-time-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 17px;
+  padding: 17px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #14253a,
+      #1d3550
+    );
+
+  border-radius: 11px;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 8px 20px rgba(15, 23, 42, 0.14);
+}
+
+.replay-time-label {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: #9eb0c3;
+
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+
+.replay-time-card strong {
+  font-size: 27px;
+  line-height: 1;
+}
+
+.replay-status {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+
+  padding: 6px 9px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+
+  border-radius: 20px;
+
+  color: #d5e0eb;
+
+  font-size: 8px;
+  font-weight: 750;
+}
+
+.replay-status-dot {
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+
+  background: #728297;
+}
+
+.replay-status-dot.playing {
+  background: #36c891;
+
+  box-shadow:
+    0 0 0 4px rgba(54, 200, 145, 0.13);
+}
+
+.replay-timeline-section {
+  padding: 0 18px 18px;
+}
+
+.replay-timeline-labels {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 7px;
+
+  color: #718096;
+
+  font-size: 8px;
+  font-weight: 750;
+}
+
+.replay-slider {
+  width: 100%;
+  height: 5px;
+
+  appearance: none;
+
+  outline: none;
+
+  border-radius: 10px;
+
+  background: #d8e1ea;
+
+  cursor: pointer;
+}
+
+.replay-slider::-webkit-slider-thumb {
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+
+  border: 3px solid #1769d3;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 2px 8px rgba(15, 23, 42, 0.22);
+}
+
+.replay-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+
+  border: 3px solid #1769d3;
+  border-radius: 50%;
+
+  background: #ffffff;
+}
+
+.replay-controls {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 14px 18px;
+
+  background: #ffffff;
+
+  border-top: 1px solid #e0e6ed;
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.replay-reset-button,
+.replay-play-button {
+  height: 40px;
+
+  border-radius: 9px;
+
+  cursor: pointer;
+}
+
+.replay-reset-button {
+  width: 40px;
+
+  border: 1px solid #d3dde7;
+
+  background: #ffffff;
+  color: #53657a;
+}
+
+.replay-play-button {
+  width: 48px;
+
+  border: 0;
+
+  background: #1769d3;
+  color: #ffffff;
+
+  font-weight: 850;
+}
+
+.replay-reset-text {
+  margin-left: auto;
+
+  border: 0;
+
+  background: transparent;
+  color: #708096;
+
+  font-size: 9px;
+  font-weight: 750;
+
+  cursor: pointer;
+}
+
+.replay-speed-section {
+  padding: 18px;
+}
+
+.replay-speed-heading {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 9px;
+}
+
+.replay-speed-title,
+.replay-speed-value {
+  font-size: 9px;
+  font-weight: 850;
+}
+
+.replay-speed-value {
+  color: #1769d3;
+}
+
+.replay-speed-buttons {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 6px;
+}
+
+.speed-button {
+  padding: 7px 4px;
+
+  border: 1px solid #d6e0e9;
+  border-radius: 7px;
+
+  background: #ffffff;
+  color: #6d7d91;
+
+  font-size: 8px;
+  font-weight: 750;
+
+  cursor: pointer;
+}
+
+.speed-button.active {
+  background: #eaf3ff;
+  border-color: #8ebcf0;
+  color: #1769d3;
+}
+
+/* =========================================================
+   VESSEL / SUSPECT PANEL
+========================================================= */
+
+.oiltrace-vessel-panel {
+  width: 430px;
+
+  background: #f5f7fa;
+  color: #172235;
+
+  overflow-y: auto;
+}
+
+.oiltrace-vessel-panel .context-panel-header {
+  min-height: 190px;
+
+  padding: 27px 25px 25px;
+}
+
+.oiltrace-vessel-panel .context-panel-header h2 {
+  max-width: 330px;
+
+  margin: 0;
+
+  color: #172235;
+
+  font-size: 26px;
+  line-height: 1.18;
+  font-weight: 850;
+}
+
+.oiltrace-vessel-panel .context-panel-header p {
+  max-width: 350px;
+
+  margin: 12px 0 0;
+
+  color: #697a90;
+
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.oiltrace-vessel-panel .context-section {
+  padding: 23px 22px 25px;
+
+  background: #f5f7fa;
+
+  border-bottom: 1px solid #dfe6ed;
+}
+
+/* =========================================================
+   DARK MODE
+========================================================= */
+
+.app-dark .incident-status-row {
+  background: #101b2a;
+  border-color: #293b50;
+}
+
+.app-dark .incident-status {
+  color: #bdc9d7;
+}
+
+.app-dark .incident-severity {
+  background: #321d22;
+  border-color: #70383f;
+  color: #ff9aa0;
+}
+
+.app-dark .context-section {
+  border-color: #293b50;
+}
+
+.app-dark .incident-title,
+.app-dark .incident-metric strong,
+.app-dark .incident-candidate-summary strong {
+  color: #f1f5f9;
+}
+
+.app-dark .incident-time,
+.app-dark .incident-metric span,
+.app-dark .incident-timeline-item span {
+  color: #91a1b5;
+}
+
+.app-dark .incident-metric,
+.app-dark .incident-candidate-summary {
+  background: #18283a;
+  border-color: #314257;
+}
+
+.app-dark .candidate-count {
+  background: #223247;
+  border-color: #3c5068;
+  color: #9cc8ff;
+}
+
+.app-dark .inspect-candidate-button {
+  background: #18283a;
+  border-color: #3d5168;
+  color: #c6d2df;
+}
+
+.app-dark .inspect-candidate-button:hover {
+  background: #20344c;
+  border-color: #52708f;
+  color: #e5f0fb;
+}
+
+.app-dark .timeline-marker::before {
+  background: #3b4d62;
+}
+
+.app-dark .timeline-marker span {
+  background: #142235;
+  border-color: #8191a4;
+}
+
+.app-dark .legend-group-title {
+  color: #8fa0b5;
+}
+
+.app-dark .legend-item {
+  color: #c5d0dc;
+  border-color: #293b50;
+}
+
+.app-dark .legend-vessel {
+  background: #18283a;
+  border-color: #485c73;
+  color: #cbd6e2;
+}
+
+.app-dark .legend-top-vessel {
+  border-color: #ea580c;
+  color: #f0a33c;
+}
+
+.app-dark .legend-note {
+  background: #18283a;
+  border-color: #314257;
+  color: #8fa0b5;
+}
+
+.app-dark .legend-note strong {
+  color: #cbd6e2;
+}
+
+.app-dark .vessel-marker-body {
+  background: #142235;
+  border-color: #8191a4;
+
+  box-shadow:
+    0 4px 11px rgba(0, 0, 0, 0.35);
+}
+
+.app-dark .vessel-marker-symbol {
+  color: #e2e8f0;
+}
+
+.app-dark .vessel-probability-ring {
+  border-color: rgba(148, 163, 184, 0.22);
+}
+
+.app-dark .oiltrace-vessel-marker.is-selected .vessel-marker-body {
+  background: #17365d;
+
+  box-shadow:
+    0 0 0 4px rgba(77, 156, 255, 0.13),
+    0 5px 14px rgba(0, 0, 0, 0.35);
+}
+
+.app-dark .oiltrace-vessel-marker.is-selected .vessel-marker-symbol {
+  color: #70afff;
+}
+
+.app-dark .oiltrace-vessel-marker.is-selected .vessel-probability-ring {
+  border-color: rgba(77, 156, 255, 0.38);
+}
+
+.app-dark .leaflet-tooltip.oiltrace-vessel-tooltip {
+  background: #142235;
+  border-color: #33465d;
+  color: #f4f7fb;
+}
+
+.app-dark .leaflet-tooltip.oiltrace-vessel-tooltip::before {
+  border-top-color: #142235;
+}
+
+.app-dark .vessel-tooltip-header,
+.app-dark .vessel-tooltip-row {
+  border-color: #304257;
+}
+
+.app-dark .vessel-tooltip-header strong,
+.app-dark .vessel-tooltip-row strong {
+  color: #f8fafc;
+}
+
+.app-dark .vessel-tooltip-row span {
+  color: #91a1b5;
+}
+
+.app-dark .replay-panel-header,
+.app-dark .replay-controls {
+  background: #131f30;
+  border-color: #314257;
+}
+
+.app-dark .replay-panel-header h2 {
+  color: #f4f7fb;
+}
+
+.app-dark .replay-panel-header p {
+  color: #91a1b5;
+}
+
+.app-dark .replay-close,
+.app-dark .replay-reset-button,
+.app-dark .speed-button {
+  background: #18283a;
+  border-color: #3b4d63;
+  color: #c5d0dc;
+}
+
+.app-dark .speed-button.active {
+  background: #162f50;
+  border-color: #4d9cff;
+  color: #7db8ff;
+}
+
+.app-dark .replay-timeline-labels {
+  color: #91a1b5;
+}
+
+.app-dark .replay-slider {
+  background: #33465b;
+}
+
+/* =========================================================
+   SCROLLBARS
+========================================================= */
+
+.oiltrace-context-panel::-webkit-scrollbar,
+.oiltrace-replay-panel::-webkit-scrollbar,
+.oiltrace-vessel-panel::-webkit-scrollbar,
+.legend-items::-webkit-scrollbar {
+  width: 6px;
+}
+
+.oiltrace-context-panel::-webkit-scrollbar-track,
+.oiltrace-replay-panel::-webkit-scrollbar-track,
+.oiltrace-vessel-panel::-webkit-scrollbar-track,
+.legend-items::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.oiltrace-context-panel::-webkit-scrollbar-thumb,
+.oiltrace-replay-panel::-webkit-scrollbar-thumb,
+.oiltrace-vessel-panel::-webkit-scrollbar-thumb,
+.legend-items::-webkit-scrollbar-thumb {
+  background: #c4cfdb;
+  border-radius: 10px;
+}
+
+.app-dark .oiltrace-context-panel::-webkit-scrollbar-thumb,
+.app-dark .oiltrace-replay-panel::-webkit-scrollbar-thumb,
+.app-dark .oiltrace-vessel-panel::-webkit-scrollbar-thumb,
+.app-dark .legend-items::-webkit-scrollbar-thumb {
+  background: #415263;
+}
+
+/* =========================================================
+   FULLSCREEN
+========================================================= */
+
+.map:fullscreen,
+.map:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+  .oiltrace-map-toolbar {
+    top: 11px;
+
+    max-width:
+      calc(100vw - 92px);
+
+    overflow-x: auto;
+
+    scrollbar-width: none;
+  }
+
+  .oiltrace-map-toolbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .map-tool-button {
+    width: 40px;
+    height: 40px;
+    flex-basis: 40px;
+  }
+
+  .oiltrace-context-panel,
+  .oiltrace-replay-panel,
+  .oiltrace-vessel-panel {
+    width: min(100vw, 430px);
+
+    border-radius:
+      13px 0 0 13px;
+  }
+
+  .incident-metrics {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .context-panel-header {
+    padding: 20px;
+  }
+
+  .context-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .legend-items {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .legend-group-title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .oiltrace-map-toolbar {
+    top: 9px;
+
+    max-width:
+      calc(100vw - 68px);
+  }
+
+  .map-tool-button {
+    width: 38px;
+    height: 38px;
+    flex-basis: 38px;
+  }
+
+  .map-tool-button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .oiltrace-context-panel,
+  .oiltrace-replay-panel,
+  .oiltrace-vessel-panel {
+    width: 100vw;
+
+    border-radius: 0;
+  }
+
+  .oiltrace-vessel-panel .context-panel-header {
+    padding: 22px 18px;
+  }
+
+  .oiltrace-vessel-panel .context-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .incident-metrics {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .legend-note {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =========================================================
+   BACKTRACK ANALYSIS PANEL ANIMATIONS
+========================================================= */
+
+@keyframes backtrackPanelIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes scanLine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes sonarPulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dotPulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+}
+
+@keyframes progressBar {
+  0% {
+    width: 25%;
+    left: 0%;
+  }
+  50% {
+    width: 55%;
+    left: 20%;
+  }
+  100% {
+    width: 35%;
+    left: 65%;
+  }
+}
+
+
+/* Keep animated oil canvas below Leaflet vessel markers at all times. */
+.map .leaflet-marker-pane,
+.map .leaflet-tooltip-pane,
+.map .leaflet-popup-pane {
+  z-index: 700 !important;
+}
+
+.map .leaflet-overlay-pane {
+  z-index: 500 !important;
+}
+
+/* =========================================================
+   OIL PLUME / FLOW-LINE VISUAL TUNING
+   The particle canvas is intentionally above the Leaflet overlay
+   pane, while vessels remain above both. This keeps the oil dots
+   visually continuous without hiding investigation markers.
+========================================================= */
+
+.oiltrace-oil-canvas {
+  z-index: 450 !important;
+  pointer-events: none !important;
+  mix-blend-mode: normal;
+}
+
+.leaflet-overlay-pane {
+  z-index: 400 !important;
+}
+
+.leaflet-marker-pane {
+  z-index: 650 !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 700 !important;
+}
+
+/* The primary oil-flow line is deliberately readable but lighter
+   than the particle field, so it guides the eye instead of cutting
+   through the plume visually. */
+.leaflet-overlay-pane path {
+  vector-effect: non-scaling-stroke;
+}
+
+/* Exact particle legend samples: same hues as DeckOilOverlay. */
+.legend-particle {
+  width: 9px;
+  height: 9px;
+  min-width: 9px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.08);
+}
+
+.legend-particle-initial {
+  background: #10b981 !important;
+}
+
+.legend-particle-active {
+  background: #2563eb !important;
+}
+
+.legend-particle-stranded {
+  background: #ef4444 !important;
+}
+
+.legend-drift-trail {
+  height: 2px;
+  background: rgba(59, 130, 246, 0.35) !important;
+}
+
+.legend-oil-centerline {
+  border-top: 3px dashed #1e293b !important;
+}
+/* =========================================================
+   OILTRACE — SUSPECT PANEL FINAL UI OVERRIDES
+   Fixes:
+   - Search box sizing
+   - Risk filter buttons
+   - Candidate cards
+   - Rank badges
+   - Confidence badges
+   - Progress bars
+   - Spacing / alignment
+   - Panel scrolling
+========================================================= */
+
+/* ---------------------------------------------------------
+   PANEL BASE
+--------------------------------------------------------- */
+
+.suspect-panel {
+  width: 430px;
+  max-width: 100vw;
+  background: #f8fafc;
+  border-left: 1px solid #dbe3ec;
+  border-radius: 16px 0 0 16px;
+  box-shadow:
+    -18px 0 45px rgba(15, 23, 42, 0.14),
+    -4px 0 12px rgba(15, 23, 42, 0.05);
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+/* ---------------------------------------------------------
+   HEADER
+--------------------------------------------------------- */
+
+.suspect-panel .panel-header {
+  flex: 0 0 auto;
+  padding: 20px 22px 17px;
+  min-height: 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border-bottom: 1px solid #e5eaf0;
+}
+
+.suspect-panel .panel-kicker-row {
+  margin-bottom: 5px;
+}
+
+.suspect-panel .panel-kicker {
+  color: #64748b;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.7px;
+  line-height: 1.2;
+}
+
+.suspect-panel .panel-header h2 {
+  margin: 2px 0 0;
+
+  color: #0f172a;
+  font-size: 21px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}
+
+.suspect-panel .panel-header-description {
+  max-width: 335px;
+  margin: 6px 0 0;
+
+  color: #64748b;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.suspect-panel .close-button {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+
+  padding: 0;
+
+  border: 1px solid #d7dee7;
+  border-radius: 9px;
+
+  background: #ffffff;
+  color: #64748b;
+
+  font-size: 20px;
+}
+
+/* ---------------------------------------------------------
+   SCROLL AREA
+--------------------------------------------------------- */
+
+.suspect-panel > .panel-scroll-content {
+  flex: 1 1 auto;
+  min-height: 0;
+
+  padding: 15px 16px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+/* ---------------------------------------------------------
+   METRICS
+--------------------------------------------------------- */
+
+.suspect-panel .investigation-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.suspect-panel .investigation-metric-card {
+  min-width: 0;
+  min-height: 84px;
+
+  padding: 12px 9px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border: 1px solid #e1e7ee;
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+.suspect-panel .metric-label {
+  font-size: 7px;
+  font-weight: 850;
+  letter-spacing: 1px;
+  color: #68788d;
+  white-space: nowrap;
+}
+
+.suspect-panel .metric-val {
+  margin-top: 5px;
+
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 850;
+  color: #172235;
+}
+
+.suspect-panel .metric-sub {
+  margin-top: 5px;
+
+  font-size: 8px;
+  line-height: 1.2;
+  color: #9aa7b6;
+}
+
+/* ---------------------------------------------------------
+   PRIMARY SUSPECT
+--------------------------------------------------------- */
+
+.suspect-panel .primary-suspect-spotlight {
+  flex: 0 0 auto;
+
+  overflow: hidden;
+
+  background: #ffffff;
+  border: 1px solid #f3d47b;
+  border-radius: 11px;
+
+  box-shadow: 0 2px 8px rgba(234, 88, 12, 0.06);
+}
+
+.suspect-panel .spotlight-badge {
+  min-height: 30px;
+
+  padding: 7px 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  background: #ea580c;
+
+  color: #ffffff;
+  font-size: 8px;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+
+.suspect-panel .spotlight-body {
+  padding: 13px 14px;
+}
+
+.suspect-panel .spotlight-title-row {
+  margin-bottom: 9px;
+}
+
+.suspect-panel .spotlight-name {
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #172235;
+}
+
+.suspect-panel .spotlight-type {
+  margin-top: 3px;
+  font-size: 9px;
+  color: #7a8798;
+}
+
+.suspect-panel .spotlight-score-pill {
+  min-width: 45px;
+  padding: 5px 7px;
+
+  background: #ea580c;
+  border-radius: 7px;
+}
+
+.suspect-panel .spotlight-score-pill .score-num {
+  font-size: 13px;
+}
+
+.suspect-panel .spotlight-meter {
+  height: 5px;
+  margin-bottom: 9px;
+}
+
+/* ---------------------------------------------------------
+   CANDIDATE OVERVIEW
+--------------------------------------------------------- */
+
+.suspect-panel .candidate-overview-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Title */
+
+.suspect-panel .section-title-row {
+  min-height: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suspect-panel .overview-label {
+  color: #64748b;
+
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.suspect-panel .candidate-count-badge {
+  padding: 4px 8px;
+
+  border-radius: 5px;
+
+  background: #e0f2fe;
+  color: #0284c7;
+
+  font-size: 8px;
+  font-weight: 750;
+}
+
+/* ---------------------------------------------------------
+   SEARCH
+--------------------------------------------------------- */
+
+/*
+   This specifically fixes the oversized search box
+   visible in your screenshot.
+*/
+
+.suspect-panel .candidate-overview-section input[type="text"],
+.suspect-panel .candidate-overview-section input[type="search"],
+.suspect-panel .candidate-overview-section input {
+  width: 100%;
+  height: 38px;
+
+  min-width: 0;
+
+  padding: 0 11px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+
+  background: #ffffff;
+  color: #172235;
+
+  font-size: 12px;
+  line-height: 38px;
+
+  outline: none;
+}
+
+.suspect-panel .candidate-overview-section input::placeholder {
+  color: #8a97a7;
+  opacity: 1;
+}
+
+.suspect-panel .candidate-overview-section input:focus {
+  border-color: #60a5fa;
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.08);
+}
+
+/* ---------------------------------------------------------
+   FILTER BUTTONS
+--------------------------------------------------------- */
+
+/*
+   Your screenshot shows these becoming huge because
+   there is no scoped styling for them.
+*/
+
+.suspect-panel .candidate-overview-section button {
+  font-family: inherit;
+}
+
+/* Filter/tab style buttons */
+
+.suspect-panel .candidate-overview-section
+button:not(.candidate-entry-card):not(.spotlight-action-btn) {
+  min-height: 34px;
+
+  padding: 6px 10px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+
+  background: #ffffff;
+  color: #334155;
+
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 650;
+
+  cursor: pointer;
+}
+
+.suspect-panel .candidate-overview-section
+button:not(.candidate-entry-card):not(.spotlight-action-btn):hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+}
+
+/* ---------------------------------------------------------
+   CANDIDATE LIST
+--------------------------------------------------------- */
+
+.suspect-panel .candidate-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ---------------------------------------------------------
+   CANDIDATE CARD
+--------------------------------------------------------- */
+
+.suspect-panel .candidate-entry-card {
+  width: 100%;
+  min-height: 76px;
+
+  padding: 11px 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  background: #ffffff;
+  border: 1px solid #e1e7ee;
+  border-radius: 11px;
+
+  cursor: pointer;
+  text-align: left;
+
+  transition:
+    background 140ms ease,
+    border-color 140ms ease,
+    transform 120ms ease,
+    box-shadow 140ms ease;
+}
+
+.suspect-panel .candidate-entry-card:hover {
+  background: #fbfdff;
+  border-color: #cbd5e1;
+  transform: translateX(-1px);
+
+  box-shadow:
+    0 3px 10px rgba(15, 23, 42, 0.05);
+}
+
+/* Top candidate */
+
+.suspect-panel .candidate-entry-card.candidate-card-top {
+  background: #fffdf7;
+  border-color: #f3d47b;
+}
+
+/* ---------------------------------------------------------
+   RANK
+--------------------------------------------------------- */
+
+.suspect-panel .rank-badge {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+
+  border-radius: 8px;
+
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.suspect-panel .rank-badge.rank-1 {
+  background: #fff3cf;
+  border-color: #f6d878;
+  color: #b45309;
+}
+
+.suspect-panel .rank-badge.rank-2 {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #475569;
+}
+
+.suspect-panel .rank-badge.rank-3 {
+  background: #f8fafc;
+  border-color: #e2e8f0;
+  color: #64748b;
+}
+
+/* ---------------------------------------------------------
+   CARD INFORMATION
+--------------------------------------------------------- */
+
+.suspect-panel .card-main-info {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.suspect-panel .card-name-row {
+  min-width: 0;
+  margin-bottom: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.suspect-panel .vessel-title {
+  min-width: 0;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #172235;
+
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.suspect-panel .vessel-conf-badge {
+  flex: 0 0 auto;
+
+  min-width: 40px;
+
+  padding: 4px 7px;
+
+  border-radius: 6px;
+
+  font-size: 10px;
+  line-height: 1;
+
+  text-align: center;
+  font-weight: 850;
+}
+
+/* ---------------------------------------------------------
+   CARD SUBTEXT
+--------------------------------------------------------- */
+
+.suspect-panel .card-sub-row {
+  margin-bottom: 7px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  color: #748296;
+
+  font-size: 9px;
+  line-height: 1.2;
+}
+
+/* ---------------------------------------------------------
+   PROGRESS BAR
+--------------------------------------------------------- */
+
+.suspect-panel .candidate-mini-bar {
+  width: 100%;
+  height: 4px;
+
+  overflow: hidden;
+
+  background: #edf1f5;
+  border-radius: 999px;
+}
+
+.suspect-panel .candidate-mini-fill {
+  height: 100%;
+  min-width: 2px;
+
+  border-radius: 999px;
+}
+
+/* ---------------------------------------------------------
+   ARROW
+--------------------------------------------------------- */
+
+.suspect-panel .card-chevron {
+  width: 14px;
+  flex: 0 0 14px;
+
+  color: #c5cfdb;
+
+  font-size: 19px;
+  line-height: 1;
+
+  text-align: center;
+}
+
+/* ---------------------------------------------------------
+   METHODOLOGY
+--------------------------------------------------------- */
+
+.suspect-panel .attribution-methodology-card {
+  padding: 12px;
+
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+
+  background: #f0fdf4;
+}
+
+.suspect-panel .methodology-title {
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.suspect-panel .methodology-desc {
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+/* ---------------------------------------------------------
+   FOOTER
+--------------------------------------------------------- */
+
+.suspect-panel > .panel-footer {
+  flex: 0 0 auto;
+
+  padding: 11px 16px 14px;
+
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* ---------------------------------------------------------
+   SELECTOR / STEPPER
+--------------------------------------------------------- */
+
+.suspect-panel .vessel-selector-stepper-bar {
+  flex: 0 0 auto;
+
+  padding: 9px 13px;
+
+  grid-template-columns: 32px minmax(0, 1fr) 32px;
+  gap: 7px;
+
+  background: #ffffff;
+}
+
+.suspect-panel .stepper-nav-btn {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 7px;
+
+  font-size: 11px;
+}
+
+.suspect-panel .stepper-current-trigger {
+  min-height: 32px;
+  padding: 5px 8px;
+
+  border-radius: 7px;
+
+  font-size: 11px;
+}
+
+/* ---------------------------------------------------------
+   SCROLLBAR
+--------------------------------------------------------- */
+
+.suspect-panel > .panel-scroll-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.suspect-panel > .panel-scroll-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.suspect-panel > .panel-scroll-content::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+/* ---------------------------------------------------------
+   DARK MODE
+--------------------------------------------------------- */
+
+.app-dark .suspect-panel {
+  background: #0f172a;
+  border-color: #263449;
+}
+
+.app-dark .suspect-panel .panel-header,
+.app-dark .suspect-panel > .panel-footer,
+.app-dark .suspect-panel .vessel-selector-stepper-bar {
+  background: #131f30;
+  border-color: #334155;
+}
+
+.app-dark .suspect-panel .panel-header h2,
+.app-dark .suspect-panel .vessel-title,
+.app-dark .suspect-panel .metric-val {
+  color: #f8fafc;
+}
+
+.app-dark .suspect-panel .panel-header-description,
+.app-dark .suspect-panel .card-sub-row {
+  color: #94a3b8;
+}
+
+.app-dark .suspect-panel .investigation-metric-card,
+.app-dark .suspect-panel .candidate-entry-card {
+  background: #18283a;
+  border-color: #334155;
+}
+
+.app-dark .suspect-panel .candidate-entry-card.candidate-card-top {
+  background: #29251c;
+  border-color: #8a6419;
+}
+
+.app-dark .suspect-panel .candidate-overview-section input,
+.app-dark .suspect-panel .candidate-overview-section
+button:not(.candidate-entry-card):not(.spotlight-action-btn) {
+  background: #18283a;
+  border-color: #3b4d63;
+  color: #e2e8f0;
+}
+
+.app-dark .suspect-panel .candidate-overview-section input::placeholder {
+  color: #8191a4;
+}
+
+.app-dark .suspect-panel .candidate-mini-bar {
+  background: #263449;
+}
+
+.app-dark .suspect-panel .attribution-methodology-card {
+  background: rgba(22, 101, 52, 0.15);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+/* ---------------------------------------------------------
+   RESPONSIVE
+--------------------------------------------------------- */
+
+@media (max-width: 700px) {
+  .suspect-panel {
+    width: min(430px, 100vw);
+    border-radius: 14px 0 0 14px;
+  }
+
+  .suspect-panel > .panel-scroll-content {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .suspect-panel {
+    width: 100vw;
+    border-radius: 0;
+  }
+
+  .suspect-panel .investigation-metrics-grid {
+    gap: 6px;
+  }
+
+  .suspect-panel .investigation-metric-card {
+    padding: 9px 6px;
+  }
+
+  .suspect-panel .candidate-entry-card {
+    padding: 10px;
+  }
+}
+
+.app.command-center {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: #111318;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.command-shell {
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr);
+  gap: 12px;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  border-radius: 14px;
+  background: #f4f5f7;
+  overflow: hidden;
+}
+
+.command-stage {
+  position: relative;
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(17, 19, 24, 0.06);
+}
+
+.command-stage-track {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 200%;
+  height: 100%;
+  transition: transform 320ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.command-stage.is-detail .command-stage-track {
+  transform: translateX(-50%);
+}
+
+.command-stage-pane {
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+}
+
+.command-workspace {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.command-head-actions {
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  box-shadow: 0 10px 24px rgba(17, 19, 24, 0.12);
+}
+
+.head-chip {
+  height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #374151;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.head-chip.is-active {
+  background: #173a5e;
+  color: #fff;
+}
+
+.command-workspace-main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.command-detail {
+  width: 100%;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.command-map-wrap {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(17, 19, 24, 0.12);
+}
+
+.map-floating-head {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  z-index: 1200;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.map-title-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  pointer-events: none;
+}
+
+.map-title-chip {
+  padding: 10px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  box-shadow: 0 10px 24px rgba(17, 19, 24, 0.12);
+}
+
+.map-title-stack .oil-legend-chip {
+  position: static;
+  left: auto;
+  top: auto;
+}
+
+.map-floating-head h1 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  color: #17181c;
+  white-space: nowrap;
+}
+
+.map-floating-head .command-head-actions,
+.map-floating-head button {
+  pointer-events: auto;
+}
+
+.command-center .map {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.command-center .leaflet-container {
+  background: #dce5ed;
+  border-radius: 12px;
+}
+
+.vessel-glass-tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 168px;
+  max-width: 220px;
+  height: 46px;
+  padding: 4px 14px 4px 4px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow: 0 8px 22px rgba(23, 58, 94, 0.12);
+  backdrop-filter: blur(22px) saturate(1.45);
+  -webkit-backdrop-filter: blur(22px) saturate(1.45);
+}
+
+.vessel-glass-badge {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #244868 0%, #173a5e 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
+.vessel-glass-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.15;
+}
+
+.vessel-glass-copy b {
+  color: #173a5e;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vessel-glass-copy i {
+  color: #5b6f86;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.oiltrace-vessel-marker.vessel-glass-dot .vessel-marker-body {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow:
+    0 0 0 6px rgba(255, 255, 255, 0.28),
+    0 8px 16px rgba(23, 58, 94, 0.16);
+  backdrop-filter: blur(12px);
+}
+
+.oiltrace-vessel-marker.vessel-glass-dot .vessel-probability-label {
+  display: none;
+}
+
+.command-center .leaflet-control-zoom,
+.command-center .leaflet-control-attribution {
+  display: none;
+}
+
+.command-center .oiltrace-context-panel,
+.command-center .oiltrace-replay-panel,
+.command-center .oiltrace-vessel-panel,
+.command-center .evidence-panel,
+.command-center .suspect-panel,
+.command-center .detection-panel,
+.command-center .incident-panel {
+  position: relative !important;
+  inset: auto !important;
+  top: auto !important;
+  right: auto !important;
+  left: auto !important;
+  bottom: auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  border-left: 0;
+  box-shadow: none !important;
+  z-index: 2;
+  animation: none;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.command-stage .context-section,
+.command-stage .incident-metrics,
+.command-stage .investigation-metrics-grid,
+.command-stage .candidate-overview-section,
+.command-stage .panel-scroll-content {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.oil-legend-chip {
+  position: absolute;
+  left: 14px;
+  top: 72px;
+  bottom: auto;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(18px) saturate(1.3);
+  -webkit-backdrop-filter: blur(18px) saturate(1.3);
+  box-shadow: 0 10px 24px rgba(17, 19, 24, 0.1);
+  color: #17181c;
+  font-size: 12px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.oil-legend-chip span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #3a1a08 0%, #b45309 55%, rgba(180, 83, 9, 0) 100%);
+}
+
+.run-card {
+  position: absolute;
+  left: 16px;
+  top: 408px;
+  bottom: auto;
+  z-index: 1100;
+  width: 256px;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 16px 36px rgba(17, 19, 24, 0.14);
+  color: #17181c;
+}
+
+.run-card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.run-card-head strong {
+  font-size: 14px;
+  letter-spacing: -0.02em;
+}
+
+.run-badge {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #ecfdf3;
+  color: #157a3c;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.run-card p {
+  margin: 6px 0 10px;
+  color: #6b7280;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.run-rail {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.run-rail span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  color: #9aa0a8;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.run-rail span.is-on {
+  background: #173a5e;
+  color: #fff;
+}
+
+.pipeline-status {
+  display: none;
+}
+
+.ops-toast {
+  position: absolute;
+  top: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1300;
+  max-width: min(560px, calc(100% - 48px));
+  padding: 10px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.ops-toast.warn {
+  background: #fff8e8;
+  border: 1px solid #f0d48a;
+  color: #7a5b00;
+}
+
+.ops-toast.error {
+  background: #fff1f1;
+  border: 1px solid #f0c7c7;
+  color: #b42318;
+}
+
+.ops-toast button {
+  margin-left: 8px;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.command-center .oiltrace-map-toolbar {
+  top: 72px;
+  left: auto;
+  right: 14px;
+  bottom: auto;
+  transform: none;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.38);
+  box-shadow:
+    0 10px 28px rgba(23, 58, 94, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(28px) saturate(1.7);
+  -webkit-backdrop-filter: blur(28px) saturate(1.7);
+}
+
+.command-center .map-tool-divider {
+  width: 18px;
+  height: 1px;
+  margin: 2px 0;
+}
+
+.command-center .map-tool-button {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border-radius: 50%;
+}
+
+.command-center .map-tool-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.command-center .map-tool-button.backtrack-tool-button {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background: #111318;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Narrow the working column instead of removing it. Hiding .command-stage
+   here wiped out the case queue, detection panel, vessel dossier, Evidence,
+   Replay and the legend on any 1024-wide projector or a 1280 screen at 125%
+   zoom, leaving a sidebar of buttons that did nothing. */
+@media (max-width: 1100px) {
+  .app.command-center {
+    grid-template-columns: 84px minmax(0, 1fr);
+  }
+
+  .command-shell {
+    grid-template-columns: 300px minmax(0, 1fr);
+    padding: 8px;
+    gap: 8px;
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 880px) {
+  .command-shell {
+    grid-template-columns: 250px minmax(0, 1fr);
+  }
+}
+
+.command-stage .suspect-panel,
+.command-stage .oiltrace-context-panel,
+.command-stage .oiltrace-replay-panel,
+.command-stage .evidence-panel,
+.command-stage .detection-panel {
+  background: #ffffff !important;
+  color: #1a1d23 !important;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif !important;
+}
+
+.command-stage .panel-header,
+.command-stage .context-panel-header,
+.command-stage .replay-panel-header,
+.command-stage .evidence-header {
+  background: #ffffff !important;
+  border-bottom: 1px solid #eceff3 !important;
+  color: #1a1d23 !important;
+}
+
+.command-stage .panel-header h2,
+.command-stage .context-panel-header h2,
+.command-stage .replay-panel-header h2 {
+  color: #1a1d23 !important;
+  font-size: 20px !important;
+  letter-spacing: -0.02em !important;
+}
+
+.command-stage .panel-kicker,
+.command-stage .context-kicker,
+.command-stage .replay-kicker,
+.command-stage .inv-kicker {
+  color: #8a9099 !important;
+}
+
+.command-stage .investigation-metrics-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+.command-stage .investigation-metric-card {
+  min-width: 0 !important;
+  padding: 10px 8px !important;
+  border: 1px solid #eceff3 !important;
+  border-radius: 16px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+.command-stage .metric-val,
+.command-stage .metric-label,
+.command-stage .metric-sub {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+.command-stage .primary-suspect-spotlight {
+  background: #fff !important;
+  border: 1px solid #eceff3 !important;
+  border-radius: 22px !important;
+  box-shadow: none !important;
+}
+
+.command-stage .spotlight-badge {
+  background: #f6f8fb !important;
+  color: #8a9099 !important;
+  letter-spacing: 0.12em !important;
+}
+
+.command-stage .spotlight-name,
+.command-stage .vessel-title,
+.command-stage .item-name,
+.command-stage .stepper-name-text,
+.command-stage .card-name-row,
+.command-stage .inv-person span {
+  overflow: visible !important;
+  text-overflow: unset !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+.command-stage .spotlight-score-pill {
+  background: #eff6ff !important;
+  color: #1d4ed8 !important;
+  border: 1px solid rgba(37, 99, 235, 0.25) !important;
+  border-radius: 14px !important;
+}
+
+.command-stage .spotlight-score-pill .score-num,
+.command-stage .spotlight-score-pill .score-lbl {
+  color: #1d4ed8 !important;
+}
+
+.command-stage .spotlight-meter {
+  background: #f3f4f6 !important;
+}
+
+.command-stage .spotlight-meter-fill {
+  background: #173a5e !important;
+}
+
+.command-stage .spotlight-action-btn,
+.command-stage .inspect-candidate-button {
+  width: 100% !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #173a5e !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.command-stage .candidate-entry-card,
+.command-stage .detection-slick-card {
+  width: 100% !important;
+  max-width: none !important;
+  border: 1px solid #eceff3 !important;
+  border-radius: 22px !important;
+  background: #fff !important;
+}
+
+.command-stage .filter-chip,
+.command-stage .tab-btn,
+.command-stage .speed-button {
+  border-radius: 999px !important;
+}
+
+.command-stage .filter-chip.filter-chip-active,
+.command-stage .tab-btn-active {
+  background: #173a5e !important;
+  color: #fff !important;
+  border-color: #173a5e !important;
+}
+
+.command-stage .close-button,
+.command-stage .context-close-button,
+.command-stage .replay-close,
+.command-stage .evidence-close {
+  border-radius: 999px !important;
+  background: #f3f4f6 !important;
+  color: #1a1d23 !important;
+}
+
+.command-stage .panel-header,
+.command-stage .context-panel-header,
+.command-stage .replay-panel-header,
+.command-stage .evidence-header,
+.command-stage .detection-panel-header {
+  padding: 18px 18px 14px !important;
+  margin: 0 !important;
+}
+
+.command-stage .replay-panel-header p,
+.command-stage .evidence-header-description,
+.command-stage .detection-panel-subtitle {
+  max-width: none !important;
+}
+
+.command-stage .context-section,
+.command-stage .incident-status-row {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+}
+
+.command-stage .incident-metrics .incident-metric {
+  min-height: 92px;
+  padding: 14px 12px;
+  border-radius: 18px;
+}
+
+.command-stage .candidate-confidence strong {
+  color: #8a6d00 !important;
+}
+
+.command-stage .replay-time-card,
+.command-stage .replay-vessel-summary,
+.command-stage .replay-analysis-note {
+  width: auto !important;
+  max-width: none !important;
+  margin-left: 18px !important;
+  margin-right: 18px !important;
+  background: #ffffff !important;
+  border: 1px solid #eceff3 !important;
+  border-radius: 22px !important;
+  color: #1a1d23 !important;
+  box-shadow: none !important;
+}
+
+.command-stage .replay-timeline-section,
+.command-stage .replay-controls,
+.command-stage .replay-speed-section {
+  width: auto !important;
+  margin-left: 18px !important;
+  margin-right: 18px !important;
+}
+
+.command-stage .replay-controls {
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.command-stage .replay-speed-section {
+  background: transparent !important;
+}
+
+.command-stage .replay-timeline-labels {
+  color: #6b7280 !important;
+}
+
+.command-stage .replay-time-label,
+.command-stage .replay-summary-header span,
+.command-stage .replay-speed-title {
+  color: #8a9099 !important;
+}
+
+.command-stage .replay-time-card strong,
+.command-stage .replay-vessel-name,
+.command-stage .replay-summary-header strong {
+  color: #111318 !important;
+}
+
+.command-stage .replay-vessel-name {
+  overflow: visible !important;
+  white-space: normal !important;
+  text-overflow: unset !important;
+}
+
+.command-stage .replay-status {
+  background: #e8f8ee !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  color: #166534 !important;
+}
+
+.command-stage .replay-reset-button {
+  width: 40px !important;
+  height: 40px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #f3f4f6 !important;
+  color: #111318 !important;
+}
+
+.command-stage .replay-play-button {
+  min-width: 88px !important;
+  height: 40px !important;
+  border-radius: 999px !important;
+  background: #111318 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.command-stage .replay-slider {
+  background: linear-gradient(
+    to right,
+    #111318 0%,
+    #111318 var(--replay-progress),
+    #e8eaee var(--replay-progress),
+    #e8eaee 100%
+  ) !important;
+}
+
+.command-stage .replay-slider::-webkit-slider-thumb {
+  border-color: #111318 !important;
+}
+
+.command-stage .speed-button {
+  background: #f3f4f6 !important;
+  color: #4b5563 !important;
+  border: 0 !important;
+}
+
+.command-stage .speed-button.active {
+  background: #173a5e !important;
+  color: #fff !important;
+}
+
+.command-stage .replay-analysis-note {
+  margin-bottom: 24px !important;
+  background: #f6f8fb !important;
+}
+
+.command-stage .replay-analysis-note p,
+.command-stage .replay-note-icon {
+  color: #5c6370 !important;
+}
+
+.command-stage .replay-note-icon {
+  border-color: #d7dce3 !important;
+}
+
+.command-stage .detection-panel-kicker,
+.command-stage .detection-panel-kicker-dot {
+  color: #8a9099 !important;
+}
+
+.command-stage .detection-panel-kicker-dot {
+  background: #173a5e !important;
+  animation: none !important;
+}
+
+.command-center .detection-panel {
+  padding: 18px 18px 24px !important;
+}
+
+.command-stage .detection-panel-header {
+  padding: 0 0 14px !important;
+}
+
+.command-stage .detection-section {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.command-stage .detection-action-btn.primary,
+.command-stage .detection-seed-button,
+.command-stage .detection-demo-button {
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: #173a5e !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.command-stage .detection-action-btn.secondary {
+  border-radius: 999px !important;
+  background: #f3f4f6 !important;
+  color: #111318 !important;
+}
+
+.command-stage .detection-intro-card,
+.command-stage .detection-upload-zone,
+.command-stage .detection-empty-card,
+.command-stage .evidence-empty {
+  background: #ffffff !important;
+  border: 1px solid #eceff3 !important;
+  border-radius: 22px !important;
+  box-shadow: none !important;
+}
+
+.command-stage .detection-intro-text,
+.command-stage .detection-upload-hint,
+.command-stage .evidence-empty p {
+  color: #5c6370 !important;
+}
+
+.command-stage .evidence-card,
+.command-stage .evidence-block,
+.command-stage .evidence-empty {
+  width: auto !important;
+  max-width: none !important;
+}
+
+
+/* ── Permanent map key (§19-21): always-visible labels, no hover needed ── */
+/* Legend lives on the RIGHT, under the intel rail: it must never overlap
+   the centred timeline, its controls, or the right-hand panels. */
+.map-key {
+  position: absolute;
+  right: 14px;
+  top: 420px;
+  z-index: 1240;
+  max-width: 190px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #dbe3ec;
+  border-radius: 12px;
+  padding: 8px 10px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
+  pointer-events: none;
+  display: grid;
+  gap: 4px;
+}
+
+.map-key-block { display: grid; gap: 2px; }
+
+.map-key-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 800;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.map-key-line {
+  margin: 0;
+  font-size: 10.5px;
+  line-height: 1.4;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.map-key-line.muted { color: #334155; font-weight: 600; }
+
+.map-key-swatch {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 11px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.map-key-dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* On-map layer identity chips (§22) — small, permanent, no hover needed */
+.map-layer-label {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-radius: 6px !important;
+  padding: 2px 7px !important;
+  font-size: 9.5px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12) !important;
+}
+
+.map-layer-label::before { display: none !important; }
+
+.map-layer-label-slick { color: #b91c1c !important; border: 1px solid #fca5a5 !important; }
+.map-layer-label-source { color: #1d4ed8 !important; border: 1px solid #93c5fd !important; }

@@ -1,0 +1,690 @@
+{
+  "demoMode": true,
+  "dataStatus": "CANONICAL SIH DEMO",
+  "demoNotice": "Eastern Mediterranean / Cyprus detection (Oil/00067). Map geometry comes from ML detection; source region, AIS ranking, forward drift, counterfactual, and replay come from the OilTrace backend \u2014 not from a second frontend mock.",
+  "incident": {
+    "id": "incident-mediterranean-001",
+    "status": "Under Investigation",
+    "severity": "High",
+    "detectedAt": "2024-08-26T12:00:00Z",
+    "location": {
+      "latitude": 35.63533,
+      "longitude": 34.8704
+    },
+    "areaKm2": 266.926,
+    "detectionConfidence": 0.768,
+    "spillType": "Suspected oil slick",
+    "spillPolygon": [
+      [
+        35.558,
+        34.765
+      ],
+      [
+        35.558,
+        34.949
+      ],
+      [
+        35.742,
+        34.949
+      ],
+      [
+        35.742,
+        34.765
+      ],
+      [
+        35.558,
+        34.765
+      ]
+    ],
+    "centroid": {
+      "latitude": 35.63533,
+      "longitude": 34.8704
+    },
+    "satellite": {
+      "platform": "Sentinel-1",
+      "sensor": "SAR",
+      "productStatus": "ML detection",
+      "imageId": "Oil/00067"
+    },
+    "timeline": [
+      {
+        "time": "06:00",
+        "label": "Release window opens"
+      },
+      {
+        "time": "12:00",
+        "label": "Spill detected (SAR)"
+      }
+    ],
+    "vessels": [
+      {
+        "id": "211000001",
+        "mmsi": "211000001",
+        "name": "MT CYPRUS SUN",
+        "type": "Tanker",
+        "flag": "AIS",
+        "position": {
+          "latitude": 35.9,
+          "longitude": 34.87
+        },
+        "speedKnots": 12.5,
+        "heading": 0.0,
+        "candidateRank": 1,
+        "attributionConfidence": 0.9812,
+        "is_culprit": true,
+        "trajectory": [
+          {
+            "time": "2024-08-26T04:00:00Z",
+            "latitude": 35.3,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T04:15:00Z",
+            "latitude": 35.315,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T04:30:00Z",
+            "latitude": 35.33,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T04:45:00Z",
+            "latitude": 35.345,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T05:00:00Z",
+            "latitude": 35.36,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T05:15:00Z",
+            "latitude": 35.375,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T05:30:00Z",
+            "latitude": 35.39,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T05:45:00Z",
+            "latitude": 35.405,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T06:00:00Z",
+            "latitude": 35.42,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T06:15:00Z",
+            "latitude": 35.435,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T06:30:00Z",
+            "latitude": 35.45,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T06:45:00Z",
+            "latitude": 35.465,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T07:00:00Z",
+            "latitude": 35.48,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T07:15:00Z",
+            "latitude": 35.495,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T07:30:00Z",
+            "latitude": 35.51,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T07:45:00Z",
+            "latitude": 35.525,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T08:00:00Z",
+            "latitude": 35.54,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T08:15:00Z",
+            "latitude": 35.555,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T08:30:00Z",
+            "latitude": 35.57,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T08:45:00Z",
+            "latitude": 35.585,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T09:00:00Z",
+            "latitude": 35.6,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T09:15:00Z",
+            "latitude": 35.615,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T09:30:00Z",
+            "latitude": 35.63,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T09:45:00Z",
+            "latitude": 35.645,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T10:00:00Z",
+            "latitude": 35.66,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T10:15:00Z",
+            "latitude": 35.675,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T10:30:00Z",
+            "latitude": 35.69,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T10:45:00Z",
+            "latitude": 35.705,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T11:00:00Z",
+            "latitude": 35.72,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T11:15:00Z",
+            "latitude": 35.735,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T11:30:00Z",
+            "latitude": 35.75,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T11:45:00Z",
+            "latitude": 35.765,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T12:00:00Z",
+            "latitude": 35.78,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T12:15:00Z",
+            "latitude": 35.795,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T12:30:00Z",
+            "latitude": 35.81,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T12:45:00Z",
+            "latitude": 35.825,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T13:00:00Z",
+            "latitude": 35.84,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T13:15:00Z",
+            "latitude": 35.855,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T13:30:00Z",
+            "latitude": 35.87,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T13:45:00Z",
+            "latitude": 35.885,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-26T14:00:00Z",
+            "latitude": 35.9,
+            "longitude": 34.87,
+            "speedKnots": 12.5,
+            "heading": 0.0
+          }
+        ]
+      },
+      {
+        "id": "211000002",
+        "mmsi": "211000002",
+        "name": "MV LEVANT STAR",
+        "type": "Cargo",
+        "flag": "AIS",
+        "position": {
+          "latitude": 35.75,
+          "longitude": 34.3
+        },
+        "speedKnots": 10.0,
+        "heading": 270.0,
+        "candidateRank": 2,
+        "attributionConfidence": 0.626,
+        "is_culprit": false,
+        "trajectory": [
+          {
+            "time": "2024-08-26T05:00:00Z",
+            "latitude": 35.75,
+            "longitude": 35.3,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T05:20:00Z",
+            "latitude": 35.75,
+            "longitude": 35.25833,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T05:40:00Z",
+            "latitude": 35.75,
+            "longitude": 35.21667,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T06:00:00Z",
+            "latitude": 35.75,
+            "longitude": 35.175,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T06:20:00Z",
+            "latitude": 35.75,
+            "longitude": 35.13333,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T06:40:00Z",
+            "latitude": 35.75,
+            "longitude": 35.09167,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T07:00:00Z",
+            "latitude": 35.75,
+            "longitude": 35.05,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T07:20:00Z",
+            "latitude": 35.75,
+            "longitude": 35.00833,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T07:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.96667,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T08:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.925,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T08:20:00Z",
+            "latitude": 35.75,
+            "longitude": 34.88333,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T08:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.84167,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T09:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.8,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T09:20:00Z",
+            "latitude": 35.75,
+            "longitude": 34.75833,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T09:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.71667,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T10:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.675,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T10:20:00Z",
+            "latitude": 35.75,
+            "longitude": 34.63333,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T10:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.59167,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T11:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.55,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T11:20:00Z",
+            "latitude": 35.75,
+            "longitude": 34.50833,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T11:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.46667,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T12:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.425,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T12:20:00Z",
+            "latitude": 35.75,
+            "longitude": 34.38333,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T12:40:00Z",
+            "latitude": 35.75,
+            "longitude": 34.34167,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          },
+          {
+            "time": "2024-08-26T13:00:00Z",
+            "latitude": 35.75,
+            "longitude": 34.3,
+            "speedKnots": 10.0,
+            "heading": 270.0
+          }
+        ]
+      },
+      {
+        "id": "211000003",
+        "mmsi": "211000003",
+        "name": "FV KARPASIA",
+        "type": "Fishing",
+        "flag": "AIS",
+        "position": {
+          "latitude": 35.8,
+          "longitude": 34.865
+        },
+        "speedKnots": 5.0,
+        "heading": 0.0,
+        "candidateRank": 3,
+        "attributionConfidence": 0.5507,
+        "is_culprit": false,
+        "trajectory": [
+          {
+            "time": "2024-08-25T18:00:00Z",
+            "latitude": 35.4,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T18:20:00Z",
+            "latitude": 35.42667,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T18:40:00Z",
+            "latitude": 35.45333,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T19:00:00Z",
+            "latitude": 35.48,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T19:20:00Z",
+            "latitude": 35.50667,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T19:40:00Z",
+            "latitude": 35.53333,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T20:00:00Z",
+            "latitude": 35.56,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T20:20:00Z",
+            "latitude": 35.58667,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T20:40:00Z",
+            "latitude": 35.61333,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T21:00:00Z",
+            "latitude": 35.64,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T21:20:00Z",
+            "latitude": 35.66667,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T21:40:00Z",
+            "latitude": 35.69333,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T22:00:00Z",
+            "latitude": 35.72,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T22:20:00Z",
+            "latitude": 35.74667,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T22:40:00Z",
+            "latitude": 35.77333,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          },
+          {
+            "time": "2024-08-25T23:00:00Z",
+            "latitude": 35.8,
+            "longitude": 34.865,
+            "speedKnots": 5.0,
+            "heading": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

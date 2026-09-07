@@ -1,0 +1,1142 @@
+/* OilTrace Stitch command-center theme — navy rail, light workspace */
+
+.app.command-center {
+  --navy: #141820;
+  --navy-2: #1c2433;
+  --action: #173a5e;
+  --action-dark: #10283f;
+  --page: #e8edf2;
+  --card: rgba(247, 251, 248, 0.78);
+  --glass: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+  --glass-blur: blur(12px);
+  --box-radius: 14px;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 0;
+  padding: 0;
+  background: var(--navy);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav {
+  position: relative;
+  width: 92px;
+  border-radius: 0;
+  background: linear-gradient(180deg, #1a2230 0%, #121826 100%);
+  box-shadow: inset -1px 0 0 rgba(255, 255, 255, 0.04);
+}
+
+.stitch-rail-chevron {
+  position: absolute;
+  top: 50%;
+  right: -11px;
+  z-index: 8;
+  width: 22px;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  color: #173a5e;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  pointer-events: none;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-brand {
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  padding: 18px 8px 10px;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .brand-mark.stitch-drop {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(160deg, #2a5d7c, #173a5e);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .brand-mark.stitch-drop span {
+  display: none;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .brand-name {
+  display: block;
+  margin: 0;
+  color: #f8fafc;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  opacity: 1;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-icon {
+  width: auto;
+  min-width: 0;
+  height: auto;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-icon::before {
+  display: none;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-item {
+  color: #9aa6b8;
+  border: 0;
+  min-height: 58px;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #e8eef8;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-item.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f4f7fb;
+  border-color: transparent;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-item.active::before {
+  background: #c9d6e2;
+  box-shadow: none;
+}
+
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-footer,
+.oiltrace-sidebar.command-nav.stitch-nav .sidebar-brand {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.stitch-nav-foot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 8px 14px !important;
+}
+
+.stitch-backend,
+.stitch-user {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #cbd5e1;
+}
+
+.stitch-backend strong,
+.stitch-user strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.stitch-backend small,
+.stitch-user small,
+.stitch-backend em {
+  display: block;
+  color: #94a3b8;
+  font-size: 9px;
+  font-style: normal;
+}
+
+.stitch-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #173a5e;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.command-shell {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  grid-template-columns: 1fr;
+  gap: 0;
+  padding: 0;
+  border-radius: 0;
+  background: var(--page);
+}
+
+.stitch-topbar {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) minmax(220px, 420px) auto;
+  align-items: center;
+  gap: 16px;
+  min-height: 64px;
+  padding: 10px 18px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.stitch-crumbs {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.stitch-crumbs strong {
+  color: #111827;
+}
+
+.stitch-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f8fafc;
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.stitch-search:focus-within {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.08);
+  background: #fff;
+}
+
+.stitch-search svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  stroke: #64748b;
+  fill: none;
+}
+
+.stitch-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: 13px;
+  font-family: inherit;
+  color: #111827;
+}
+
+.stitch-search input::placeholder {
+  color: #9ca3af;
+}
+
+/* suppress native browser search decorations */
+.stitch-search input[type="search"]::-webkit-search-decoration,
+.stitch-search input[type="search"]::-webkit-search-cancel-button,
+.stitch-search input[type="search"]::-webkit-search-results-button,
+.stitch-search input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.stitch-top-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.stitch-new {
+  height: 38px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--action);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.stitch-icon-btn {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.stitch-icon-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke: #334155;
+  fill: none;
+}
+
+.stitch-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+
+.command-body {
+  display: grid;
+  grid-template-columns: 380px minmax(0, 1fr);
+  gap: 14px;
+  min-height: 0;
+  height: 100%;
+  padding: 12px 14px;
+  position: relative;
+}
+
+.command-body .command-stage {
+  min-height: 0;
+  min-width: 0;
+  height: 100%;
+  border-radius: var(--box-radius);
+  box-shadow: var(--glass-shadow);
+}
+
+.command-workspace {
+  min-height: 0;
+  min-width: 0;
+  height: 100%;
+  position: relative;
+}
+
+/* Floating Intel Rail directly OVER the map in top-right */
+.command-map-wrap .intel-rail {
+  position: absolute !important;
+  top: 16px !important;
+  right: 16px !important;
+  width: 250px !important;
+  max-height: calc(100% - 150px) !important;
+  z-index: 1200 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  pointer-events: auto !important;
+}
+
+.command-map-wrap {
+  border-radius: 12px;
+}
+
+.command-center .leaflet-container,
+.command-center .map {
+  border-radius: 12px;
+}
+
+.head-chip.is-active {
+  background: #173a5e;
+  color: #fff;
+}
+
+.oil-legend-chip {
+  background: #fff7ed !important;
+  color: #9a3412 !important;
+}
+
+.intel-rail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.intel-card {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.04);
+}
+
+.intel-card h3,
+.intel-card-head h3 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.intel-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: #64748b;
+  font-size: 11px;
+}
+
+.intel-kv {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.intel-kv div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.intel-kv dt {
+  color: #64748b;
+}
+
+.intel-kv dd {
+  margin: 0;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: right;
+}
+
+.intel-env {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.intel-env li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #475569;
+}
+
+.intel-note,
+.intel-empty {
+  margin: 10px 0 0;
+  color: #64748b;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.intel-sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.intel-sources button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.intel-sources em {
+  display: block;
+  color: #94a3b8;
+  font-size: 10px;
+  font-style: normal;
+}
+
+.intel-sources b,
+.intel-sources b.high,
+.intel-sources b.mid,
+.intel-sources b.low {
+  color: #2563eb !important;
+}
+
+.intel-bar {
+  height: 6px;
+  margin-top: 4px;
+  border-radius: 99px;
+  background: rgba(37, 99, 235, 0.12) !important;
+  overflow: hidden;
+}
+
+.intel-bar i,
+.intel-bar i.high,
+.intel-bar i.mid,
+.intel-bar i.low {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: #2563eb !important;
+}
+
+.command-ops-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px 0 0;
+}
+
+.op-card {
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.op-card img {
+  width: 100%;
+  height: 108px;
+  object-fit: cover;
+}
+
+.op-card-body {
+  padding: 12px 14px;
+}
+
+.op-kicker {
+  margin: 0;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.op-card-body h3 {
+  margin: 4px 0 6px;
+  font-size: 16px;
+}
+
+.op-meta {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.op-card.is-empty {
+  display: block;
+  padding: 16px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.env-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 4px 8px;
+}
+
+.env-chip {
+  display: flex;
+  flex-direction: column;
+  min-width: 92px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+}
+
+.env-chip span {
+  color: #64748b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.env-chip strong {
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.inv-status-line {
+  margin: 6px 0 8px;
+  color: #1d4ed8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.inv-assess {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 10px 0 12px;
+}
+
+.inv-assess div {
+  padding: 10px 8px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  text-align: center;
+}
+
+.inv-assess span {
+  display: block;
+  color: #64748b;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.inv-assess strong {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.inv-top-hit {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+}
+
+.inv-top-hit p {
+  margin: 0;
+  color: #1d4ed8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+}
+
+.inv-top-hit strong {
+  display: block;
+  margin-top: 4px;
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.inv-action.primary {
+  background: var(--action) !important;
+  color: #fff !important;
+  border-color: var(--action) !important;
+}
+
+.inv-badge.high-sev {
+  background: #eff6ff !important;
+  color: #1d4ed8 !important;
+  border: 1px solid rgba(37, 99, 235, 0.2) !important;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.inv-case-top strong,
+.map-title-chip .inv-kicker,
+.incident-panel-header h2 {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+}
+
+.inv-route,
+.inv-route span {
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.inv-route {
+  overflow: hidden;
+}
+
+.inv-assess {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.inv-assess div {
+  min-width: 0;
+  padding: 8px 6px;
+}
+
+.inv-assess strong {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 3px;
+  margin-top: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.inv-assess strong i {
+  font-style: normal;
+  color: #64748b;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.inv-top-hit {
+  margin: 0 18px 14px;
+  background: rgba(23, 58, 94, 0.06);
+  border-color: rgba(23, 58, 94, 0.12);
+}
+
+.inv-top-hit p {
+  color: #173a5e;
+}
+
+.inv-top-hit strong {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.oiltrace-map-toolbar,
+.stitch-topbar,
+.map-title-chip,
+.oil-legend-chip,
+.command-head-actions,
+.intel-card,
+.inv-case-card,
+.inv-vessel-card,
+.op-card,
+.env-chip,
+.timeline-card,
+.run-card,
+.command-stage,
+.intel-rail .intel-card {
+  background: var(--glass) !important;
+  backdrop-filter: var(--glass-blur) saturate(1.4) !important;
+  -webkit-backdrop-filter: var(--glass-blur) saturate(1.4) !important;
+  border: 1px solid var(--glass-border) !important;
+  box-shadow: var(--glass-shadow) !important;
+}
+
+.stitch-topbar,
+.map-title-chip,
+.intel-card,
+.inv-case-card,
+.inv-vessel-card,
+.op-card,
+.env-chip,
+.timeline-card,
+.run-card,
+.command-stage,
+.intel-rail .intel-card,
+.ops-toast {
+  border-radius: var(--box-radius) !important;
+}
+
+/* Map Floating Overlays Alignment & Spacing */
+.map-floating-head {
+  position: absolute !important;
+  top: 16px !important;
+  left: 16px !important;
+  right: 300px !important; /* clears space for IntelRail floating on top-right */
+  z-index: 1250 !important; /* above the intel rail so the chips stay clickable */
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 12px !important;
+  pointer-events: none !important;
+}
+
+.map-title-chip {
+  padding: 10px 16px !important;
+  border-radius: 14px !important;
+  pointer-events: auto !important;
+}
+
+.map-title-chip .inv-kicker {
+  margin: 0 0 2px !important;
+  color: #475569 !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+}
+
+.map-title-chip h1 {
+  margin: 0 !important;
+  font-size: 14px !important;
+  font-weight: 750 !important;
+  color: #0f172a !important;
+}
+
+.command-head-actions {
+  display: flex !important;
+  align-items: center !important;
+  /* Wrap onto a second row rather than overflowing under the intel rail,
+     which used to make the "Layers" chip (the only way into the legend)
+     completely unclickable. */
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important;
+  gap: 6px !important;
+  padding: 5px !important;
+  border-radius: 999px !important;
+  pointer-events: auto !important;
+}
+
+/* Floating Navigation & Zoom Bar (seated directly below "Suspected oil slick" chip) */
+.command-center .oiltrace-map-toolbar {
+  position: absolute !important;
+  top: 94px !important;
+  left: 16px !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  z-index: 1100 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important; /* gap-2 */
+  padding: 8px !important;
+  border-radius: 14px !important;
+}
+
+.command-center .map-tool-button {
+  width: 36px !important;
+  height: 36px !important;
+  flex: 0 0 36px !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.45) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  color: #1e293b !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+.command-center .map-tool-button:hover:not(:disabled) {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08) !important;
+}
+
+.command-center .map-tool-divider {
+  width: 20px !important;
+  height: 1px !important;
+  margin: 0 auto !important;
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Floating Hindcast / Pipeline Status Card — Positioned directly below the zoom/map toolbar */
+.command-center .run-card {
+  position: absolute !important;
+  top: 408px !important;
+  left: 16px !important;
+  right: auto !important;
+  bottom: auto !important;
+  z-index: 1100 !important;
+  width: 256px !important;
+  max-width: calc(100% - 32px) !important;
+  padding: 12px 14px !important;
+  background: var(--glass) !important;
+  backdrop-filter: var(--glass-blur) saturate(1.4) !important;
+  -webkit-backdrop-filter: var(--glass-blur) saturate(1.4) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: var(--box-radius) !important;
+  box-shadow: var(--glass-shadow) !important;
+  color: #1e293b !important;
+  pointer-events: auto !important;
+  animation: runCardPop 0.22s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@keyframes runCardPop {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.command-center .run-card-head {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+}
+
+.command-center .run-card-head strong {
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #0f172a !important;
+  letter-spacing: -0.01em !important;
+}
+
+.command-center .run-badge {
+  padding: 2px 7px !important;
+  border-radius: 999px !important;
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: #059669 !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  border: 1px solid rgba(16, 185, 129, 0.25) !important;
+  letter-spacing: 0.02em !important;
+}
+
+.command-center .run-card p {
+  margin: 6px 0 10px !important;
+  color: #64748b !important;
+  font-size: 11.5px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.command-center .run-rail {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 5px !important;
+}
+
+.command-center .run-rail span {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 22px !important;
+  border-radius: 999px !important;
+  background: rgba(0, 0, 0, 0.04) !important;
+  color: #94a3b8 !important;
+  font-size: 9px !important;
+  font-weight: 700 !important;
+  border: 1px solid rgba(0, 0, 0, 0.04) !important;
+}
+
+.command-center .run-rail span.is-on {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  border-color: #0284c7 !important;
+}
+
+/* Dark mode adjustments for run-card */
+.app-dark.command-center .run-card-head strong {
+  color: #f8fafc !important;
+}
+
+.app-dark.command-center .run-card p {
+  color: #94a3b8 !important;
+}
+
+.app-dark.command-center .run-rail span {
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: #64748b !important;
+  border-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.app-dark.command-center .run-rail span.is-on {
+  background: #38bdf8 !important;
+  color: #0f172a !important;
+  border-color: #38bdf8 !important;
+}
+
+/* Bottom Timeline & Playback Bar - Centered at bottom with bottom-4 margin */
+.timeline-card {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  right: auto !important;
+  bottom: 16px !important; /* bottom-4 */
+  width: calc(100% - 32px) !important;
+  max-width: 820px !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  padding: 14px 18px !important;
+  border-radius: 16px !important;
+  box-sizing: border-box !important;
+}
+
+/* Right-side Intel Accordion System */
+.intel-accordion-trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  text-align: left;
+}
+
+.intel-accordion-trigger h3 {
+  margin: 0 !important;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  color: #0f172a !important;
+}
+
+.intel-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.04);
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  transition: all 0.15s ease;
+}
+
+.intel-accordion-trigger:hover .intel-chevron {
+  background: rgba(0, 0, 0, 0.08);
+  color: #0f172a;
+}
+
+.intel-card.is-collapsed {
+  padding: 12px 14px !important;
+}
+
+.inv-list {
+  background: rgba(255, 255, 255, 0.72) !important;
+}
+
+.inv-link-chip.ok,
+.status-pill.paused,
+.status-pill.active {
+  background: rgba(239, 246, 255, 0.95) !important;
+  border: 1px solid rgba(37, 99, 235, 0.25) !important;
+  color: #1d4ed8 !important;
+  border-radius: 8px !important;
+  box-shadow: none;
+}
+
+.status-pill .status-indicator {
+  background: #2563eb !important;
+}
+
+.head-chip {
+  white-space: nowrap;
+}
+
+.stitch-mission {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e8eef4;
+}
+
+.stitch-mission strong,
+.stitch-user strong {
+  display: block;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.stitch-mission small,
+.stitch-user small {
+  display: block;
+  margin-top: 2px;
+  color: #9aa7b5;
+  font-size: 9px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.incident-header-top > div:first-child {
+  min-width: 0;
+  flex: 1;
+}
+
+.incident-panel-header h2 {
+  font-size: 13px !important;
+  line-height: 1.3;
+}
+
+.incident-metrics {
+  gap: 6px !important;
+}
+
+.incident-metric {
+  padding: 10px 8px !important;
+}
+
+.incident-metric strong,
+.incident-metric small {
+  white-space: nowrap !important;
+}
+
+.intel-kv dd,
+.intel-env strong {
+  white-space: nowrap;
+}
+
+/* Dark mode glassmorphism */
+.app-dark.command-center {
+  --glass: rgba(15, 23, 42, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 1100px) {
+  .command-body {
+    grid-template-columns: 320px minmax(0, 1fr);
+  }
+  .command-map-wrap .intel-rail {
+    width: 220px !important;
+  }
+  .map-floating-head {
+    right: 248px !important;
+  }
+  .command-center .oiltrace-map-toolbar {
+    right: 248px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .command-body {
+    grid-template-columns: 1fr;
+  }
+  .map-floating-head {
+    right: 16px !important;
+  }
+  .command-center .oiltrace-map-toolbar {
+    right: 16px !important;
+  }
+}
