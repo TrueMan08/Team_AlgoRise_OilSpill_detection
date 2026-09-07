@@ -9,12 +9,15 @@
 
 | Service | Status | URL |
 |---|---|---|
-| Backend API | 🟢 Live on Modal | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 |
-| Backend Swagger | 🟢 Live | https://vscimatic999--oiltrace-backend-web.modal.run/docs |
-| ML Detection | 🟢 Live on Modal | https://vscimatic999--oiltrace-detection-web.modal.run |
-| Frontend | 🟡 Local demo | `demo-frontend/` |
+| Frontend | 🟢 Deployable (Vercel) | `frontend/` — serves the canonical run, needs no backend |
+| Backend API | 🔴 Modal workspace disabled | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 |
+| Backend Swagger | 🔴 Unavailable | https://vscimatic999--oiltrace-backend-web.modal.run/docs |
+| ML Detection | 🔴 Modal workspace disabled | https://vscimatic999--oiltrace-detection-web.modal.run |
 
-> Free-tier services may have a cold start. Run `GET /health/ml` before a demo.
+> The Modal-hosted backend and ML service are currently unreachable: the workspace
+> is disabled, so both return `404`. The code is unaffected and both run locally
+> (see below). The frontend is unaffected either way, because the deployed build
+> serves the canonical run rather than calling the API.
 
 ## What OilTrace Does
 
@@ -61,132 +64,129 @@ https://vscimatic999--oiltrace-backend-web.modal.run/docs
 
 ## 🧪 Test the Complete Backend Flow
 
-The canonical live scenario is **`incident-norway-001`**.
+The canonical scenario is **`incident-mediterranean-001`** in the Eastern
+Mediterranean, observed at **`2024-08-26T12:00:00Z`** (Sentinel-1 scene
+`Oil/00067`). Run the backend locally first (see *Run the Backend*), then:
 
 ### 1. Health
 
 ```bash
-B="https://vscimatic999--oiltrace-backend-web.modal.run/api/v1"
+B="http://localhost:8000/api/v1"
 
 curl -s "$B/health"
-curl -s "$B/health/ml"
 ```
 
 ### 2. Hindcast
 
-The canonical slick is at `60.044°N, 4.482°E`, observed at `2025-08-20T12:00:00Z`.
+The observed slick is centred at `35.63533°N, 34.87040°E`, covering about
+`266.9 km²` at ML confidence `0.768`.
 
 ```bash
 curl -s -X POST "$B/hindcast" \
   -H "Content-Type: application/json" \
-  --data '{
-    "slick": {
-      "id": "slick-norway-001",
-      "timestamp_utc": "2025-08-20T12:00:00Z",
-      "centroid": {
-        "lat": 60.044,
-        "lon": 4.482
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [4.43, 60.00],
-          [4.53, 60.00],
-          [4.53, 60.09],
-          [4.43, 60.09],
-          [4.43, 60.00]
-        ]]
-      },
-      "area_km2": 20.0,
-      "confidence": 0.8,
-      "sensor": "Sentinel-1 SAR"
+  --data @- <<'JSON'
+{
+  "slick": {
+    "id": "incident-mediterranean-001",
+    "timestamp_utc": "2024-08-26T12:00:00Z",
+    "centroid": { "lat": 35.63533, "lon": 34.87040 },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[
+        [34.765, 35.558],
+        [34.949, 35.558],
+        [34.949, 35.742],
+        [34.765, 35.742],
+        [34.765, 35.558]
+      ]]
     },
-    "duration_hours": 3
-  }'
+    "area_km2": 266.926,
+    "confidence": 0.768,
+    "sensor": "SAR",
+    "scene_id": "Oil/00067"
+  },
+  "duration_hours": 6
+}
+JSON
 ```
 
-Verified result: source around **60.0651°N, 4.4735°E**, with a release window of **09:00–12:00 UTC**.
+Returns a probable source region centred near **35.61349°N, 34.82728°E** with a
+release window of **06:00–12:00 UTC**. The `0.95` on the region is KDE density
+mass, *not* a calibrated probability that the source lies inside it.
 
 ### 3. Vessels
 
 ```bash
-curl -s \
-  "$B/vessels?bbox=4.0,59.0,6.0,61.0&start=2025-08-19T12:00:00Z&end=2025-08-20T14:00:00Z"
+curl -s "$B/vessels?bbox=33.5,34.5,36.0,36.5&start=2024-08-25T00:00:00Z&end=2024-08-26T18:00:00Z"
 ```
 
-The canonical scenario returns three synthetic AIS vessels:
+Three synthetic AIS vessels:
 
 ```text
-678901234
-789012345
-890123456
+211000001  MT CYPRUS SUN    (Tanker)
+211000002  MV LEVANT STAR   (Cargo)
+211000003  FV KARPASIA      (Fishing)
 ```
 
 ### 4. Attribution
 
-`/attribute` uses the `source_region` returned by `/hindcast` and the complete vessel objects returned by `/vessels`.
-
-Request shape:
+`/attribute` takes the `source_region` from `/hindcast` and the complete vessel
+objects from `/vessels`.
 
 ```json
 {
-  "incident_id": "incident-norway-001",
+  "incident_id": "incident-mediterranean-001",
   "source_region": "<source_region from /hindcast>",
   "vessels": "<response from /vessels>",
   "uncertainty_radius_km": 10.0
 }
 ```
 
-Verified ranking:
+Ranking:
 
 ```text
-#1  678901234  — 98.125
-#2  789012345  — 60.579
+#1  211000001  MT CYPRUS SUN    74.15   High
+#2  211000002  MV LEVANT STAR   52.36   Medium
 ```
 
-The top candidate contains a ready-to-use `forward_request`.
+Each candidate carries a ready-to-use `forward_request` whose
+`release_location` is a real AIS position, never a synthesised point.
 
 ### 5. Forward
 
-Send the `forward_request` from the top `/attribute` candidate to:
-
-```text
-POST /forward
-```
-
-This performs the forward OpenDrift simulation from the reconstructed release conditions.
+Send a candidate's `forward_request` to `POST /forward`. This runs the forward
+OpenDrift simulation from that vessel's attributed release state.
 
 ### 6. Counterfactual
 
-Use the forward result with:
+Feed the forward result to `POST /counterfactual` to compare it against the
+observed slick. On the canonical run:
 
-```text
-POST /counterfactual
-```
+| Candidate | Predicted oil inside slick | Centroid offset | Reaches slick |
+|---|---|---|---|
+| MT CYPRUS SUN | 100% | 3.79 km | yes |
+| MV LEVANT STAR | 6% | 13.67 km | no |
+| FV KARPASIA | untestable | — | no AIS in the release window |
 
-This compares the simulated result with the observed slick using physical-consistency metrics such as trajectory intersection, centroid distance and footprint overlap.
-
-The exact request schema is available in Swagger.
+That separation is produced by the physics, not by the scorer: the same
+attribution engine proposed both candidates.
 
 ### 7. Replay
 
 ```bash
-curl -s "$B/replay/incident-norway-001"
+curl -s "$B/replay/incident-mediterranean-001"
 ```
 
-The canonical replay contains **37 frames** and the same three Norway vessels.
+The canonical replay contains **37 frames** at 30-minute intervals, spanning
+2024-08-25T18:00Z to 2024-08-26T12:00Z.
 
 ## 🌊 OpenDrift
 
 The backend uses OpenDrift/OpenOil for oil trajectory modelling.
 
-For the canonical Norway scenario, the bundled environmental forcing covers approximately:
-
-```text
-59–61°N
-4–6°E
-20–22 August 2025
-```
+For the canonical Eastern Mediterranean scenario the environmental forcing is
+CMEMS Mediterranean Sea Physics currents and ERA5 10 m wind, covering the
+demonstration window around 25–26 August 2024.
 
 The hindcast starts from the observed slick and integrates particles backward through the environmental forcing to estimate where and when the oil could have originated.
 
@@ -210,39 +210,81 @@ POST /detect
 
 The service returns GeoJSON slick polygons with area and confidence.
 
+## 🖥️ Run the Backend
+
+```bash
+cd backend
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt        # opendrift pulls heavy deps; allow several minutes
+cp .env.example .env
+uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+Swagger is then at `http://localhost:8000/docs`. Full setup notes, including the
+environmental forcing files the hindcast needs, are in `backend/README.md`.
+
 ## 🖥️ Run the Frontend
 
 ```bash
-cd demo-frontend
+cd frontend
 npm install
-cp .env.example .env
 npm run dev
 ```
 
-Set:
-
-```text
-VITE_BACKEND_BASE_URL=https://vscimatic999--oiltrace-backend-web.modal.run/api/v1
-```
+`.env.development` already points at `http://localhost:8000`, so a local backend
+is picked up automatically. To target a different API, set `VITE_API_BASE_URL`.
 
 Workflow:
 
-**Detection → Hindcast → Vessels → Attribution → Forward → Counterfactual**
+**Detection → Hindcast → Attribution → Forward / Counterfactual → Reset**
+
+### Data source
+
+A production build serves the canonical run from `src/data/canonicalRun.json`
+instead of recomputing it, so a public audience cannot exhaust metered compute.
+Those are verbatim backend responses recorded from a full live pass; no value in
+that file is authored by hand. Development builds call the backend as normal.
+
+| URL | Behaviour |
+|---|---|
+| default | production replays the canonical run; development calls the backend |
+| `?mode=live` | always call the backend |
+| `?mode=demo` | always replay the canonical run |
+
+The choice persists per browser.
+
+### Deploy the frontend on Vercel
+
+The frontend is a static Vite build in a subdirectory, so point Vercel at
+`frontend/` and let it build from there.
+
+1. **New Project → Import** this repository.
+2. Set **Root Directory** to `frontend`. This is the only required setting; it
+   makes every command below run inside that folder.
+3. Framework preset resolves to **Vite**; build `npm run build`, output `dist`.
+   `frontend/vercel.json` already pins these, including the SPA rewrite.
+4. **Deploy.** No environment variables are needed: a production build serves the
+   canonical run and never calls the API.
+
+Only `frontend/` is built; `backend/` and `ML-service/` are ignored. To point a
+deployment at a live API instead, set `VITE_API_BASE_URL` in Vercel's
+environment variables and open the site with `?mode=live`.
 
 ## ⚠️ Notes
 
 - AIS data in the demonstration is **synthetic** and SIH-permitted.
 - Attribution scores are **evidence/compatibility scores**, not probabilities of guilt.
 - A vessel ranked first is a **candidate/suspect**, not a proven culprit.
-- The canonical physics demo uses Norway because the deployed environmental forcing covers that region and time.
-- The ML demo detection is a separate real Mediterranean scene; running physics on it would require Mediterranean forcing data.
+- The canonical demonstration is a single Eastern Mediterranean incident; detection, hindcast, attribution and the counterfactual all run on that one scene.
+- The source region is an uncertainty region derived from the simulated particle distribution. Its `0.95` is KDE density mass, not a probability that the true source lies inside it.
+- A strong counterfactual result raises support for a candidate. It does not prove responsibility.
 
 ## 📁 Repository Structure
 
 ```text
-├── ML-service/       # Sentinel-1 U-Net detection
-├── backend/          # FastAPI + OpenDrift + AIS attribution
-├── demo-frontend/    # React + Leaflet investigation dashboard
+├── ML-service/   # Sentinel-1 U-Net detection
+├── backend/      # FastAPI + OpenDrift + AIS attribution
+├── frontend/     # React + Leaflet investigation dashboard
 └── README.md
 ```
 
