@@ -6,16 +6,15 @@ Smart India Hackathon 2026 · Problem Statement SIH26143 (NTRO) · Team AlgoRise
 
 A detector answers *where is the oil*. OilTrace answers *where did it come from, who was there, and does the physics actually support that story* — and it keeps the uncertainty visible in every one of those answers instead of collapsing to a single confident origin.
 
-## Deployments
+## Application services
 
-| Component | Where | URL |
+| Component | Description | Details |
 |---|---|---|
-| Frontend | Vercel | `frontend/` — see [Deploy the frontend](#deploy-the-frontend-on-vercel) |
-| Backend API | Modal | https://vscimatic999--oiltrace-backend-web.modal.run/api/v1 |
-| API docs (Swagger) | Modal | https://vscimatic999--oiltrace-backend-web.modal.run/docs |
-| ML detection service | Modal | https://vscimatic999--oiltrace-detection-web.modal.run |
+| Frontend | Vite investigation interface | `frontend/` — see [Deploy the frontend](#deploy-the-frontend-on-vercel) |
+| Backend API | OilTrace API for hindcast, attribution and counterfactual workflows | See [Run it locally](#run-it-locally); OpenAPI docs are served at `/docs` |
+| ML detection service | Complete standalone FastAPI/Docker service: Sentinel-1 GeoTIFF in, detection GeoJSON out; X1c + C3 + V1 inference | See [`ML-service/service/README.md`](ML-service/service/README.md) |
 
-Every component also runs locally; see [Run it locally](#run-it-locally).
+Each component includes its own run instructions and API contract; see [Run it locally](#run-it-locally).
 
 ## Contents
 
@@ -98,7 +97,7 @@ flowchart LR
   end
 
   subgraph MODELS["Models and data"]
-    ML["ML detection service<br/>U-Net + scene gate"]
+    ML["ML detection service<br/>X1c + C3 + V1 verifier"]
     OD["OpenDrift / OpenOil"]
     NC["NetCDF forcing readers<br/>CMEMS currents · ERA5 wind"]
     AIS["AIS track store"]
@@ -165,16 +164,16 @@ Only stage 1 is learned. Stages 2 and 4 are physics with published provenance; s
 
 Synthetic-aperture radar sees oil as a dark patch: the film damps capillary waves and the surface stops backscattering. A great many other things also damp capillary waves — algal blooms, low-wind shadows, rain cells, natural surfactant slicks — and single-stage detectors fail on exactly these look-alikes, with confidence.
 
-OilTrace splits the task. A segmentation network proposes dark-region masks with pixel-level geometry; a scene-context classifier then evaluates the surrounding scene and gates the proposal, rejecting the look-alike family. One threshold `τ` trades precision against detection rate: "harbour-master mode" at one end, "wide-net mode" at the other.
+OilTrace uses a pretrained ResNet-34 U-Net (X1c) to propose dark-region masks. A ResNet-34 scene classifier (C3) contributes look-alike context, and a train-fitted component verifier (V1) scores each candidate region. The verifier score sets the operating point; the segmentation threshold is fixed to the value used to fit and validate the verifier.
 
 ```mermaid
 flowchart LR
   S["Sentinel-1 GRD<br/>VV + VH"] --> P["Preprocess<br/>calibrate · speckle filter · tile"]
-  P --> SEG["Stage A<br/>segmentation U-Net"]
-  SEG --> M["Candidate masks<br/>+ per-region geometry"]
-  M --> GATE{"Stage B<br/>scene-context gate"}
-  GATE -->|"score ≥ τ"| ACC["Accept<br/>emit slick polygon"]
-  GATE -->|"score < τ"| REJ["Reject<br/>algae · wind shadow · rain cell"]
+  P --> SEG["Stage A<br/>X1c ResNet-34 U-Net"]
+  SEG --> M["Candidate components<br/>+ per-region geometry"]
+  M --> GATE{"Stage B<br/>C3 context + V1 verifier"}
+  GATE -->|"verifier ≥ 0.5"| ACC["Accept<br/>emit slick polygon"]
+  GATE -->|"verifier < 0.5"| REJ["Reject<br/>likely look-alike / fragment"]
   ACC --> OUT["GeoJSON<br/>polygon · area km² · centroid · confidence"]
 ```
 
@@ -182,23 +181,29 @@ flowchart LR
 
 | Metric | Value | Protocol |
 |---|---|---|
-| Alert precision | 81 – 84 % | two-stage, validation-measured |
-| Detection rate, slicks ≥ 10 ha | 64 – 67 % | quote alongside precision, never alone |
+| Alert precision / recall, slicks ≥ 10 ha | **81.7% / 81.2%** | X1c + C3 + V1, validation operating point |
+| Recall-focused operating point | 67.6% / 84.8% | precision / recall ≥10 ha, V1 score ≥0.1 |
+| Pixel Dice, X1c | **0.679** | validation sweep, threshold 0.915 |
+| Pixel Dice, X2 DeepLabV3+ challenger | **0.736** | validation sweep, threshold 0.39 |
 | Localisation error | ≈ 85 m | demonstration scene |
 | Area accuracy | ≈ ± 1 % | demonstration scene |
 | Clean-water false alarms | 0 | on the tested no-oil scenes |
-| Cross-sensor Dice, Sentinel-1 | 0.65 | zero-shot, external public dataset |
-| Cross-sensor Dice, PALSAR L-band | 0.58 | zero-shot, a different radar band |
-| Throughput | 10 – 18 s / scene | CPU only |
+| Cross-sensor Dice, Sentinel-1 | 0.755 | E5 fallback, zero-shot, 12,910 external pairs |
+| Cross-sensor Dice, PALSAR L-band | 0.723 | E5 fallback, zero-shot, 12,910 external pairs |
+| Throughput | Tiled full-scene inference | Hardware- and scene-size dependent; no fixed latency claim |
 
 **Training record**
 
 | Run | Role | Dice | Precision | Recall ≥ 10 ha | Macro-acc. |
 |---|---|---|---|---|---|
-| `E5_focal` | segmentation champion | 0.350 | 0.471 | 0.667 | — |
-| scene-context | look-alike gate | — | 0.813 – 0.845 | — | 0.731 |
+| `E5_focal` + rules | MVP baseline | 0.350 | 0.474 | 0.667 | — |
+| `X1c_r34_strict` | best verified segmenter before postprocessing | 0.679 | — | — | — |
+| `X1c` + `C3` + `V1` | operational validation champion | 0.679* | **0.817** | **0.812** | 0.771† |
+| `X2_smp_dlv3p_r34` + `C3` | DeepLabV3+ challenger | **0.736** | 0.812 | 0.800 | 0.771† |
 
-A pixel Dice of 0.35 will look low against the literature's ≈ 0.75. The difference is the validation protocol, not the model: our validation set is deliberately trap-heavy, loaded with the look-alikes that inflate everyone else's numbers when excluded. We report the harder number by choice. The scene-level split was committed before training, and a 450-scene test set is sealed for a single evaluation before final submission. Training and evaluation code, manifests and experiment records are described in [`ML-service/README.md`](ML-service/README.md).
+\* X1c pixel Dice is its validation-swept segmentation score; the component-verifier operating point is measured separately at segmentation threshold 0.8 and verifier score 0.5. X2 object metrics use segmentation threshold 0.39 and C3 gate threshold 0.4. All metrics use the same 4,362-patch validation split; they are not sealed-test results. † C3 macro-accuracy.
+
+The ML component has moved beyond its MVP baseline: X1c + C3 + V1 improves validation object precision from 0.474 to 0.817 and large-slick recall from 0.667 to 0.812; X2 raises validation pixel Dice from 0.350 to 0.736. The validation set is deliberately trap-heavy, and the 450-scene Part III test set remains sealed. The self-contained inference service, checkpoints, training records and run instructions are included in [`ML-service/README.md`](ML-service/README.md).
 
 ## Stage 2 — Backward hindcast
 
@@ -592,9 +597,33 @@ The frontend is a static Vite build in a subdirectory, so point Vercel at `front
 3. Framework resolves to **Vite**; build `npm run build`, output `dist`. `frontend/vercel.json` already pins these, including the SPA rewrite.
 4. **Deploy.** No environment variables are needed: a production build serves the canonical run.
 
-Only `frontend/` is built; `backend/` and `ML-service/` are ignored. To point a deployment at a live API instead, set `VITE_API_BASE_URL` in Vercel's environment variables and open the site with `?mode=live`.
+The Vercel build uses `frontend/`. The frontend API base can be configured with `VITE_API_BASE_URL` for an OilTrace API endpoint; use `?mode=live` to open the API-backed workflow.
 
 ## Results and validation
+
+### ML progress beyond the MVP baseline
+
+| Validation system | Pixel Dice | Object precision | Recall, slicks ≥10 ha | Operating point |
+|---|---:|---:|---:|---|
+| E5_focal + original rules | 0.350 | 0.474 | 0.667 | Original MVP baseline |
+| X1c + C3 + V1 verifier | 0.679* | **0.817** | **0.812** | V1 score ≥0.5; segmentation threshold 0.8 |
+| X2 DeepLabV3+ + C3 gate | **0.736** | 0.812 | 0.800 | Segmentation threshold 0.39; C3 gate 0.4 |
+
+The X1c + C3 + V1 validation operating point adds **34.3 percentage points
+in object precision** and **14.5 points in large-slick recall** over the
+baseline. X2 is the strongest pixel-segmentation checkpoint. X1c + C3 + V1
+is the current operational choice because it gives the stronger object-level
+precision/recall balance. *Pixel and object metrics use different calibrated
+thresholds; all results use the same 4,362-patch held-out validation split.
+They are not Part III test results. The 450-scene Part III test set remains
+sealed. The model is beyond MVP in validation performance.
+
+The X1c + C3 + V1 inference service is a self-contained Docker application
+with checkpoint artifacts, a GeoTIFF upload endpoint, cached demo endpoint,
+and GeoJSON output. Its code, run instructions and model details are in
+[`ML-service/`](ML-service/README.md).
+
+### System-level demonstration results
 
 | Test | Configuration | Result |
 |---|---|---|

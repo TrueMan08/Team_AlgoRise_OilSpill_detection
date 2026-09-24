@@ -12,8 +12,9 @@ Endpoints:
   POST /detect      multipart 'file' = GeoTIFF -> live inference -> GeoJSON
                     (optional ?threshold=, default = validation-selected)
 
-Model: OilTrace U-Net (experiment from checkpoint config) — VV+VH 512-tile inference, threshold
-0.325 selected on validation only; Part III test set untouched.
+Model: X1c ResNet-34 U-Net → C3 scene context → V1 component verifier.
+The validation-calibrated operating point uses segmentation threshold 0.8
+and verifier score threshold 0.5. Part III remains sealed.
 """
 from __future__ import annotations
 
@@ -29,32 +30,40 @@ import torch
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
 
-from ml.inference import load_model, mask_to_features, predict_scene
+from ml.inference import mask_to_features
+from ml.production import (SEGMENTATION_THRESHOLD, VERIFIER_THRESHOLD,
+                          load_verified_pipeline, predict_verified_scene)
 
 ROOT = Path(__file__).resolve().parent
-CHECKPOINT = ROOT / "data" / "oiltrace_unet.pth"
+MODEL_DIR = ROOT / "data" / "models"
 DEMO_SCENE = ROOT / "data" / "demo_scene_00067.tif"
 DEMO_RESULT = ROOT / "data" / "demo_detection_00067.geojson"
-DEFAULT_THRESHOLD = 0.325   # selected on validation (analysis/threshold_sweep.json)
+DEFAULT_THRESHOLD = SEGMENTATION_THRESHOLD
 MAX_UPLOAD_MB = 80
 
 app = FastAPI(title="OilTrace SAR+ML Detection Service", version="0.1.0")
 
 torch.set_num_threads(max(1, (torch.get_num_threads() or 2)))
 DEV = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MODEL, META = load_model(CHECKPOINT, DEV)   # loaded ONCE at startup
+SEGMENTER, SEG_META, CLASSIFIER, CLASSIFIER_META, VERIFIER = \
+    load_verified_pipeline(MODEL_DIR, DEV)  # loaded once at startup
 
 
 def _model_info() -> dict:
     return {
-        "name": "OilTrace-U-Net",
-        "experiment": (META.get("config") or {}).get("experiment", "?"),
-        "checkpoint_epoch": META.get("epoch"),
-        "validation": META.get("val"),
+        "name": "OilTrace-X1c + C3 + V1",
+        "segmentation_experiment": (SEG_META.get("config") or {}).get(
+            "experiment", "X1c_r34_strict"),
+        "segmentation_checkpoint_epoch": SEG_META.get("epoch"),
+        "segmentation_validation_at_0_5": SEG_META.get("val"),
+        "scene_classifier": "C3_scene_r34",
+        "scene_classifier_macro_accuracy": CLASSIFIER_META.get("macro_acc"),
+        "component_verifier": "V1_verifier",
         "default_threshold": DEFAULT_THRESHOLD,
-        "validation_note": "metrics on scene-level held-out validation "
-                           "including look-alike hard negatives; Part III "
-                           "test set sealed and untouched",
+        "verifier_score_threshold": VERIFIER_THRESHOLD,
+        "validation_note": "validation-only operating point on held-out "
+                           "scenes including look-alike hard negatives; "
+                           "Part III test set remains sealed",
         "device": str(DEV),
     }
 
@@ -93,6 +102,9 @@ def demo_scene():
 @app.post("/detect")
 async def detect(file: UploadFile = File(...),
                  threshold: float = Query(DEFAULT_THRESHOLD, ge=0.05, le=0.95)):
+    if abs(threshold - DEFAULT_THRESHOLD) > 1e-9:
+        raise HTTPException(
+            422, "the calibrated X1c + V1 pipeline requires threshold 0.8")
     raw = await file.read()
     if len(raw) > MAX_UPLOAD_MB * 1e6:
         raise HTTPException(413, f"upload exceeds {MAX_UPLOAD_MB} MB")
@@ -113,10 +125,11 @@ async def detect(file: UploadFile = File(...),
                 transform, bounds = src.transform, src.bounds
         except rasterio.errors.RasterioIOError as e:
             raise HTTPException(422, f"not a readable GeoTIFF: {e}")
-        prob = predict_scene(MODEL, img, DEV)
-        mask = (prob > threshold).astype(np.uint8)
+        prob, mask = predict_verified_scene(
+            SEGMENTER, CLASSIFIER, CLASSIFIER_META, VERIFIER, img, DEV)
         feats = mask_to_features(mask, prob, transform, bounds,
-                                 Path(file.filename or "scene").stem)
+                                 Path(file.filename or "scene").stem,
+                                 min_confidence=0.0)
     finally:
         tmp_path.unlink(missing_ok=True)
     return JSONResponse({

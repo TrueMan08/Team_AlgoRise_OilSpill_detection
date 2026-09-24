@@ -45,10 +45,14 @@ MIN_AREA_PX = 250     # SELECTED on validation (analysis/object_eval.json): 5x o
 MIN_CONFIDENCE = 0.60  # SELECTED on validation for E5_focal (analysis/confidence_sweep.json): obj precision 0.471, recall(>=10ha) 0.667; demo scenes confirm traps cleaned, all main slicks retained
 
 
-def load_model(checkpoint: Path, dev: torch.device) -> tuple[UNet, dict]:
+def load_model(checkpoint: Path, dev: torch.device,
+               use_pretrained: bool = True) -> tuple[UNet, dict]:
     ckpt = torch.load(checkpoint, map_location=dev, weights_only=False)
-    norm = (ckpt.get("config") or {}).get("norm_layer", "batch")
-    model = UNet(norm=norm).to(dev)
+    cfg = ckpt.get("config") or {}
+    from ml.archs import build_model  # arch string recorded per checkpoint
+    model = build_model(
+        cfg.get("arch", "unet"), cfg.get("norm_layer", "batch"),
+        encoder_weights="imagenet" if use_pretrained else None).to(dev)
     model.load_state_dict(ckpt["model"])
     model.eval()
     return model, {"epoch": ckpt.get("epoch"), "val": ckpt.get("val"),
@@ -80,7 +84,8 @@ def predict_scene(model: UNet, img: np.ndarray, dev: torch.device,
 
 
 def mask_to_features(mask: np.ndarray, prob: np.ndarray, transform,
-                     bounds, scene_id: str) -> list[dict]:
+                     bounds, scene_id: str,
+                     min_confidence: float = MIN_CONFIDENCE) -> list[dict]:
     px_deg = abs(transform.a)
     contours, _ = cv2.findContours(mask.astype(np.uint8), cv2.RETR_EXTERNAL,
                                    cv2.CHAIN_APPROX_SIMPLE)
@@ -100,7 +105,7 @@ def mask_to_features(mask: np.ndarray, prob: np.ndarray, transform,
         # dilute a ragged slick's confidence with its low-prob holes)
         comp_px = comp.astype(bool) & mask.astype(bool)
         conf = float(prob[comp_px].mean()) if comp_px.any() else 0.0
-        if conf < MIN_CONFIDENCE:
+        if conf < min_confidence:
             continue
         lon_c, lat_c = poly.centroid.x, poly.centroid.y
         utm = pyproj.CRS(f"+proj=utm +zone={int((lon_c + 180) // 6) + 1} "
