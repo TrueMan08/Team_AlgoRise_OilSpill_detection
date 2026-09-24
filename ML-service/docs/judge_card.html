@@ -69,33 +69,32 @@
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">OilTrace · SIH26143 · SAR + ML module · model E5-focal</div>
+    <div class="eyebrow">OilTrace · SIH26143 · SAR + ML module · X1c + C3 + V1</div>
     <h1>“How much better is your ML model?”</h1>
     <p>The question is really <em>better than what, measured how</em>. Answer in
     layers — stop at whichever layer satisfies the judge.</p>
   </header>
 
   <div class="stats">
-    <div class="stat"><b>6×</b><span>better than the best classical threshold (Dice 0.35 vs 0.06)</span></div>
-    <div class="stat"><b>2 in 3</b><span>significant slicks (≥10 ha) detected, traps included in validation</span></div>
-    <div class="stat"><b>1 in 2</b><span>drawn detections are real (obj. precision 0.47 — was 1 in 22 raw)</span></div>
-    <div class="stat"><b>85 m</b><span>median centre error — precise enough to drive hindcasting</span></div>
-    <div class="stat"><b>−0.4%</b><span>area error on the demo slick (266.9 vs 267.9 km²)</span></div>
-    <div class="stat"><b>10 s</b><span>full scene on CPU · test set still <b style="font-size:13px">SEALED</b></span></div>
+    <div class="stat"><b>0.736</b><span>X2 pixel Dice on held-out validation</span></div>
+    <div class="stat"><b>81.7%</b><span>object precision for the operational X1c + C3 + V1 pipeline</span></div>
+    <div class="stat"><b>81.2%</b><span>recall for slicks ≥10 ha at the selected operating point</span></div>
+    <div class="stat"><b>+34.3 pp</b><span>precision improvement over E5 baseline on the same validation split</span></div>
+    <div class="stat"><b>84.8%</b><span>large-slick recall in recall-focused mode (67.6% precision)</span></div>
+    <div class="stat"><b>SEALED</b><span>Part III test set; hosting and full-scene timing are pending</span></div>
   </div>
 
   <section>
     <span class="tag any">Layer 1 · any judge · 30 seconds</span>
     <h2>The lead answer</h2>
-    <div class="say">“Our module turns a raw Sentinel-1 radar scene into
-    court-ready slick geometry — polygon, centre, area, confidence — in
-    <span class="num">10 seconds on a CPU</span>. On validation that
-    deliberately includes look-alike traps, it finds
-    <span class="num">two-thirds</span> of environmentally significant slicks
-    with <span class="num">~85 m</span> centre accuracy — and when it draws a
-    slick, it’s right nearly <span class="num">1 time in 2</span>, versus
-    <span class="num">1 in 22</span> for the best classical method. On our
-    demo scene it measured a 268 km² slick to within half a percent.”</div>
+    <div class="say">“Our current operational model combines X1c segmentation,
+    C3 scene context, and a V1 component verifier. On a held-out validation
+    split that includes look-alike traps, it reaches <span class="num">81.7%
+    object precision and 81.2% recall</span> for slicks of at least 10 ha.
+    That is a <span class="num">34.3 percentage-point precision gain</span>
+    over the E5 MVP baseline evaluated on the same split. Our X2 challenger
+    reaches <span class="num">0.736 pixel Dice</span>. The Part III test set
+    remains sealed, and hosted deployment and full-scene timing are pending.”</div>
     <p class="note">Stop here unless they push. Every number already carries its baseline.</p>
   </section>
 
@@ -114,63 +113,58 @@
   <section>
     <span class="tag tech">Layer 3 · how we improved it · your best material</span>
     <h2>Diagnosis, not guesswork</h2>
-    <div class="say">“Object-level error analysis showed our false positives
-    were <em>confidently</em> wrong — look-alike regions predicted as oil at
-    80% confidence, which ordinary cross-entropy barely penalizes once
-    averaged over millions of pixels. So we switched to <b>Focal loss</b>,
-    which amplifies the gradient on exactly those pixels — and object
-    precision jumped <span class="num">66%</span> in one fine-tune
-    (<span class="num">0.28 → 0.47</span>) while slick recall stayed within
-    three points. The diagnosis, the failed alternatives, and the winning run
-    are all in our git history.”</div>
+    <div class="say">“We moved beyond the original single-model MVP in stages.
+    X1c improved segmentation; C3 adds scene context; V1 filters candidate
+    components. At the calibrated operating point, the combined system raises
+    object precision from <span class="num">0.474 to 0.817</span> and
+    large-slick recall from <span class="num">0.667 to 0.812</span> on the
+    same held-out validation split. X2 is a separate pixel-Dice challenger,
+    not the selected operational pipeline.”</div>
   </section>
 
   <section>
     <span class="tag tech">Layer 4 · ML-literate judge</span>
     <h2>Why our numbers are conservative</h2>
-    <div class="say">“Three deliberate choices. <b>Scene-level splits</b> — no
-    leakage. <b>Look-alike hard negatives inside validation</b> — scored the
-    way most papers score, oil-only, our model reaches
-    <span class="num">~0.75</span>; we report the harder
-    <span class="num">0.35</span> because it predicts deployed behaviour.
-    <b>A sealed test set</b> — evaluated exactly once, after the design
-    freezes. Every operating parameter was selected on validation only.”</div>
+    <div class="say">“We use <b>scene-level splits</b> and include look-alike
+    hard negatives in validation. The operating thresholds were selected on
+    validation, so these are model-selection results rather than an untouched
+    test score. The separate <b>Part III test set remains sealed</b> for a
+    final evaluation.”</div>
     <div class="tablebox"><table>
       <tr><th>Metric</th><th>Value</th><th>Basis</th></tr>
-      <tr><td>Pixel Dice (trapped validation)</td><td class="v">0.35</td><td>vs 0.06 classical baseline</td></tr>
-      <tr><td>Object precision (drawn slicks that are real)</td><td class="v">0.47</td><td>was 0.28 before Focal; 0.045 raw</td></tr>
-      <tr><td>Object recall, slicks ≥10 ha</td><td class="v">67%</td><td>max-IoU matching</td></tr>
-      <tr><td>Median centroid error</td><td class="v">85 m</td><td>≈ 8 px at 10 m resolution</td></tr>
-      <tr><td>Literature plain U-Net</td><td class="v">0.4–0.55 IoU</td><td>oil-only evaluation — easier exam</td></tr>
+      <tr><td>E5 baseline pixel Dice</td><td class="v">0.350</td><td>held-out validation</td></tr>
+      <tr><td>X2 pixel Dice</td><td class="v">0.736</td><td>validation-swept threshold</td></tr>
+      <tr><td>X1c + C3 + V1 object precision / recall ≥10 ha</td><td class="v">81.7% / 81.2%</td><td>segmentation threshold 0.8; verifier score ≥0.5</td></tr>
+      <tr><td>E5 baseline object precision / recall ≥10 ha</td><td class="v">47.4% / 66.7%</td><td>same validation split; original operating settings</td></tr>
+      <tr><td>C3 scene-classifier macro accuracy</td><td class="v">0.771</td><td>validation</td></tr>
     </table></div>
   </section>
 
   <section>
     <span class="tag tech">Counter-attack · “papers report 90%+”</span>
     <h2>Turn it into a win</h2>
-    <div class="say">“Yes — on oil-only evaluation with per-dataset tuning; we
-    reproduce that regime at <span class="num">~0.75</span> when the traps
-    are removed. We report the trapped number because a coastguard system’s
-    failure mode isn’t missing obvious oil — it’s crying wolf on algae
-    blooms. We measured the model where it will actually be judged.”</div>
+    <div class="say">“Published figures often use different datasets and evaluation
+    protocols, so we avoid claiming direct superiority over them. Our own
+    comparisons use the same held-out validation split and disclose the
+    thresholds and matching procedure.”</div>
   </section>
 
   <section>
     <span class="tag tech">The trade · if recall vs precision comes up</span>
     <h2>Own it explicitly</h2>
-    <div class="say">“We chose to double alarm trustworthiness at a
-    three-point recall cost — for an investigation tool, a false accusation
-    is costlier than a delayed detection.”</div>
+    <div class="say">“The recall-focused setting reaches 84.8% large-slick recall
+    at 67.6% precision. The operational setting raises precision to 81.7%
+    with 81.2% large-slick recall. Teams can choose the tradeoff for their
+    review workflow.”</div>
   </section>
 
   <section>
     <span class="tag danger">The limitation · volunteer it first</span>
     <h2>Don’t wait to be caught</h2>
-    <div class="say">“One error class remains: a minority of very dark,
-    structured look-alikes still fool the model with high confidence. In our
-    10-scene demo panel, <span class="num">9</span> scenes are clean or
-    correct; one look-alike scene retains false positives — we show that scene
-    ourselves, and our roadmap targets it with curriculum training.”</div>
+    <div class="say">“These are validation results, not a sealed-test result.
+    Some structured look-alikes still produce false positives. The service
+    package is prepared, but hosted deployment and full-scene CPU timing have
+    not yet been established.”</div>
   </section>
 
   <section class="never">
@@ -179,7 +173,7 @@
     <ul>
       <li><s>“Our model is 95% accurate.”</s> <i>— pixel accuracy on 96%-background imagery is meaningless.</i></li>
       <li><s>“Better than paper X’s number.”</s> <i>— different datasets and regimes are never head-to-head comparable.</i></li>
-      <li><s>“0.35 Dice” with no baseline.</s> <i>— it always travels with 0.06 and the reason (traps included).</i></li>
+      <li><s>“Our test performance is 81.7% / 81.2%.”</s> <i>— these are validation metrics; the Part III test set remains sealed.</i></li>
       <li><s>“91% chance it’s oil.”</s> <i>— scores are uncalibrated; say “detection confidence”.</i></li>
     </ul>
   </section>
@@ -194,6 +188,6 @@
     That’s what makes our final number one you can trust.”</div>
   </section>
 
-  <footer>AlgoRise · model E5-focal · measured on scene-level held-out validation, 30 Aug 2026 ·
+  <footer>AlgoRise · X1c + C3 + V1 operational pipeline; X2 Dice challenger · measured on held-out validation ·
   test set sealed until final evaluation</footer>
 </div>

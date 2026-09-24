@@ -15,6 +15,7 @@ N2: per-patch standardization (mean 0 / std 1 per channel)
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Sequence
 
@@ -23,7 +24,9 @@ import torch
 from torch.utils.data import Dataset
 
 _REPO = Path(__file__).resolve().parents[1]
-SHARDS = _REPO / "shards"
+# OILTRACE_SHARDS lets remote environments (Kaggle: /kaggle/input/<dataset>)
+# point at a read-only shard store without touching code.
+SHARDS = Path(os.environ.get("OILTRACE_SHARDS", _REPO / "shards"))
 
 # N1 candidate constants: mid/width of the measured Part III dB envelope
 # (VV/VH global p1..p99 ≈ −35..0 dB; see analysis/findings.json). CANDIDATE —
@@ -110,7 +113,10 @@ class PatchDataset(Dataset):
         for fi, f in enumerate(self.files):
             with np.load(f) as z:
                 flags[self._offsets[fi]:self._offsets[fi + 1]] =                     z["masks"].any(axis=(1, 2))
-        np.save(cache, flags)
+        try:
+            np.save(cache, flags)
+        except OSError:  # read-only shard store (Kaggle input) — skip cache
+            pass
         return flags
 
     def summary(self) -> dict:
